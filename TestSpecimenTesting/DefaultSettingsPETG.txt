@@ -1,0 +1,5 @@
+Layer thickness - 0,1mm
+Infill - 100% solid
+Infill orientation - 45/135°
+Print tepmerature
+Orientation - laid down surface
