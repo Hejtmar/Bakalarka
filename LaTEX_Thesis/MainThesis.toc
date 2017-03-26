@@ -42,13 +42,14 @@
 \contentsline {subsection}{\numberline {3.3.2}Light processing}{14}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Other processing}{14}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Common problems of material processing}{14}{section.3.4}
-\contentsline {chapter}{\numberline {4}Photopolyperization}{15}{chapter.4}
+\contentsline {chapter}{\numberline {4}Photopolymerization}{15}{chapter.4}
 \contentsline {section}{\numberline {4.1}Stereolitography in general}{15}{section.4.1}
 \contentsline {section}{\numberline {4.2}Curing process}{15}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Spot scanning}{16}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Mask projection with DMD}{16}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Two photon approach}{16}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Materials for SLA}{16}{section.4.3}
-\contentsline {section}{\numberline {4.4}Curing of materials}{17}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Math theory behind SLA}{17}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Scan patterns and other issues}{17}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.2.3}Two photon approach}{17}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Photopolymer materials}{17}{section.4.3}
+\contentsline {section}{\numberline {4.4}Curing of materials}{18}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Math theory behind SLA}{18}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Scan patterns and other issues}{19}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Conclusion}{20}{section.4.5}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  24 MAR 2017 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  27 MAR 2017 00:07
 entering extended mode
 **./MainThesis.tex
 (MainThesis.tex
@@ -514,20 +514,20 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (MainThesis.aux)
 \openout1 = `MainThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count127
@@ -590,7 +590,7 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box39
-Package hyperref Info: Link coloring OFF on input line 8.
+Package hyperref Info: Link coloring OFF on input line 10.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -599,20 +599,20 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
 
 (MainThesis.out) (MainThesis.out)
 \@outlinefile=\write4
 \openout4 = `MainThesis.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 17.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
@@ -631,7 +631,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--76
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
 
  []
 
@@ -643,14 +643,14 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-<images/firstPrintedObject.jpg, id=242, 803.0pt x 534.99875pt>
+<images/firstPrintedObject.jpg, id=246, 803.0pt x 534.99875pt>
 File: images/firstPrintedObject.jpg Graphic file (type jpg)
 
 <use images/firstPrintedObject.jpg>
-Package pdftex.def Info: images/firstPrintedObject.jpg used on input line 83.
+Package pdftex.def Info: images/firstPrintedObject.jpg used on input line 85.
 (pdftex.def)             Requested size: 241.84843pt x 161.12944pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--85
+Underfull \hbox (badness 10000) in paragraph at lines 81--87
 
  []
 
@@ -685,30 +685,30 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-<images/additiveSubtractiveManufacturing.jpg, id=251, 590.80725pt x 294.50024pt
+<images/additiveSubtractiveManufacturing.jpg, id=255, 590.80725pt x 294.50024pt
 >
 File: images/additiveSubtractiveManufacturing.jpg Graphic file (type jpg)
  <use images/additiveSubtractiveManufacturing.jpg>
 Package pdftex.def Info: images/additiveSubtractiveManufacturing.jpg used on in
-put line 105.
+put line 107.
 (pdftex.def)             Requested size: 354.48708pt x 176.70149pt.
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-<images/scanningMachine1.jpg, id=258, 1606.0pt x 1204.5pt>
+<images/scanningMachine1.jpg, id=262, 1606.0pt x 1204.5pt>
 File: images/scanningMachine1.jpg Graphic file (type jpg)
 
 <use images/scanningMachine1.jpg>
-Package pdftex.def Info: images/scanningMachine1.jpg used on input line 121.
+Package pdftex.def Info: images/scanningMachine1.jpg used on input line 123.
 (pdftex.def)             Requested size: 193.47578pt x 145.10352pt.
 
-<images/scanningMachine2.jpg, id=259, 501.875pt x 463.7325pt>
+<images/scanningMachine2.jpg, id=263, 501.875pt x 463.7325pt>
 File: images/scanningMachine2.jpg Graphic file (type jpg)
 
 <use images/scanningMachine2.jpg>
-Package pdftex.def Info: images/scanningMachine2.jpg used on input line 126.
+Package pdftex.def Info: images/scanningMachine2.jpg used on input line 127.
 (pdftex.def)             Requested size: 193.47578pt x 178.7746pt.
 
 
@@ -716,25 +716,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./images/additiveSubtractiveManufacturing.jpg>] [9 <./images/scanningMachin
 e1.jpg> <./images/scanningMachine2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-<images/armPlaster.jpg, id=276, 613.69275pt x 307.74976pt>
+<images/armPlaster.jpg, id=280, 613.69275pt x 307.74976pt>
 File: images/armPlaster.jpg Graphic file (type jpg)
 
 <use images/armPlaster.jpg>
-Package pdftex.def Info: images/armPlaster.jpg used on input line 155.
+Package pdftex.def Info: images/armPlaster.jpg used on input line 166.
 (pdftex.def)             Requested size: 217.66211pt x 109.15096pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 157.
 
-<images/surgicalTool.jpg, id=277, 909.3975pt x 910.40125pt>
+<images/surgicalTool.jpg, id=281, 681.29532pt x 260.47313pt>
 File: images/surgicalTool.jpg Graphic file (type jpg)
 
 <use images/surgicalTool.jpg>
-Package pdftex.def Info: images/surgicalTool.jpg used on input line 160.
-(pdftex.def)             Requested size: 217.66211pt x 217.90341pt.
+Package pdftex.def Info: images/surgicalTool.jpg used on input line 170.
+(pdftex.def)             Requested size: 217.66211pt x 83.21796pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -745,7 +743,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
  []
 
@@ -753,7 +751,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--192
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
 
  []
 
@@ -775,81 +773,140 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
  [14]
 Chapter 4.
+<images/SLAillustration.jpg, id=309, 341.47575pt x 313.17pt>
+File: images/SLAillustration.jpg Graphic file (type jpg)
 
-Underfull \vbox (badness 1400) has occurred while \output is active []
+<use images/SLAillustration.jpg>
+Package pdftex.def Info: images/SLAillustration.jpg used on input line 245.
+(pdftex.def)             Requested size: 386.95897pt x 354.88625pt.
+
+Underfull \vbox (badness 3138) has occurred while \output is active []
 
  [15
 
 ]
+<images/DMD.jpg, id=314, 340.8735pt x 367.97475pt>
+File: images/DMD.jpg Graphic file (type jpg)
+ <use images/DMD.jpg>
+Package pdftex.def Info: images/DMD.jpg used on input line 259.
+(pdftex.def)             Requested size: 169.29684pt x 182.76288pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--261
+
+ []
+
+[16 <./images/SLAillustration.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 261--266
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 267.
+<images/yoda.jpg, id=320, 592.614pt x 434.22224pt>
+File: images/yoda.jpg Graphic file (type jpg)
+ <use images/yoda.jpg>
+Package pdftex.def Info: images/yoda.jpg used on input line 272.
+(pdftex.def)             Requested size: 296.30627pt x 217.11058pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 235.
+ine 281.
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--252
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 255--261
+Underfull \hbox (badness 10000) in paragraph at lines 277--286
 
  []
 
-[17] [18] (MainThesis.toc [19
+[17 <./images/DMD.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 289--295
+
+ []
+
+<images/weave1.jpg, id=333, 187.29974pt x 174.6525pt>
+File: images/weave1.jpg Graphic file (type jpg)
+ <use images/weave1.jpg>
+Package pdftex.def Info: images/weave1.jpg used on input line 303.
+(pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
+
+<images/weave2.jpg, id=334, 345.08925pt x 137.313pt>
+File: images/weave2.jpg Graphic file (type jpg)
+ <use images/weave2.jpg>
+Package pdftex.def Info: images/weave2.jpg used on input line 307.
+(pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
+
+<images/retractedWeave.jpg, id=335, 221.02576pt x 154.176pt>
+File: images/retractedWeave.jpg Graphic file (type jpg)
+
+<use images/retractedWeave.jpg>
+Package pdftex.def Info: images/retractedWeave.jpg used on input line 320.
+(pdftex.def)             Requested size: 176.82083pt x 123.34094pt.
+ [18 <./images/yoda.jpg>]
+Underfull \vbox (badness 7595) has occurred while \output is active []
+
+ [19 <./images/weave1.jpg> <./images/weave2.jpg> <./images/retractedWeave.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--337
+
+ []
+
+[20] (MainThesis.toc [21
 
 ])
 \tf@toc=\write5
 \openout5 = `MainThesis.toc'.
 
- [20] (MainThesis.tdo)
+ [22] (MainThesis.tdo)
 \tf@tdo=\write6
 \openout6 = `MainThesis.tdo'.
 
- [21
+ [23
 
 ]
 Missing character: There is no Å in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--308
+Underfull \hbox (badness 10000) in paragraph at lines 378--383
 []\OT1/cmr/m/n/10.95 3D PRINT-ING IN-DUS-TRY, [on-line], 2017, last re-vi-sion 
 13.3.2017,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--315
+Underfull \hbox (badness 10000) in paragraph at lines 385--390
 []\OT1/cmr/m/n/10.95 MATTER HACK-ERS, [on-line], 2017, last re-vi-sion 13.3.201
 7,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--315
+Underfull \hbox (badness 10000) in paragraph at lines 385--390
 \OT1/cmr/m/n/10.95 <https://www.matterhackers.com/store/3d-printer-filament/175
 mm-wood-filament-light-cherry-
  []
 
-[22
+[24
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
  (MainThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 400.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
 Package rerunfilecheck Info: File `MainThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5754C694447773C38C9D00D5E694B867;3563.
+(rerunfilecheck)             Checksum: 5D0344BBD46E7A1EA3E23029FC68AF74;3626.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
  ) 
 Here is how much of TeX's memory you used:
- 16263 strings out of 493333
- 308843 string characters out of 3139185
- 385212 words of memory out of 3000000
- 19415 multiletter control sequences out of 15000+200000
+ 16287 strings out of 493333
+ 309201 string characters out of 3139185
+ 379938 words of memory out of 3000000
+ 19426 multiletter control sequences out of 15000+200000
  10369 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,9n,80p,1393b,708s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,10n,80p,1393b,708s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
@@ -857,11 +914,11 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pf
-b>
-Output written on MainThesis.pdf (22 pages, 1763342 bytes).
+/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on MainThesis.pdf (24 pages, 2045498 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 451 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 489 words of extra memory for PDF output out of 10000 (max. 10000000)
 

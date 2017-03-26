@@ -4,6 +4,8 @@
 \input{thesis_settings/packages_list}
 \graphicspath{ {images/} }
 %
+\newcommand\pro{\item[$+$]}
+\newcommand\con{\item[$-$]}
 %
 \begin{document}
 %
@@ -117,18 +119,27 @@ It can also happen that we want to produce part, but we can't make use of CAD so
 %
 \begin{figure}[h]
   \centering
-  \begin{minipage}[b]{0.4\textwidth}
+  \begin{minipage}[t]{0.4\textwidth}
     \includegraphics[width=\textwidth]{scanningMachine1}
-    \caption{Coordinate measuring machine}
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.4\textwidth}
     \includegraphics[width=\textwidth]{scanningMachine2}
+  \end{minipage}
+  \\[5pt]
+  \begin{minipage}[b]{0.4\textwidth}
+    \caption{Coordinate measuring machine}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
     \caption{Non-contact laser scanning system}
   \end{minipage}
 \end{figure}
 %
 
+
+
+    
 Non-contact scanning devices vary in methods of measuring. Lasers can be utilized for distance measuring, or optical systems can be used. It is even possible with special photographic / optical software to obtain 3D model from multiple pictures of an object. Also, methods already utilized in medical field can be used - MRI machines or CT machines (micro-CT respectively) have been in use for several decades for medical purposes. Today, we can extend the use of these technologies, and use them as very precise scanning devices.
 \subsubsection{File formats for AM software}
 After obtaining the data, PC processing follows. Software for use with AM machines usually accept only specific data formats. The most common, that was already mentioned, is the \textbf{"STL" file format}.\\
@@ -151,13 +162,19 @@ Leg / arm plasters can be made too, designed to hold the limb in desired positio
 %
 \begin{figure}[h]
   \centering
-  \begin{minipage}[]{0.45\textwidth}
+  \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{armPlaster}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{surgicalTool}
+  \end{minipage}
+  \\[5pt]
+  \begin{minipage}[t]{0.45\textwidth}
     \caption{Arm plaster made with AM}
   \end{minipage}
   \hfill
-  \begin{minipage}[]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{surgicalTool}
+  \begin{minipage}[t]{0.45\textwidth}
     \caption{specific surgical tool made using AM}
   \end{minipage}
 \end{figure}
@@ -214,37 +231,54 @@ Also, with "Laminated object manufacturing" the sheets have to stick to themselv
 What we should realize when thinking about processing materials, are problems we are bringing along. Heat processes are related with thermal stresses, expansion / contraction and subsequent curling, warping and cracking. Similar issue is related to curing photopolymers, where curling and warping is caused not by heat, but by change of volume of material when changing state of matter. This is unique to binder jetting technology, which doesn't have to deal with these issues – as will be discussed in dedicated chapter.\\
 It is not always necessary to strictly distinguish between different materials. Instead of having fixed table of categorized materials, we should have complex knowledge of different kinds, their properties, pros and cons. 
 
-\chapter{Photopolyperization}
-"Photopolymerization", "Vat Photopolymerization" or "Stereolitography" (SLA) was already mentioned in the thesis. It was the first introduced AM technology on the market. Photopolymers as a default materials were developed in 60s, but this technology which uses them came up around 20 years later. Since then, same as with other technologies, equipment and machines has significantly improved, along with available photopolymer materials.\\
-There are specifics of this technology, resulting in both advantages and disadvantages of the process and resultant part. In this chapter, I will describe in detail the general approach of this technology together with relevant problematic, curing process itself, material properties and overall conclusion.
+\chapter{Photopolymerization}
+Photopolymerization technology, also called "Vat Photopolymerization" or "Stereolithography" (hereinafter abbreviated as SLA), was the first introduced AM technology on the market. It utilizes ultimately photopolymers as default materials. Photopolymers were developed in 60s, yet SLA appeared aprox. 20 years later. Since then, SLA machines has improved, along with available photopolymer materials.\\
+SLA has many specifics of ongoing processes, resulting in both advantages and disadvantages of this technology. In this chapter, I will describe the general approach of this technology and relevant problematic, curing process itself, material properties and mention the overall conclusion of SLA.
 \section{Stereolitography in general}
-Stereolitography (hereinafter SLA) is no exception from other technologies with related to patent problematic - patents used to determine the direction of SLA development. That is not true anymore, since 25 years validity of most of relevant patents has already ended. As some company patented some SLA specific approach, other company had to come up with different solution to some technical problem. Thus, SLA is also very versatile technology, with SLA machines varying in many parameters. Among those parameters are, as expected, build speed, machine reliability, precision, price and many more.\\
-The biggest difference in SLA machines is made by different approaches to curing individual layers (further description in section - curing process). Now let's summarize what all SLA machines have in common.
-\\The reason SLA can also be called "Vat photopolymerization" is, there is always a Vat - container, of which content is the prohopolymer resin itself. Typically, the volume of the container is in range of several liters up to more than cubic meter of the resin - the amount of material it can hold. Above the vat, there is the source of radiation, used to chemically process the resin. This system, utilizing optics and other devices, is located above the vat so that it can be directed on the resin surface. Then, it cures the top layer in the container in desired manner.\\
-The source of the radiation is also one of the parameters of SLA machines. Typical machines use sources of UV light, possibly visible light, but other sources can be used. For example, electron beam or gamma ray might be utilized. It depends on the processed material - the ultimate condition for the curing process is, material has to undergo chemical reaction to solidify. All of these radiation sources can be used to deliver energy to the resin, and initialize the reaction. Again, all these radiation sources can vary in terms of their power, spot size, material requirements and others.
+SLA is no exception in relation to patent problematic - patents used to determine the direction of SLA development. That is not true anymore, since 25 years validity of most of relevant patents has recently ended. As some company patented some SLA specific approach, other companies had to come up with different solution to the same technical problem. Same applies for all other technologies, that can be newer and patents might be still valid. SLA is therefore versatile technology with SLA machines varying in many parameters. Among those parameters are build speed, machine reliability, precision, price and many more.\\
+The biggest difference among SLA machines is given by \textbf{different approaches} to curing individual layers, as seen in fig 4.1. For now, let's summarize what all SLA machines have in common.
+\\SLA can also be called "Vat photopolymerization" because a vat is always present - a container, of which content is the prohopolymer resin. Typically, the volume of the container is in range of several liters up to more than cubic meter of the resin - the amount of material it can hold. Above the vat, there is the source of radiation, used to chemically process the resin. This system, utilizing optics and other devices, is located above the vat so that it can be directed on the resin surface and cure the top layer of the resin.\\
+The source of the radiation is also one of the parameters of SLA machines. Typically, machines utilize \textbf{UV light}, sometimes visible light, both in form of a laser. Other sources of radiation, such as electron beam or gamma ray, might be used. It also depends on the processed material - the ultimate condition for the curing process is that material has to undergo chemical reaction to solidify. All of these radiation sources can be used to deliver energy to the resin, and initialize the reaction. Again, used lasers / other sources can vary in terms of their power, spot size, material requirements and such.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.8\textwidth]{SLAillustration}
+  \caption{Illustration of SLA technologies}
+\end{figure}
+%
 \section{Curing process} 
-Even though SLA is a specific technology, there are many features and approaches in which distinct  SLA can vary dramatically. The most important difference is how the layers are cured - with SLA, a single layer can be cured in more ways. (For illustration, fig XXX was added)
+It was mentioned that there are more approaches within SLA of how to cure a layer of the resin - the easiest sorting criteria for types of SLA machines. With these approaches described in following section, fig. 4.1 is added for illustration.
 \subsection{Spot scanning}
-The first approach is the most common one - layer is cured by a laser, which is moved in lines. Laser is focused in very small area, thus called "spot/point scanning". Trajectory of these lines, on which laser moves, are tracks of solidified material. I.e, where the laser points, the material becomes solid. This approach is the original one, and most of SLA machines uses this approach. Similar approach is used with  Powder Bed Fusion, where laser or electron beam gradually scans the layer cross section.
+The first approach is the most common one - layer is cured by a laser, which is projected onto the resin surface by mirrors. Laser is focused in very small area, thus called \textbf{spot scanning} or \textbf{point scanning}. By changing the angle of the mirrors, we can control and move the location of laser spot on the resin surface. By constantly changing the mirror angles, we create a path - trajectory of the laser. When a laser moves past a point on the resin surface, it leaves solidified material behind - where the laser points, the material becomes solid. This approach is the oldest one and most of SLA machines utilize this approach. Similar approach is used with Powder Bed Fusion, where laser or electron beam is used to scan the surface of powder layer, causing solidification by melting particles together.
 \subsection{Mask projection with DMD}
-Another approach is using Digital micromirror device to cure single layer at once. With point laser scanning (previous approach), curing a layer takes time because the laser must scan the whole trajectory. If we use DMD, we can speed up the process significantly. That is because with mask-projection technology, we irradiate the whole layer simultaneously, instead of scanning the whole layer with laser.\\
-DMD is basically a 2D array of microscopic mirrors. These DMD chips can have, for example, resolution of 1024x768 pixels, where each pixel represents a single micromirror. This micromirror we can switch between "on/off" state, so we can tell the shape, that will reflect light, while remaining pixels will not reflect the light. (Strictly speaking, we change the angle of the mirror between two positions, we don't turn the mirror off). When the light is projected onto the micromirror, we can control individual pixels - mirrors to control the reflected shape of cured layer. The light projected onto DMD, of course, has to be the light photopolymer is sensitive to - light of the wavelength, causing it to solidify.\\
-With DMD SLA process, we start by spreading a layer of photopolymer resin. Then, we set the DMD to reflect the shape of first layer and briefly shine onto DMD from the light source. After curing a layer, light source is turned off and next layer of resin is applied on the top of previous layer. Then, we set the shape of DMD to the shape of next layer and turn on the light source. Repeating this process, we build a final part.\\
-As mentioned, big advantage over previous approach is the speed. The process can be sped up even more than 10x. On the contrary, the limiting factor of DMD approach is the micromirror size. Let's say we reflect the light from DMD to the surface of 20x20cm. If DMD has resolution of 1000x1000 pixels, then 1 pixel has resolution of 0.2mm, or 200 microns. Such resolution is very low. In order to increase this example resolution, we have to either increase the resolution of DMD, or decrease the surface light is reflected to - make build area smaller. Higher resolution DMD are more costly, and smaller build area is a significant limitation itself.\\
-For the information to be complete, it should be noted that DMD is not the only device enabling shape projection on the resin. Apart from DMDs, "LCD displays" or "Spatial light modulators" can be used. DMD is here used as an example for mask-projection approach.\\
-\todo{obrazek pro ilustraci}
+Another approach utilize Digital micromirror devices - DMD to cure single layer at once. With spot scanning, curing a layer can take a lot of time, because the laser has to scan the whole cross-section surface, meaning the path the laser has to scan is very long. If we use DMD, we can speed up the process significantly. That is, because with mask-projection technology, we \textbf{irradiate single layer simultaneously}.\\
+DMD is basically a 2D array of microscopic mirrors, that can be controlled and positioned individually. These DMD chips can have, for example, resolution of 1024x768 pixels, where each pixel represents a single micromirror. This micromirror can be switch between "on/off" state, so we can set a shape, that will reflect light, while remaining pixels will not reflect the light. Strictly speaking, we change the angle of the mirror between two positions, we don't turn the mirror off. When the light is projected onto the micromirror, we can control individual pixels - mirrors to control the shape, reflected onto cured layer. The light projected onto DMD, of course, has to be the kind of light photopolymer is sensitive to.\\
+With mask projection SLA process, we start by spreading a layer of photopolymer resin. Then, we set the DMD to reflect the shape of first layer, and then project light onto the surface, reflecting from DMD. After curing a layer, light source is turned off and next layer of resin is applied on the top of previous layer. Then, we set the shape of DMD to reflect the second layer and irradiate it. Repeating this process, we get a final part.\\
+%
+\begin{wrapfigure}{r}{0.35\textwidth}
+ 	\includegraphics[width=0.35\textwidth, angle=180]{DMD}
+	\caption{Utilizing Digital micromirror with SLA}
+\end{wrapfigure}
+%
+The \textbf{speed} of mask projection is the \textbf{biggest advantage}. The general process of SLA can be sped up more than 10x compared to spot scanning. On the contrary, the limiting factor of DMD approach is the individual micromirrors size. Let's say we reflect the light from DMD to the surface of 20x20cm. If DMD has resolution of 1000x1000 pixels, then 1 pixel has resolution of 0.2mm, or 200 microns. Such resolution would very low and insufficient. In order to increase the resolution, we would have to either increase the resolution of DMD, or decrease the surface light is reflected to - make build area smaller. Higher resolution DMD can be costly and usually the resolution is lower than 3000 pixels on the longer side. The other solution, making build area smaller, is a obvious limitation itself.\\
+For the information to be complete, it should be noted that DMD is not the only device enabling shape projection onto the resin. Apart from DMDs, LCD display or spatial light modulator can be used. DMD is here used as an example for mask-projection approach.\\
 %
 \subsection{Two photon approach}
-This third approach is very different from previous spot scanning / mask projection. It was developed in 70s for manufacturing of very small and precise parts. Today, parts smaller than 1 $\mu$m have been produced.\\
-The basic principle is that we have small container of resin, and we point inside with two separate lasers. One laser is not enough powerful to cause the chemical reaction and solidification. This occurs only where the beams of both lasers intersect. Only in this very small region, that can be in ranges smaller than 100nm, the energy density is high enough to cure the resin. Due to this fact, the precision of built part can be greatly increased, at the expense of build speed. Also, there is no need for re-coating, since the process happens inside of the container, not on the surface. Usually, the viscosity of the resin prevents the part from flowing away before it is fully cured.
+Third approach is very different from previous spot scanning / mask projection. It was developed for manufacturing \textbf{very small and precise parts}. Today, parts smaller than 1 $\mu$m have been produced. More standard size of produced parts is in range of few up to tens of $\mu$m.\\
+The basic principle is, we have a small container of resin, and we direct two separate lasers inside the container. One laser is not enough powerful to cause the chemical reaction and solidification. This occurs only where the beams of lasers intersect. Only in this very small region, that can be in ranges smaller than 100nm, the energy density is high enough to cure the resin. Due to this fact, the precision of built part can be greatly increased compared to other SLA approaches, at the expense of build speed. Also, there is no need for re-coating, since the process happens inside of the container, not on the surface, being another advantage of two-photon approach. The viscosity of the resin is usually high enough to prevent the part from flowing away before it is fully cured.
 %
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{yoda}
+\caption{Image of a small statue of popular figure of YODA, made with two-photon SLA}
+\end{figure}
 %
-\section{Materials for SLA}
+\section{Photopolymer materials}
 In this section, the \cite{AMT} is referring to \cite{SLAmaterials} as to primary source of following information on photopolymer materials.\\
 \\
-In the beginning of this chapter, all radiation sources that can be used for resin curing were mentioned. From all of them, only UV light and light from visible spectra is utilized within commercial AM machines - others remain in field of research.\\
-As SLA uses polymers, they divide into categories of thermoplastic and thermoset polymers. For their properties, only thermoplastic polymers are used. Thermoset polymers are unsuitable for SLA, since they can't re-melt.\\
-When we focus on thermoplastic polymers, we can put together list of material properties, which determines how suitable the material is for SLA processing. Properties of the interest are, among others, reactivity / sensitivity to radiation, mechanical properties of the cured material (strength, brittleness) and amount of shrinkage/curling due to phase transformation. (The shrinkage appears, because cured polymer molecules take up less space, than previous uncured monomer molecules. \todo{obrazek str 67/87} Before epoxy resins were used, acrylates were utilized. These two categories have very different properties - acrylates tend to shrink more, but epoxy resins have slow reaction (photo) speed and are more brittle. Therefore, often a mixture of these two groups is used to achieve desired properties of the final part.\\
+Different radiation sources used for resin curing were mentioned. From all of them, only light from visible or ultraviolet spectra is utilized within commercial AM machines; others remain in the field of research.\\
+As SLA uses polymers, they divide into categories of thermoplastic and \textbf{thermoset} polymers. For their properties only thermoplastic polymers are used. Thermoset polymers are unsuitable for SLA, since they can't re-melt.\\
+When we focus on thermoplastic polymers, we can put together list of material properties which determines how suitable the material is for SLA processing. Properties of the interest are, among others, reactivity / sensitivity to radiation, mechanical properties of the cured material (strength, brittleness) and amount of shrinkage due to phase transformation. The shrinkage is caused  by polymer molecules being smaller than  size of all previous uncured monomer molecules. \todo{obrazek str 67/87} Before epoxy resins were used, acrylates were utilized. These two categories have very different properties - acrylates tend to shrink more, but epoxy resins have slow reaction (photo) speed and are more brittle. Therefore, often a mixture of these two groups is used to achieve desired properties of the final part.\\
 Among ingredients such as the epoxy resin / acrylate itself, the mixture for SLA consists of more ingredients, which affect the properties of the mixture in desired way. Namely, "photoinitiator, reactive diluents, flixibilizers and liquid monomers" \cite[p. ~67]{AMT} are usually present, where each constituent has a certain role. For instance, photoinitiator component works as a catalyst, helping to start the chain reaction and cross-linking of monomer molecules.
 %
 %
@@ -259,13 +293,54 @@ Following parameter that can't be neglected is penetration of the laser. When la
 All given parameters combined give us an equation, where the exposure of material if function of all spacial coordinates. This function of exposure of material give us the area, where exposure is greater than critical exposure - the area where chemical reaction will occur. Outside of this area, the raw material will remain liquid, for the exposure was not sufficient. Because energy = power x time, with given laser power, there is minimal time the laser has irradiate a certain place, also giving us maximal build speed. From further mathematical equations, used for description of ongoing SLA processes, it can be derived that a cross-section shape of cured line is a \textbf{parabola}.\\
 %
 \subsection{Scan patterns and other issues}
-Even if we are able to precisely describe the curing process itself, it is not enough to secure a successful build. The curing process is happening in small scale, but the overall build process brings other problems. For example, with describing curing process, we have yet accounted for shrinkage and residual stresses, anisotropic behavior caused by laser scanning trajectory, overlapping of cured lines, or layers sticking to previous / following layers.\\
-Problematic of overlapping layers is, that we have to irradiate more energy to the resin than the critical exposure. Reason being, the current layer has to cure into previous layer, and this re-curing requires some additional energy, by which critical exposure has to be increased, decreasing maximal build speed.\\
+Even if we are able to precisely describe the curing process itself, it is not enough to secure a successful build. The curing process is happening in small scale, but the overall build process brings other problems. For example, with describing curing process, we haven't accounted yet for shrinkage and residual stresses, anisotropic behavior caused by laser scanning trajectory, overlapping of cured lines or layers sticking to previous / following layers.\\
+Problem of overlapping layers is, that we have to irradiate more energy to the resin than the critical exposure. Reason being, the current layer has to cure into previous layer, and this re-curing requires some additional energy, by which critical exposure has to be increased, decreasing maximal build speed.\\
 Problematic of shrinkage and anisotropy of the build is interrelated. Simple explanation can be given by following example: We are curing a single cross section of square shape. Let's say that first of all, we cure the circumference of the shape. Than, we have to cure the inside of the layer. One of the options is cure horizontal vertical lines, parallel to one of square borders. If we go from up to bottom, than immediately after curing first upper infill lines, the upper part of square will tend to shrink. This will cause either decreasing dimension of the square, or internal stresses which will remain there.  By this simple approach, we are causing anisotropy, since we have a scanning pattern preferring a single line direction. This issue we can try to eliminate by curing next layer perpendicular to previous one. By switching the pattern we, to some extent, eliminate the anisotropic property of the build - the build as a whole is more or less isotropical, but individual layers vary from each other.\\
-Next issue to deal with is overlapping if parallel cured lines. Two adjacent lines also have to be cured together for better structural integrity of the part. On the contrary, this overlapping also causes deflection of already cured sections, and adds another source of anisotropy.\\
-To account for all of mentioned and other related issues, certain scanning patterns for SLA were developed. These are called WEAVE OR STAR-WEAVE. Illustration of these patterns are in fig. XXX. \todo{doplnit obrazek}. With these scan patterns, negative effects of SLA builds can be minimized.
+Next issue to deal with is overlapping if parallel cured lines. Two adjacent lines also have to be cured together for better structural integrity of the part. On the contrary, this overlapping also causes deflection of already cured sections, and adds another source of anisotropy.
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{weave1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{weave2}
+  \end{minipage}
+  \\[1pt]
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Original WEAVE pattern}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Comparison or WEAVE / STAR WEAVE patterns}
+  \end{minipage}
+  \\[10pt]
+  \begin{minipage}[t]{\textwidth}
+  \centering
+  \includegraphics[scale=0.8]{retractedWeave}
+  \caption{Retracted WEAVE scan pattern with improved shrinkage endurance}
+  \end{minipage}
+\end{figure}
+To account for all of mentioned and other related issues, certain scanning patterns for SLA were developed. These are called WEAVE OR STAR-WEAVE. Further improved comes the retracted hatch WEAVE scan pattern. Illustration of these patterns are in fig. 4.5 , 4.6 and 4.7. With these scan patterns, negative effects of SLA builds can be minimized.
 
-
+%
+\section{Conclusion}
+All necessary being said, let's summarize the pros and cons of SLA technology.
+\begin{itemize}
+\pro \textbf{Part precision}\\
+Not only with two-photon approach, we can achieve parts of high precision, to which only some other technologies are comparable.
+\pro \textbf{Surface finish}\\
+Surface roughness is incomparably better than of parts made with i.e. DED or FDM technologies.
+\pro \textbf{Build speed}\\
+Although build speed depends on build set-up and parameters, SLA is often quicker than other technologies.
+\\[10pt]
+\con \textbf{Support structures}\\
+Need for support structures is present with SLA. When machine operator removes the built part, it requires cleaning from the resin, and often mechanical removal of the support structures.
+\con \textbf{Materials}\\
+As the term photopolymerization implies, range of available materials is limited to thermoplastic polymers.
+\con \textbf{Price}\\
+Furthermore, same as SLA machines themselves, these materials are often very expensive. Single liter of the resin can cost hundreds of EUR, so with biggest nowadays SLA machine, even filling the container full can cost thousands of EUR. The price of big machines, able to print more than 2 meters wide objects, can be higher than 500 000 EUR.
+\end{itemize}
 \todo[inline]{Hello}
 \tableofcontents
 \listoftodos
