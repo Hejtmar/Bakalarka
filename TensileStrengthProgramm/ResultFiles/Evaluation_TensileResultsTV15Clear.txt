@@ -1,0 +1,4 @@
+Source file name:	TensileResultsTV15Clear.txt
+Number of tests:	6
+Average strength:	42.30 MPA
+Standard deviation:	2.99 MPA

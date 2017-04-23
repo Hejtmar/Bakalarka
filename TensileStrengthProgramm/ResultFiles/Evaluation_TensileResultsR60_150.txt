@@ -1,0 +1,4 @@
+Source file name:	TensileResultsR60_150.txt
+Number of tests:	10
+Average strength:	40.46 MPA
+Standard deviation:	1.46 MPA

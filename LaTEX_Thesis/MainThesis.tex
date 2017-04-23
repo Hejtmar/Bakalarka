@@ -17,7 +17,7 @@
 \end{titlepage}
 %
 \chapter*{Acknowledgements}
-
+Esa kontio, Jiři Moravec, Pruša, Tata
 
 \chapter*{List of shortcuts}
 \addcontentsline{toc}{chapter}{List of shortcuts}
@@ -55,6 +55,28 @@ The future of AM market is still to unfold, but statistics are showing that AM m
 \section{Resources}
 In this thesis, I use primarily limited amount of resources and literature. Even though this thesis should be complex and diverse, I decided to use the book \cite{AMT} as my primary source of information. This book is than supplemented by facts from scientific journals, other books, information from AM machine vendors, webpages and others. Also, there are sections where I write information gained at OAMK (mentioned in the acknowledgement), so the information source can't be easily told.\\
 The reason for using \cite{AMT} as my primary information source is simple - this book is very up-to date, and goes deep into the topics well enough. This more than 500 pages book is professional well enough . It covers all the details of almost any AM-related problematic, and full understanding the complete content requires high level of education in chemistry, calculus, material engineering and more. Since it is out of my scope, even to fully understand this book itself, I believe taking it as a primary information source is acceptable, and will not cause the thesis to be too simple due to lack of resources.
+%
+\section{Additive manufacturing and process engineering}
+Since this thesis is made under the auspices of Department of Process Engineering, it should be mentioned why AM is relevant to this engineering field. At the first glance, we might think that since AM is a production technology, it should be inspected and researched mostly be material and technology engineers. However, as it will be mentioned, AM is incredibly intricate and wide field, which requires understanding of many ongoing processes, because almost everything during AM process is related together. Even though not directly, one parameter of the machine may easily affect other parameters, which in turn have impact on the final part properties and build success. These processes very often involve heat transfer, mass transfer, controlling conditions of the build environment, flow of viscous fluids, chemical curing and others. All of these processes should be generally understood by process engineers. Such processes are usually dealt with in fields like food industry, pharmaceutic, distilleries, breweries, water cleaning, oil refinery and many others. However, physics apply here same as anywhere and the equations are applicable for AM processes all the same.\\
+Following is a table of application of processes solved by process engineers, applied on field of AM.
+\\[10pt]
+\begin{tabular}{||c||c||c|}
+\hline 
+\textit{Problematic} & \textit{Common application} & \textit{AM application} \\ 
+\hline 
+\textbf{Heat transfer} & Heat exchangers balance & PBF build heating and cooling \\
+\hline
+\textbf{Mass transfer} & Filters for particle separation & SLS sintering, particle fusion \\ 
+\hline 
+\textbf{Inert atmosphere} & Food packaging & Preventing oxidation with PBF or DED\\
+\hline 
+\textbf{Droplet formation} & Cooling by evaporation & Material jetting nozzle droplet \\ 
+\hline 
+\textbf{Viscous fluid flow} & Food industry, dough flow & FDM nozzle flow, Material jetting nozzles\\ 
+\hline 
+\textbf{Chemical reactions} & Bio reactors & SLA curing\\ 
+\hline 
+\end{tabular} 
 %
 \section{Terminology}
 This thesis has the term AM in its name. That doesn't mean other terms couldn't have been used instead. I will mention similar terms commonly used in context of production technologies.\\
@@ -278,26 +300,24 @@ In this section, the \cite{AMT} is referring to \cite{SLAmaterials} as to primar
 \\
 Different radiation sources used for resin curing were mentioned. From all of them, only light from visible or ultraviolet spectra is utilized within commercial AM machines; others remain in the field of research.\\
 As SLA uses polymers, they divide into categories of thermoplastic and \textbf{thermoset} polymers. For their properties only thermoplastic polymers are used. Thermoset polymers are unsuitable for SLA, since they can't re-melt.\\
-When we focus on thermoplastic polymers, we can put together list of material properties which determines how suitable the material is for SLA processing. Properties of the interest are, among others, reactivity / sensitivity to radiation, mechanical properties of the cured material (strength, brittleness) and amount of shrinkage due to phase transformation. The shrinkage is caused  by polymer molecules being smaller than  size of all previous uncured monomer molecules. \todo{obrazek str 67/87} Before epoxy resins were used, acrylates were utilized. These two categories have very different properties - acrylates tend to shrink more, but epoxy resins have slow reaction (photo) speed and are more brittle. Therefore, often a mixture of these two groups is used to achieve desired properties of the final part.\\
-Among ingredients such as the epoxy resin / acrylate itself, the mixture for SLA consists of more ingredients, which affect the properties of the mixture in desired way. Namely, "photoinitiator, reactive diluents, flixibilizers and liquid monomers" \cite[p. ~67]{AMT} are usually present, where each constituent has a certain role. For instance, photoinitiator component works as a catalyst, helping to start the chain reaction and cross-linking of monomer molecules.
+When we focus on thermoplastic polymers, we can put together list of material properties which determines how suitable the material is for SLA processing. Among others, we are often interested in reactivity / sensitivity to radiation, mechanical properties of the cured material (strength, brittleness) and amount of shrinkage due to phase transformation. The shrinkage is caused  by polymer molecules being smaller than  size of all previous uncured monomer molecules.\\
+Epoxy resins are used today. Before that, acrylate compounds were utilized. These two material categories have very different properties - acrylates tend to shrink more and are therefore difficult to process, but epoxy resins have slow reaction (photo) speed and are more brittle. Accordingly, often a mixture of these two groups is used to achieve desired properties of the final part.\\
+Among ingredients such as the epoxy resin / acrylate itself, the material mixture for SLA consists of more ingredients, which affect it's other properties. Namely, "photoinitiator, reactive diluents, flixibilizers and liquid monomers" \cite[p. ~67]{AMT} are usually present, where each constituent has a certain role. For instance, photoinitiator component works as a catalyst, helping to start the chain reaction and cross-linking of monomer molecules.
 %
 %
 %
 \section{Curing of materials}
 %
-\subsection{Math theory behind SLA}
-When we are talking about curing the resin to solidify, we have to consider the time factor - all individual processes during build take time. Same applies on curing - due to limited power of laser, speed of chemical reaction and other factors that can't be overlooked. It means, we can't speed up the build process as we want.\\
-When calculating basic build parameters, the most important factor is the energy, absorbed by the resin from the laser. There is critical amount of energy, which resin needs to accept in order to undergo the chemical reaction. This parameter or energy per amount of material [$J/kg$] vary. With SLA, because of using finite layer thickness, this parameter is usually replaced by critical exposure with units of [$mJ/mm^2$].\\
-Then we have to account for parameter of laser power. Even though laser is focused into very small area, the energy density of laser vary in this area. In other words, in the center of laser spot will be different energy density and exposure, compared to the edge.\\
-Following parameter that can't be neglected is penetration of the laser. When laser hits the surface, part of the energy will be absorbed, and part will penetrate deeper into the resin. This results in different energy density and exposure, depending on depth under the surface.\\
-All given parameters combined give us an equation, where the exposure of material if function of all spacial coordinates. This function of exposure of material give us the area, where exposure is greater than critical exposure - the area where chemical reaction will occur. Outside of this area, the raw material will remain liquid, for the exposure was not sufficient. Because energy = power x time, with given laser power, there is minimal time the laser has irradiate a certain place, also giving us maximal build speed. From further mathematical equations, used for description of ongoing SLA processes, it can be derived that a cross-section shape of cured line is a \textbf{parabola}.\\
+\subsection{Theory and math of curing}
+When talking about curing the resin to solidify, we have to consider the time factor - all individual processes during build take time. Same applies for curing - due to limited power of laser, speed of chemical reaction and other factors that can't be overlooked. In other words, we can't speed up the build process as we want, because curing processes themselves always take some time.\\
+When calculating basic build parameters, the most important parameter is the amount of laser energy, absorbed by the resin. There is critical amount of energy, which resin needs to absorb in order to undergo the chemical reaction. This parameter or energy per amount of material [$J/kg$] vary. With SLA, because of using finite layer thickness, this parameter is usually replaced by critical exposure with units of [$mJ/mm^2$], meaning critical amount of laser energy absorbed by 1mm$^2$.\\
+So we have to account for parameter of laser properties. Even though laser is focused into very small area, the energy density of laser vary in this area - in the center of laser spot will be different energy density and exposure, compared to the edge of the laser spot.\\
+Following parameter, that also has to be remembered, is penetration of the laser. When the light hits the surface, part of the light will be absorbed in the form of energy, and the rest of the light will penetrate deeper into the resin. This results in different energy density and exposure, depending on depth under the surface. There is parameter called critical depth. Above this depth, for a given laser set-up exposure of the resin is high enough for the reaction to happen. Below this depth, laser light is too scattered and the energy density is below critical and no solidification will occur.\\
+All given parameters combined give us an equation, where the exposure of material if function of all spacial coordinates. According this function of exposure, we can border the region, where exposure is greater than critical exposure - the area where chemical reaction will occur. Outside of this region, the raw material will remain liquid, for the exposure was not sufficient. Because energy = power x time, with given laser power, there is minimal time the laser has to irradiate a certain place. Given laser power, we can calculate maximal build speed. From further mathematical equations used for description of ongoing SLA processes, it can be derived that a cross-section shape of cured line is a \textbf{parabola}.\\
 %
 \subsection{Scan patterns and other issues}
-Even if we are able to precisely describe the curing process itself, it is not enough to secure a successful build. The curing process is happening in small scale, but the overall build process brings other problems. For example, with describing curing process, we haven't accounted yet for shrinkage and residual stresses, anisotropic behavior caused by laser scanning trajectory, overlapping of cured lines or layers sticking to previous / following layers.\\
-Problem of overlapping layers is, that we have to irradiate more energy to the resin than the critical exposure. Reason being, the current layer has to cure into previous layer, and this re-curing requires some additional energy, by which critical exposure has to be increased, decreasing maximal build speed.\\
-Problematic of shrinkage and anisotropy of the build is interrelated. Simple explanation can be given by following example: We are curing a single cross section of square shape. Let's say that first of all, we cure the circumference of the shape. Than, we have to cure the inside of the layer. One of the options is cure horizontal vertical lines, parallel to one of square borders. If we go from up to bottom, than immediately after curing first upper infill lines, the upper part of square will tend to shrink. This will cause either decreasing dimension of the square, or internal stresses which will remain there.  By this simple approach, we are causing anisotropy, since we have a scanning pattern preferring a single line direction. This issue we can try to eliminate by curing next layer perpendicular to previous one. By switching the pattern we, to some extent, eliminate the anisotropic property of the build - the build as a whole is more or less isotropical, but individual layers vary from each other.\\
-Next issue to deal with is overlapping if parallel cured lines. Two adjacent lines also have to be cured together for better structural integrity of the part. On the contrary, this overlapping also causes deflection of already cured sections, and adds another source of anisotropy.
-\begin{figure}[h]
+%
+\begin{figure}[!t]
   \centering
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{weave1}
@@ -320,28 +340,107 @@ Next issue to deal with is overlapping if parallel cured lines. Two adjacent lin
   \includegraphics[scale=0.8]{retractedWeave}
   \caption{Retracted WEAVE scan pattern with improved shrinkage endurance}
   \end{minipage}
+  \\[20pt]
 \end{figure}
-To account for all of mentioned and other related issues, certain scanning patterns for SLA were developed. These are called WEAVE OR STAR-WEAVE. Further improved comes the retracted hatch WEAVE scan pattern. Illustration of these patterns are in fig. 4.5 , 4.6 and 4.7. With these scan patterns, negative effects of SLA builds can be minimized.
+%
+Even if we are able to precisely describe the curing process, it is not enough to secure a successful build. The curing process is happening on a small scale, but the overall build process brings other problems. For example, with describing curing process, we haven't accounted yet for shrinkage and residual stresses, anisotropic behavior caused by laser scanning trajectory, overlapping of cured lines, or layers sticking to previous / following layers.\\
+Problem of overlapping layers is, that we have to irradiate more energy to the resin than the critical exposure. Reason being, the current layer has to cure into previous layer. This re-curing of previously cured layer requires some additional energy, by which critical exposure has to be increased, decreasing theoretical maximum build speed.\\
+Problem of shrinkage and anisotropy of the build is interrelated. Simple explanation can be given by following example: We are curing a single cross section of full square. Let's say we cure the circumference of the shape first. Than, we have to cure the infill - inside of the circumference. One of the options is to cure horizontal or vertical lines, parallel to one of square borders. If we go from upper border to bottom border, than immediately after curing first upper infill lines, the upper part of square will tend to shrink. This will cause either decreasing dimension of the square, or internal stresses which will remain be present.  By this simple approach, we are causing anisotropy, since we have a scanning pattern preferring a single line direction. This issue we can try to eliminate by curing next layer perpendicular to previous one. By switching the pattern, to some extent, we eliminate the anisotropic property of the build - the build as a whole is more or less isotropical, but individual layers vary from each other. Also, we should bear in mind, that if the part shrinkage is problem not only for causing stresses, but also for changing dimensons of the part. The resolution of SLA printer can be in range of tens of microns, so even if the shrinkage will not ruin the build, we might not be able to stick to our desired part dimension - the real part built might be smaller due to shrinkage.\\
+Next issue to deal with is overlapping of parallel cured lines. Obviously, two adjacent lines also have to be cured together for better structural integrity of the part. On the contrary, this overlapping also causes deflection of already cured sections, and adds another source of anisotropy to the build.
+To account for all of mentioned and other related issues, certain scanning patterns for SLA were developed. Here, with scanning pattern is meant how the infill of layer circumference is cured. These scan patterns are called WEAVE and STAR-WEAVE. Further improved comes the retracted hatch WEAVE scan pattern. Illustration of these patterns are in fig. 4.5 , 4.6 and 4.7. With these scan patterns, negative effects of SLA builds can be minimized for securing successful build.
 
 %
 \section{Conclusion}
 All necessary being said, let's summarize the pros and cons of SLA technology.
+%
 \begin{itemize}
 \pro \textbf{Part precision}\\
 Not only with two-photon approach, we can achieve parts of high precision, to which only some other technologies are comparable.
 \pro \textbf{Surface finish}\\
 Surface roughness is incomparably better than of parts made with i.e. DED or FDM technologies.
 \pro \textbf{Build speed}\\
-Although build speed depends on build set-up and parameters, SLA is often quicker than other technologies.
+Although build speed is a relative term and depends on build set-up and parameters, SLA is often quicker than other technologies.
 \\[10pt]
 \con \textbf{Support structures}\\
 Need for support structures is present with SLA. When machine operator removes the built part, it requires cleaning from the resin, and often mechanical removal of the support structures.
 \con \textbf{Materials}\\
 As the term photopolymerization implies, range of available materials is limited to thermoplastic polymers.
 \con \textbf{Price}\\
-Furthermore, same as SLA machines themselves, these materials are often very expensive. Single liter of the resin can cost hundreds of EUR, so with biggest nowadays SLA machine, even filling the container full can cost thousands of EUR. The price of big machines, able to print more than 2 meters wide objects, can be higher than 500 000 EUR.
+Furthermore, same as SLA machines themselves, these materials are often very expensive. Single liter of the resin can cost hundreds of EUR. With biggest nowadays SLA machine, even filling the container full can cost thousands of EUR. The price of big machines, able to print more than 2 meters wide objects, can be higher than 500 000 EUR.
 \end{itemize}
-\todo[inline]{Hello}
+
+\chapter{Powder Bed Fusion}
+Basic description
+Materials used
+Mechanisms, differences - chemical, melting, sls, 4th / heat source / 
+Challenges, problems
+Pros / cons
+
+Powder bed fusion ("PBF") is a technology, that is very versatile compared to other AM technologies. It is able to utilize variety of materials and final products are often fully dense functional parts. The trade-off for it's abilities is in the need to understand all simultaneous processes during PBF printing, and need to set all print parameters carefully. Also, post-processing of the part is required, unit for recycling the powder is almost necessary and materials themselves are expensive. Therefore, even though PBF is superior to other AM technologies and in some ways even to CNC machining, it is very expensive to operate and handle.
+
+\section{Basic operation principles}
+As follows from the name, PBF uses material in a form of powder. Although very simplifying, we can say that any material in form of small particles that can be melted together can be utilized. We can use metals, polymers, ceramics and composites, but i.e. machines using polymers and machines using metals face often very different problems. Therefore we have to bear in mind, that even among PBF machines, there are big differences and a single machine is usually not capable of processing any material, but rather only polymers / metals and so.
+\\
+\todo{Obrazek sestavy}
+In the picture, we see a typical PBF machine setup. The powder is held in a heated container. The build platform is the place where the actual part is built. When a current layer is cured, the build platform is lowered by one layer thickness, and new layer is moved from the powder container and spread onto the build platform by specific spreading mechanism. The newly spread powder has to be uniform, precisely leveled and packed.
+
+\section{Classification of Powder Bed Fusion processes}
+Hello
+\section{Materials for Powder Bed Fusion}
+Hello
+
+
+\chapter*{Tensile strength of parts printed with FDM}
+The technology of Fused Deposition Modeling, or Fused Filament Fabrication (FDM/FFF) was described previously. This thesis consists also of practical and experimental section, which is based on FDM. The task was to find, what effect do \textbf{print parameters of FDM}, such as layer thickness, infill amount etc, have on \textbf{strength} of the final part.\\
+There are multiple reasons why such knowledge is valuable and important. Obvious reasons are, during parts design we always have to be aware of the part production process - different manufacturing procedures may result in different properties of the same part geometry. This is mostly due to anisotropical nature of such processes. When we are talking about FDM, the process is very anisotropical with parts having different properties in X/Z build direction (plane of single layer) and Z direction (vertical direction of build). Probably all kinds of macroscopic properties will show some amount of anisotropy, such as heat conductivity or electric conductivity. This is generally applicable on AM, i.e. plastics used with FDM are bad electricity conductors. For mechanical engineering, however, the crucial property that will vary with changing direction is strength and elongation of the material.\\
+Another important reason for such research is that we should be able to make a direct comparison between strength of part of the same geometry and made of the same material, but produced using different technologies. Particularly useful is the ability to compare parts made with \textbf{injection molding} and \textbf{additive manufacturing}. Both are using polymer materials and processing them by heat. For injection molding, the part will also be somewhat anisotropical, which is caused by the flow direction of the plastic. Compared to FDM however, injection molded parts will be much more isotropical and uniform.\\
+The difference here can be of great significance, when we are considering production of functional, i.e. stressed parts. We know that injection molding and AM are on the opposite ends of the spectra of production rate, with molding being extremely productive with high quantities and AM being very slow. Nonetheless, if we find out that only very limited of parts is to made made (ranges of $10^0$ up to $10^3$ pieces), it is rational to think of AM instead of injection molding. On the contrary, AM produced parts due to it's nature will show different strength and elongation. Therefore production technology has to be accounted for before the production itself.
+\todo[inline]{misto pro nejakz obrazek}
+\newpage
+Following parameters were to be examined:
+\begin{itemize}
+\item Layer thickness\\
+	Different thickness of individual layers, range from 0.1 - 0.25 mm
+\item Infill\\
+	Amount of infill, range from hollow = 0\% up to full = 100\%
+\item Print temperature\\
+	Different setting of the constant nozzle temperature during extrusion
+\item Infill raster orientation\\
+	Orientation of rectilinear raster pattern, angle with edges 0° - 45°
+\item Layer orientation\\
+	Part build on different sides - different orientation of build
+\\[10pt]
+\item \textbf{Default parameters}\\
+Layer thickness 0.1mm\\
+Infill 100\%, rectilinear pattern\\
+Print temperature 240°C\\
+Infill raster orientation 45°\\
+Layer orientation - parallel to stress direction
+\end{itemize}
+
+Other print settings and parameters remained constant, and are listed as follows:\\
+\begin{itemize}
+\item Material\\
+	PETG
+\item Nozzle diameter\\
+	1.75mm/0.4mm
+\item Overlap of material\\
+	25\%
+\item Number of shell lines\\
+	3 outside shell lines (inside is infill pattern)
+\item Number of top layers\\
+	???
+\item Bottom layers\\
+	???
+\item Other\\
+	IDK
+\end{itemize}
+For making test specimen, 3D printer Prusa I3, borrowed from Prusa company (mentioned in acknowledgements) was used. Slicer software used for Gcode generation was Prusa slicer ver. 1.31.6. The test specimen has a shape as in fig. ??? \todo{obrazek okotovany test specimen}. The shape is given by the ASTM D638 standard, used for plastic parts made by injection molding or machining. Up to this date there is no other generally accepted standard for 3D printing specimen for tensile strength testing. 
+\todo[inline]{jaka tiskarna, vypsat vsechny parametry, jaky software, material\\
+popsat trhani, ceh jsme si vsimli, jake vzorky vyhodit jake ne\\
+jaka norma astm d638, test specimen tvar\\
+vliv rychlosti deformace, rychlost dle normy}
+
 \tableofcontents
 \listoftodos
 
