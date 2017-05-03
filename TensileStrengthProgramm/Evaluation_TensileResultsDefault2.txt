@@ -1,4 +1,4 @@
 Source file name:	TensileResultsDefault2.txt
-Number of tests:	10
-Average strength:	44.68 MPA
-Standard deviation:	4.53 MPA
+Number of tests:	0
+Average strength:	nan MPA
+Standard deviation:	nan MPA

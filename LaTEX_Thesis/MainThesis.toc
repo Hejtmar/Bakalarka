@@ -58,3 +58,8 @@
 \contentsline {section}{\numberline {5.1}Basic operation principles}{22}{section.5.1}
 \contentsline {section}{\numberline {5.2}Classification of Powder Bed Fusion processes}{22}{section.5.2}
 \contentsline {section}{\numberline {5.3}Materials for Powder Bed Fusion}{22}{section.5.3}
+\contentsline {chapter}{\numberline {6}Tensile strength of parts printed with FDM}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}General properties of FDM prints}{23}{section.6.1}
+\contentsline {section}{\numberline {6.2}FDM and injection molding}{23}{section.6.2}
+\contentsline {section}{\numberline {6.3}Print parameters}{24}{section.6.3}
+\contentsline {section}{\numberline {6.4}Tensile strength testing results}{26}{section.6.4}

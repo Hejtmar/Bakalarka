@@ -390,56 +390,229 @@ Hello
 Hello
 
 
-\chapter*{Tensile strength of parts printed with FDM}
+\chapter{Tensile strength of parts printed with FDM}
 The technology of Fused Deposition Modeling, or Fused Filament Fabrication (FDM/FFF) was described previously. This thesis consists also of practical and experimental section, which is based on FDM. The task was to find, what effect do \textbf{print parameters of FDM}, such as layer thickness, infill amount etc, have on \textbf{strength} of the final part.\\
+\section{General properties of FDM prints}
 There are multiple reasons why such knowledge is valuable and important. Obvious reasons are, during parts design we always have to be aware of the part production process - different manufacturing procedures may result in different properties of the same part geometry. This is mostly due to anisotropical nature of such processes. When we are talking about FDM, the process is very anisotropical with parts having different properties in X/Z build direction (plane of single layer) and Z direction (vertical direction of build). Probably all kinds of macroscopic properties will show some amount of anisotropy, such as heat conductivity or electric conductivity. This is generally applicable on AM, i.e. plastics used with FDM are bad electricity conductors. For mechanical engineering, however, the crucial property that will vary with changing direction is strength and elongation of the material.\\
+\section{FDM and injection molding}
 Another important reason for such research is that we should be able to make a direct comparison between strength of part of the same geometry and made of the same material, but produced using different technologies. Particularly useful is the ability to compare parts made with \textbf{injection molding} and \textbf{additive manufacturing}. Both are using polymer materials and processing them by heat. For injection molding, the part will also be somewhat anisotropical, which is caused by the flow direction of the plastic. Compared to FDM however, injection molded parts will be much more isotropical and uniform.\\
 The difference here can be of great significance, when we are considering production of functional, i.e. stressed parts. We know that injection molding and AM are on the opposite ends of the spectra of production rate, with molding being extremely productive with high quantities and AM being very slow. Nonetheless, if we find out that only very limited of parts is to made made (ranges of $10^0$ up to $10^3$ pieces), it is rational to think of AM instead of injection molding. On the contrary, AM produced parts due to it's nature will show different strength and elongation. Therefore production technology has to be accounted for before the production itself.
+\begin{figure}[b]
+\centering
+\includegraphics[scale=0.6]{testSpecimenDimensions}
+\caption{ASTM D638 - dimensions of test specimen type 4}
+\end{figure}
+\
 \todo[inline]{misto pro nejakz obrazek}
 \newpage
+\section{Print parameters}
 Following parameters were to be examined:
 \begin{itemize}
-\item Layer thickness\\
+\item \textbf{Layer thickness}\\
 	Different thickness of individual layers, range from 0.1 - 0.25 mm
-\item Infill\\
+\item \textbf{Infill}\\
 	Amount of infill, range from hollow = 0\% up to full = 100\%
-\item Print temperature\\
+\item \textbf{Print temperature}\\
 	Different setting of the constant nozzle temperature during extrusion
-\item Infill raster orientation\\
-	Orientation of rectilinear raster pattern, angle with edges 0° - 45°
-\item Layer orientation\\
+\item \textbf{Infill raster orientation}\\
+	Orientation of rectilinear raster pattern, angle with edges in range of 0° - 45°
+\item \textbf{Layer orientation}\\
 	Part build on different sides - different orientation of build
-\\[10pt]
-\item \textbf{Default parameters}\\
+\item \textbf{\textit{Default parameters}}\\
 Layer thickness 0.1mm\\
 Infill 100\%, rectilinear pattern\\
 Print temperature 240°C\\
 Infill raster orientation 45°\\
 Layer orientation - parallel to stress direction
 \end{itemize}
-
-Other print settings and parameters remained constant, and are listed as follows:\\
+\bigskip
+%
+Other print settings and parameters remained constant, and are listed as follows:
 \begin{itemize}
-\item Material\\
+\item \textbf{Material}\\
 	PETG
-\item Nozzle diameter\\
+\item \textbf{Nozzle diameter}\\
 	1.75mm/0.4mm
-\item Overlap of material\\
+\item \textbf{Overlap of material}\\
 	25\%
-\item Number of shell lines\\
-	3 outside shell lines (inside is infill pattern)
-\item Number of top layers\\
-	???
-\item Bottom layers\\
-	???
-\item Other\\
-	IDK
+\item \textbf{Shell / outside circumference region thickness}\\
+	3 shell lines (outside of infill pattern)
+\item \textbf{Number of top layers}\\
+	12
+\item \textbf{Bottom layers}\\
+	10
+\item \textbf{Build speed}\\
+	Perimeters - 25-40mm/s\\
+	Infill - 30-60mm/s
+\item \textbf{Other}\\
+	No raft generated
+	No support material / support structures
 \end{itemize}
-For making test specimen, 3D printer Prusa I3, borrowed from Prusa company (mentioned in acknowledgements) was used. Slicer software used for Gcode generation was Prusa slicer ver. 1.31.6. The test specimen has a shape as in fig. ??? \todo{obrazek okotovany test specimen}. The shape is given by the ASTM D638 standard, used for plastic parts made by injection molding or machining. Up to this date there is no other generally accepted standard for 3D printing specimen for tensile strength testing. 
-\todo[inline]{jaka tiskarna, vypsat vsechny parametry, jaky software, material\\
-popsat trhani, ceh jsme si vsimli, jake vzorky vyhodit jake ne\\
-jaka norma astm d638, test specimen tvar\\
-vliv rychlosti deformace, rychlost dle normy}
+For making test specimen, 3D printer Prusa I3, borrowed from Prusa company (mentioned in acknowledgements) was used. Slicer software used for Gcode generation was Prusa slicer ver. 1.31.6. The test specimen has a shape as in fig. 5.1. The shape is given by the ASTM D638 standard, used for plastic parts made by injection molding or machining. Up to this date there is no other generally accepted standard for 3D printing specimen for tensile strength testing.\\
+Material used was PETG, provided by Prusa company - no corresponding datasheet with material properties was available, only recommended print temperature 220-250°C was listed. For tensile strength testing, deformation rate of 50mm/min and 20mm/min were observed. Standard tensile strength testing machine with grips for plastic specimen was used.\\
+After testing two sets of 5 specimen, each with different deformation rate, there was no difference in tensile strength observed between specimen stressed with 20mm/min and 50mm/min rates. It was therefore concluded, that for purposes of this thesis and limited time of tensile strength machine availability, deformation rate 50mm/min will be sufficient.
+%
+\newpage
+\section{Tensile strength testing results}
+\textbf{Varying layer thicknesses}\\
+\begin{tabular}{|c|c|c|}
+\hline 
+Layer thickness [mm] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+\hline 
+0.10mm & 46.23 & 1.59\\ 
+\hline 
+0.15mm & 40.20 & 4.60\\ 
+\hline 
+0.20mm & 47.14 & 1.57\\ 
+\hline 
+0.25mm & 41.36 & 0.77\\ 
+\hline 
+\end{tabular}
+\\[20pt]
+%
+\textbf{Changing rectilinear infill raster orientation}\\
+180 = parallel to force direction\\
+90 = perpendicular to force direction\\
+\begin{tabular}{|c|c|c|}
+\hline 
+Angle orientation [deg] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+\hline 
+45/135 & 46.23 & 1.59\\ 
+\hline 
+60/150 & 40.46 & 1.46\\ 
+\hline 
+75/165 & IDK & IDK\\ 
+\hline 
+90/180 & IDK & IDK\\ 
+\hline 
+\end{tabular}
+\\[20pt]
+%
+\textbf{Changing nozzle temperature for printing}\\
+\begin{tabular}{|c|c|c|}
+\hline 
+Nozzle temperature [C] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+\hline 
+220 & IDK & IDK\\ 
+\hline 
+230 & IDK & IDK\\ 
+\hline 
+240 & 46.23 & 1.59\\ 
+\hline 
+250 & IDK & IDK\\ 
+\hline 
+\end{tabular}
+\\[20pt]
+%
+\textbf{Changing infill percentage}\\
+\\pozn. - infill is related to the inside of the print, the outside boundary is always kept solid. As was mentioned in the print parameters section, there were always 10 solid bottom layers, 12 solid top layers, and also circumference is always built solid. Therefore, the amount of material in the cross-section is much more, than only solid model multiplied by infill percentage. I.E. cca only inner $8mm^2$ are filled with infill, remaining $16mm^2$ of the cross-section are always built solid.\\
+\begin{tabular}{|c|c|c|}
+\hline 
+Infill [\%] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+\hline 
+100 & 46.23 & 1.59\\ 
+\hline 
+80 & IDK & IDK\\ 
+\hline 
+60 & IDK & IDK\\ 
+\hline 
+40 & IDK & IDK\\ 
+\hline
+20 & IDK & IDK\\ 
+\hline 
+\end{tabular}
+\\[20pt]
+%
+\textbf{Layers orientation with respect to force direction}\\
+XY - standard, layers in plane parallel to force direction\\
+XZ - non-standard, layers perpendicular to force direction, no elongation and lower strength expected
+\begin{tabular}{|c|c|c|}
+\hline 
+layers orientation parallel to plane [\%] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+\hline 
+XY (standard) & 46.23 & 1.59\\ 
+\hline 
+XZ (vertical build) & IDK & IDK\\ 
+\hline
+\end{tabular}
+\\[30pt]
+During performing the tensile strength tests, unexpected behavior of test specimen was observed many times. Also, as can be seen in results table, there are some significant inconsistencies among tested specimen. Compared to usual tensile strength testing results of injection molded test specimen, standard deviation can be very high. Inconsistencies occur not only within a single group of test specimen (specimen printed with the same parameters), but also within a single changing parameter (inconsistent results, uneven illogical changes of strength with changing i.e. layer thickness). Also because many specimen showed different behavior, there was question which specimen should be taken as relevant, and which results should be discarded. Because there is no guide, we took all the data, which include even results of extreme values. This is reflected in higher standard deviation of the final strength value.
+%
+\begin{figure}[!t]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{weave1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{weave2}
+  \end{minipage}
+  \\[1pt]
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Test specimen broken outside of narrow region}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Delamination / separation of part shell from infill part}
+  \end{minipage}
+  %
+  \\[5pt]
+  %
+ \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{weave1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{weave2}
+  \end{minipage}
+  \\[1pt]
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Illustration of imperfect overlapping and gaps in infill}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Unusual break line of specimen}
+  \end{minipage}
+  %
+  \\[5pt]
+  %
+   \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{weave1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{weave2}
+  \end{minipage}
+  \\[1pt]
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Elongation of single thread, separated from part during stressing}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Cross section of broken specimen, showing brittle fracture with little elongation}
+  \end{minipage}
+  \\[5pt]
+\end{figure}
+%
+\\Other parameters, that were not tested but could have significant effect on strength value, are listed below:
+\begin{itemize}%[leftmargin=5]
+\item \textbf{Infill pattern}
+	It is likely that different infill patterns will show different strength and elongation with the same infill percentage.
+\item \textbf{Time since last printer activity}\\
+	It might be important, how long the printer was idle and not active.
+\item \textbf{Age of material}\\
+	Effect of material aging and degradation can also be worth researching.
+\item \textbf{Printer quality and software used}\\
+	Different printers might be able to print parts of different strengths. Reasons can be those of different printer stiffness (influencing part build consistency), consistency of nozzle temperature (causing inconsistencies in the material flow and build), bad slicer software and generation of unsuitable G-code and others parameters, that are not directly open to the users to manipulate with
+\item \textbf{Environment conditions}\\
+	Humidity and temperature, in combination with other parameters, might affect the material properties
+\end{itemize}
+Delamination\\
+Break outside of grips\\
+otazka jake vzorky vyradit jake nechat, nejake se pretrhly jine se prodluzovaly 3x, nahodny smer praskani - nekonzistentni, striska, vliv tloustky steny
+\\Co ma nejvetsi vliv nejsou parametry, ale design, praskani nastava na rozmezi infillu a obvodu, vysledky taky nejsou jednoznacne, nicka opakovatelnost a vysoky rozptyl hodnot pevnosti - odchylka je vetsi nez rozptyl, vliv rychlost deformace
+\\Vliv doby stani tiskarny, popsat trhani, ceh jsme si vsimli, jake vzorky vyhodit jake ne, vliv rychlosti deformace, rychlost dle normy, testovani struny a porovnani hodnoty nezpracovaneho materialu
+\\ziskat data elongation, a cely prubeh zkousky
 
 \tableofcontents
 \listoftodos
