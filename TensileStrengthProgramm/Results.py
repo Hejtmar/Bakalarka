@@ -28,7 +28,7 @@ def evaluateData(fileName):
     lineCount = 0
     for element in clearData:
         testSpecimenData = element.split(";")
-        if len(testSpecimenData) != 6:
+        if len(testSpecimenData) != 5:
             continue
             #exit function and return?
         lineCount += 1

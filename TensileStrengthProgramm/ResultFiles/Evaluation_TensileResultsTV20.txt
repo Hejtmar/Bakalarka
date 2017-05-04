@@ -1,4 +1,0 @@
-Source file name:	TensileResultsTV20.txt
-Number of tests:	10
-Average strength:	47.14 MPA
-Standard deviation:	1.57 MPA

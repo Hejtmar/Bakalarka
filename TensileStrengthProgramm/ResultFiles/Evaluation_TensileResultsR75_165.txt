@@ -1,4 +1,0 @@
-Source file name:	TensileResultsR75_165.txt
-Number of tests:	6
-Average strength:	42.01 MPA
-Standard deviation:	1.14 MPA
