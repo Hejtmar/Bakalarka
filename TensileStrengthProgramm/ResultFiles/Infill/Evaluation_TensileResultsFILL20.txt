@@ -1,0 +1,8 @@
+Source file name:	TensileResultsFILL20.txt
+Number of tests:	10
+Maximal force:		0.69 +- 0.11kN
+Average strength:	28.87 +- 4.63 MPA
+Average elongation:	4.58 +/ 0.86
+
+Realne hodnoty:
+Pevnost 39.38 +- 6.31

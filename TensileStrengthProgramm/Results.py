@@ -2,6 +2,11 @@ import os, re
 from matplotlib import pyplot as plt
 from numpy import std, mean #std = standard deviation, mean = average
 
+
+def getGripDistance():
+    gripDistance = input("Zadej vzdalenost mezi celistmi")
+    try:
+        gripDistance =
 #get list of files in current directory
 #files must start with "Tensile" and end with ".txt"
 def giveMeDataFiles():
@@ -35,7 +40,9 @@ def evaluateData(fileName):
         #invalid line
         valuesDictionary = {"date":testSpecimenData[0],
                         "strength":float(testSpecimenData[3]),
-                        "force":float(testSpecimenData[2])}
+                        "force":float(testSpecimenData[2]),
+                        "elongation":float(float(testSpecimenData[4])/gripDistance*100)}
+        """elongation in %, max force in kN, strength in MPa"""
         valuesJSON.append(valuesDictionary)
         
     strengthValues = []
@@ -44,14 +51,21 @@ def evaluateData(fileName):
     forceValues = []
     for element in valuesJSON:
         forceValues.append(element["force"])
-
+    elongationValues = []
+    for element in valuesJSON:
+        elongationValues.append(element["elongation"])
+        
     resultsFileName = "Evaluation_%s" %fileName
     with open(resultsFileName, "w") as file:
         file.write("""Source file name:\t%s
 Number of tests:\t%d
-Average strength:\t%.2f MPA
-Standard deviation:\t%.2f MPA\n"""
-                    %(fileName, lineCount, mean(strengthValues), std(strengthValues)))
+Maximal force:\t\t%.2f +- %.2fkN
+Average strength:\t%.2f +- %.2f MPA
+Average elongation:\t%.2f +/ %.2f"""
+                    %(fileName, lineCount,
+                      mean(forceValues), std(forceValues),
+                      mean(strengthValues), std(strengthValues),
+                      mean(elongationValues), std(elongationValues)))
         print("Data written to file %s!" %resultsFileName)
 #actual programm
 filesList = giveMeDataFiles()

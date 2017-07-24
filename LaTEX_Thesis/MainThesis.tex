@@ -19,6 +19,8 @@
 \chapter*{Acknowledgements}
 Esa kontio, Jiři Moravec, Pruša, Tata
 
+\tableofcontents
+
 \chapter*{List of shortcuts}
 \addcontentsline{toc}{chapter}{List of shortcuts}
 \begin{itemize}
@@ -265,7 +267,7 @@ The source of the radiation is also one of the parameters of SLA machines. Typic
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.8\textwidth]{SLAillustration}
-  \caption{Illustration of SLA technologies}
+  \caption{Illustration of SLA technologies, taken from \cite[p. 65]{AMT}}
 \end{figure}
 %
 \section{Curing process} 
@@ -328,17 +330,17 @@ All given parameters combined give us an equation, where the exposure of materia
   \end{minipage}
   \\[1pt]
   \begin{minipage}[t]{0.45\textwidth}
-    \caption{Original WEAVE pattern}
+    \caption{Original WEAVE pattern, taken from \cite[p. 87]{AMT}}
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.45\textwidth}
-    \caption{Comparison or WEAVE / STAR WEAVE patterns}
+    \caption{Comparison or WEAVE / STAR WEAVE patterns, taken from \cite[p. 88]{AMT}}
   \end{minipage}
   \\[10pt]
   \begin{minipage}[t]{\textwidth}
   \centering
   \includegraphics[scale=0.8]{retractedWeave}
-  \caption{Retracted WEAVE scan pattern with improved shrinkage endurance}
+  \caption{Retracted WEAVE scan pattern with improved shrinkage endurance, taken from \cite[p. 90]{AMT}}
   \end{minipage}
   \\[20pt]
 \end{figure}
@@ -347,7 +349,7 @@ Even if we are able to precisely describe the curing process, it is not enough t
 Problem of overlapping layers is, that we have to irradiate more energy to the resin than the critical exposure. Reason being, the current layer has to cure into previous layer. This re-curing of previously cured layer requires some additional energy, by which critical exposure has to be increased, decreasing theoretical maximum build speed.\\
 Problem of shrinkage and anisotropy of the build is interrelated. Simple explanation can be given by following example: We are curing a single cross section of full square. Let's say we cure the circumference of the shape first. Than, we have to cure the infill - inside of the circumference. One of the options is to cure horizontal or vertical lines, parallel to one of square borders. If we go from upper border to bottom border, than immediately after curing first upper infill lines, the upper part of square will tend to shrink. This will cause either decreasing dimension of the square, or internal stresses which will remain be present.  By this simple approach, we are causing anisotropy, since we have a scanning pattern preferring a single line direction. This issue we can try to eliminate by curing next layer perpendicular to previous one. By switching the pattern, to some extent, we eliminate the anisotropic property of the build - the build as a whole is more or less isotropical, but individual layers vary from each other. Also, we should bear in mind, that if the part shrinkage is problem not only for causing stresses, but also for changing dimensons of the part. The resolution of SLA printer can be in range of tens of microns, so even if the shrinkage will not ruin the build, we might not be able to stick to our desired part dimension - the real part built might be smaller due to shrinkage.\\
 Next issue to deal with is overlapping of parallel cured lines. Obviously, two adjacent lines also have to be cured together for better structural integrity of the part. On the contrary, this overlapping also causes deflection of already cured sections, and adds another source of anisotropy to the build.
-To account for all of mentioned and other related issues, certain scanning patterns for SLA were developed. Here, with scanning pattern is meant how the infill of layer circumference is cured. These scan patterns are called WEAVE and STAR-WEAVE. Further improved comes the retracted hatch WEAVE scan pattern. Illustration of these patterns are in fig. 4.5 , 4.6 and 4.7. With these scan patterns, negative effects of SLA builds can be minimized for securing successful build.
+To account for all of mentioned and other related issues, certain scanning patterns for SLA were developed. Here, with scanning pattern is meant how the infill of layer circumference is cured. These scan patterns are called WEAVE and STAR-WEAVE. Further improved comes the retracted hatch WEAVE scan pattern. Illustration of these patterns are in fig. 4.5 , 4.6 and 4.7 taken from \cite{AMT}. With these scan patterns, negative effects of SLA builds can be minimized for securing successful build.
 
 %
 \section{Conclusion}
@@ -369,25 +371,263 @@ As the term photopolymerization implies, range of available materials is limited
 Furthermore, same as SLA machines themselves, these materials are often very expensive. Single liter of the resin can cost hundreds of EUR. With biggest nowadays SLA machine, even filling the container full can cost thousands of EUR. The price of big machines, able to print more than 2 meters wide objects, can be higher than 500 000 EUR.
 \end{itemize}
 
-\chapter{Powder Bed Fusion}
-Basic description
-Materials used
-Mechanisms, differences - chemical, melting, sls, 4th / heat source / 
-Challenges, problems
-Pros / cons
 
-Powder bed fusion ("PBF") is a technology, that is very versatile compared to other AM technologies. It is able to utilize variety of materials and final products are often fully dense functional parts. The trade-off for it's abilities is in the need to understand all simultaneous processes during PBF printing, and need to set all print parameters carefully. Also, post-processing of the part is required, unit for recycling the powder is almost necessary and materials themselves are expensive. Therefore, even though PBF is superior to other AM technologies and in some ways even to CNC machining, it is very expensive to operate and handle.
+
+
+\chapter{Powder Bed Fusion}
+Powder bed fusion (hereinafter "PBF") is counted among the oldest technologies commercially introduced. It can utilize variety of materials and final products can be fully dense functional parts. PBF is in some aspects of part manufacturing superior not only to other AM technologies, but even to CNC machining.\\
+	The trade-off for it's abilities and versatility is in the need to understand all simultaneous processes during PBF printing, and need to set all print parameters carefully. Also, post-processing of the part is required, unit for recycling the powder is needed and other supplementary equipment (Oven for heat treatment, machine for infiltration) might be necessary. Machines themselves, materials and the overall machine maintenance and operation is generally expensive.
 
 \section{Basic operation principles}
-As follows from the name, PBF uses material in a form of powder. Although very simplifying, we can say that any material in form of small particles that can be melted together can be utilized. We can use metals, polymers, ceramics and composites, but i.e. machines using polymers and machines using metals face often very different problems. Therefore we have to bear in mind, that even among PBF machines, there are big differences and a single machine is usually not capable of processing any material, but rather only polymers / metals and so.
+As follows from the name, PBF uses material in a form of \textbf{powder}. Although very simplified, we can say that any material in form of small particles, that can be melted together can be used (chap. 5.3 - materials).\\
+	There are many types and variations, distinguishing different PBF machines. For example, single machine is usually not capable of processing any material, but rather only polymers or metals. Also, different machines might utilize other heat sources to cure the powder, or use different powder handling mechanism. So, even though the main principle for all machines is the same, the mechanisms utilized by various PBF machines can vary significantly.
 \\
-\todo{Obrazek sestavy}
-In the picture, we see a typical PBF machine setup. The powder is held in a heated container. The build platform is the place where the actual part is built. When a current layer is cured, the build platform is lowered by one layer thickness, and new layer is moved from the powder container and spread onto the build platform by specific spreading mechanism. The newly spread powder has to be uniform, precisely leveled and packed.
+\todo[inline]{Obrazek sestavy}
+In the picture, we see a typical PBF machine setup. The powder is held in a \textbf{container}, that might be heated. The \textbf{build platform} is the place where the actual part is built. When a current layer is cured, the build platform is lowered by one layer thickness, and new layer is moved from the powder container and spread onto the build platform by \textbf{spreading mechanism}. The newly spread powder has to be uniformly and precisely leveled and packed. The cross-section of layer is cured together - \textbf{melted or sintered by heat}. The process of layer deposition and curing is repeated until the part is finished.\\
+	After the whole part is built, it has to \textbf{cool down slowly} to prevent uneven cooling and resulting curling. After cooling, the part is removed from the powder and post-processed - residual powder is washed away, support structures are cut and part can be machined or polished to achieve good surface finish. (Support structures are not necessary since loose powder supports newly deposited layers, but they might be desired to hold the part in place due to rapid cooling rates and thermal stresses, that might cause warping and curling.) Apart from finishing post-processing, part infiltration might be needed to achieve a dense part, if part porosity is too low. For part infiltration, same as with "Binder jetting", bronze compound might be used as an infiltrant.\\
+	The whole build space is generally \textbf{held at elevated temperatures}, usually as high as possible below the melting point. Inert atmosphere or vacuum is needed to prevent the loose powder degradation of electron beam diffusion (chap. 5.2.2 - heating methods). Pre-heating the powder significantly lowers the energy, required to reach the melting point and sinter or melt the material, reducing required heat source power.
+	
+\section{Powder bed fusion variations}
+Although all PBF processes share the basic approach, we can categorize them based on utilizing different mechanism to perform certain tasks.
 
-\section{Classification of Powder Bed Fusion processes}
-Hello
+\subsection{Powder spreading}
+When a current layer is cured, the build platform lowers by one layer thickness and new layer of powder has to be spread over the previous one. The powder is first deposited on the top of previous layer and then leveled.
+\todo[inline]{Mention vibration in powder handing problems}
+\subsubsection{Counter rotating roller}
+Roller, which is a part with shape of an ordinary cylinder, is rotating and simultaneously moving sideways - it is best illustrated with fig. ?????. This method easily allows changing the layer thickness and the related packing density of the powder, by moving roller up or down. Also, by rotation counter the sideways movement, the roller "fluidizes" the powder during spreading - the powder "flows" before the roller, which significantly reduces the shear force acting upon previous layer. This is important not to disrupt stacked layers of powder.
+\subsubsection{Blade leveling}
+As it follows from then name, this approach utilizes a blade, which is just very thin and precise strip of metal, that is used to precisely level the layer and remove excessive powder. However, this method applies greater shear force upon deposited powder. The reason for using this method might have been the fact that roller mechanism was patented and therefore limited commercial use.
+
+\subsection{Heating method}
+This subsection discusses possible methods, how to heat the powder to cure and bind it together. Lasers are most commonly used as the heat source, but electron beam ("EB") is another option.
+\subsubsection{Laser}
+Laser is a beam of photons. With PBF, when photons hit the powder, some of them get absorbed by powder particles, converting their energy to heat. Both polymer and metals, eventually ceramics, can be cured by laser, but there are big differences in properties of polymers and metals, requiring different laser power, speed of laser scanning, spot size and other parameters. Different types of lasers are utilized with ongoing research and development in field of lasers (Nd-YAG lasers, replaced by fiber lasers etc. \cite[p. 252]{AMT})
+
+\subsubsection{Electron beam melting}
+The electron beam melting process ("EBM"), developed at the Chalmers university in Sweden, utilizes an electron beam, which is focused onto the powder. When electrons hit the powder, their kinetic energy is transformed to heat. Compared to especially laser processing of metals, EBM is much more efficient process in terms of delivering energy to the powder. However, EBM uses only materials with high electrical conductivity, so it can't process polymers and either some metals with insufficient conductivity.\\
+\todo[inline]{tabulka str. 136???}
+	The need for very high conductivity follows from the law of electrostatic force, saying that particles having the same charge repel each other. If neighboring powder particles will have high enough charge, the repulsive force will overcome gravitational and other forces and the powder will disrupt. Also, charged powder will tend to repel the incoming electrons coming from the electron beam, making the beam more diffused.\\
+	The results of drawbacks and process specifications are limited range of usable materials, and less precise parts with worse surface finish and bigger grain sizes can be achieved. On the other hand, an advantage of EB is lower cost to a laser system of equivalent power, and easier way of beam focusing (beam is focused by two perpendicular anodes surrounding the beam, that and controlled by electricity. The laser beam however is usually controlled by mirror galvanometer)
 \section{Materials for Powder Bed Fusion}
-Hello
+particle size reflexcivity
+Variety of materials can be utilized with PBF, including polymers, metals, ceramics and composites. In theory, any material able to melt and solidify more than once can be used, because when the layer is being cured, the previous layer has to partially re-melt to be cured together. From polymers, thermoplastic polymers are suitable compared to unsuitable thermosets. Also, polymers with crystalline/semi-crystalline structure are preferable for their distinct melting point, compared to amorphous polymers without such melting point, that are more suitable for material extrusion.\\
+	With metals, such problem is not present. Usually, if a metal can be welded, it is supposed that processing it with PBF should be possible. There are however different problems that those with polymers - compared to polymers, metals tend to oxidize more and have much greater optical reflectivity, making metals more difficult to process via laser. (That is especially true for case of processing aluminum - it has very high reflectivity and doesn't absorb much energy, so only some alumina compounds are available for PBF processing.) Also, because of higher melting point of metals, lasers of higher power are used. From other differences, metals also has significantly higher heat conductivity than polymers and higher surface tension.\\
+	In the end, it can be said that for all mentioned problems and differences, PBF machines utilizing polymers will probably have different architecture that machines for metal processing. Machines for processing both polymers and metals and probably not commercially available?\todo[inline]{najit}
+\todo[inline]{Priklady materialu}
+
+\section{Fusion mechanisms}
+Taken from \cite{AMT}\\
+Raw material is in form of powder. That powder has to be bound together to take the final part shape. There are 4 different methods of  fusing the powder together.
+\subsection{Solid-state sintering}
+With solid-state sintering, powder is bound together at elevated temperatures, but without melting. The temperature of the powder is held below the melting point, and binding process is driven by diffusion. At enough elevated temperatures, even though powder particles are not molten, 2 powder particles that have a small contact area are driven to fuse together to lower the total surface energy.
+\todo[inline]{Necking}
+As fusion occurs, necking between particles starts, and the process continues as particles are fused more and more, lowering their total surface area and thus the surface energy, being in more stable state.\\
+\subsection{Chemically-induced sintering}
+With chemically-induced sintering, or chemically-induced binding, the binding of powder occurs because or a chemical reaction. Such reaction is locally activated by thermal source - as a small region is heated, higher temperatures allow the reaction to take place by giving it enough activating energy.\\
+	The chemical reaction can happen between either the powder and surrounding atmosphere, or between two different powder particles, that are previously mixed as default powder material. For reaction between powder and atmosphere, oxygen or nitrogen are usually the gaseous reactants. Common characteristic of this sintering method is higher porosity of parts.
+\subsection{Liquid phase sintering}
+\todo[inline]{citovat springer liquid phase sintering, obr. str. 6}
+Liquid phase sintering utilizes a powder mixture, where 2 or more types of constituents are present. The purpose of mixing is, that one constituent acts as a binder which melts, while the other constituent remains solid and is bound by binding constituent, which acts as a glue to hold and form the part.\\
+	Since in the powder there are more constituents, there is more ways how to mix them.
+	
+\subsubsection{Separate particles}
+With this method, a powder is simply a mixture of binder particles (melting) and structural particles that are held together (not melting). Such mixture has to be well mixed. For both constituents, their volume ratio and size of the particles ratio is an important factor that determines properties of the final part.
+\subsubsection{Composite particles}
+Powder consists of particles, that are composed of 2 different constituents - i.e, the binding and structural powder are both present in a single powder particle. Examples might be particles consisting of polymer and metal or ceramic, with polymer portion acting as a binder and metal / ceramic as structural material. It is also possible to mix two metal materials, where the one with lower melting-temperature acts as binder and the other one as structural material.\\
+	The advantage of composite particles for PBF is that the resultant parts are more uniform, tent to have better surface finish and be of higher density compared to separate particles. On the contrary, manufacturing such composite particles is more difficult the simply mixing two powders, which makes the material more expensive. Typical example of composite particle material is nylon, filled with small glass beads.
+\subsubsection{Coated particles}
+Coated particles are a different form of a composite particle - a single structural particle is coated with a binder compound. This method of binder-structural powder combination again has certain advantages. These include primarily high absorption of the (laser) heat energy and more efficient binding.\\
+	High absorption of binder agent is very important - for improperly chosen structural and binder constituent, it could happen, that the structural constituent might have significantly higher absorption rate and higher thermal diffusivity, which would lead to the structural powder melting prior to the binding constituent, despite the fact of having higher melting temperature. Also, because only binder is absorbing the energy from the surface, the coating melts first and the structural particle is not affected by heat much, resulting in better binding. To this benefit, it is added that since binder is coated on the particle surface, when molten, it adds to the ability to flow, compared to when separate structural/binder particles are heated, and even though the binder is molten, due to it's viscosity it might not create properly bound material.
+
+\subsection{Full melting}
+Full melting is probably the easiest of mentioned powder processes to imagine - a small region of powder is heated, resulting in full melt of that region and melt pool creation. When the heat source is focused on different region, the melt pool almost instantly solidifies. When the melt-pool is created, it has to be able to partially melt previous layer and neighboring regions, so that the melt pool at least a little bit melts previous layer, so that current layer is fully cured to the previous one. Also, because of very rapid cooling rates of melt pool, unique micro-structures can be achieved with very small grain size.
+
+\section{Other problematic}
+There were already some problems mentioned, like reflectivity of metallic materials. However, except of material-specific problems, general process of using PBF machine can face other complications.
+\subsection{Powder handling issues}
+One of the biggest challenges of PBF is problem-free handling of powder material. When spreading the powder, correct amount of powder must be spread over previous layer, that has to be smooth. As was mentioned in section about different leveling mechanisms, the shear forces upon previous layer during spreading has to be minimal not to disrupt layers.\\
+	To add to issues, as size of powder particles decreases, the powder tend to loose the ability to flow and electrostatic charging with friction between particles starts to play a big role - finer the powder is, more difficult it is to handle and spread. Next, when handled improperly, powder particles can tend to become airborne and float, caused either by same electrostatic charge of particles or other reason. Also, to create fine parts with small features, as fine powder as possible should be used. Therefore, in the end it is often question of compromise between part quality and ease of powder handling.
+\subsection{Elevated temperatures of unprocessed powder}
+As was mentioned, powder within the build platform is held at elevated temperatures, often as high as possible below the melting point, to make the processing easier. However, as follows from principle of solid-state sintering, an important side-effect is that even the unprocessed powder is that if the loose powder is exposed to high temperatures long enough, than even the unprocessed powder that was not supposed to be cured can sinter together and can't be recycled.
+\subsection{Material recycling}
+Related to previous problem, material recycling is an important part of PBF process, since available materials are expensive. We want to recycle as much powder as possible, but some powder unintentionally sintered can't be re-used straight away. Also, even if the unused powder doesn't sinter together, after long temperature exposure it might change it's properties, making the recycling even more complicated. In order to secure repeatability of the print, the powder during each print has to exhibit the same properties. To achieve such print-to-print uniformity, unused powder is mixed with partially used powder in different ratio, depending on thermal profile used powder was exposed to and other used-powder specifics.
+
+\section{Conclusion}
+\begin{itemize}
+\pro \textbf{Available materials}\\
+Blabla
+
+
+\pro \textbf{Flexibility, support structures}\\
+Blabla
+\\[10pt]
+
+\con \textbf{Support structures for warping (not EBM)}\\
+Blabla
+
+\con \textbf{Time}\\
+Blabla
+
+\con \textbf{Price}\\
+Blabla
+
+\con \textbf{Accuracy, surface finish}\\
+Blabla
+\end{itemize}
+
+
+
+
+\chapter{Material extrusion}
+Technology of material extrusion (also Fused Filament Fabrication - FFF, or more commonly Fused Deposition Modeling, hereinafter \textbf{FDM}) is probably the best-known AM technology among people outside of AM industry. This is due to the fact that FDM machines are of all AM machines the cheapest and most affordable ones - low-cost FDM machines can be purchased for less than 300 EUR. As was mentioned in the introduction, we experienced a boom of low-cost FDM printers on the market, which was caused, apart from other reasons, by relevant patents expiration.\\
+	However, FDM is not field of only cheap low-end machines. On the other side of the market spectrum, there are high-end FDM printers that are way more complex, precise, have bigger build area and produce generally products of better quality.
+
+\section{FDM in general}
+Let's start with description of the general setup of FDM printer.\\
+	Same as with any other technology, printer consists of the \textbf{build platform}, onto which the material is laid. Then there is \textbf{print head} that takes care of processing and depositing the material (it incorporates primarily the \textbf{extrusion nozzle} and \textbf{heating element} to melt the material, sensor of nozzle temperature etc). The material to be printed also has to be stored within the machine. The whole machine has a \textbf{solid frame}, onto which all mentioned parts are mounted. Onto this frame, \textbf{motors or other actuators} are mounted, which move the build platform or nozzle in all 3 dimensions. Finally, the machines has a control unit, that control the process and sends signals to motors, heating element and such.\\
+	Common FDM printer setup can be seen in following sections, p. 26 fig. 6.4, 6.5 and 6.6\\
+	As follows from the name of material extrusion, this technology takes a raw material, which is then in controlled manner extruded onto the build platform. The material being deposited has to be in \textbf{liquid / partially solid} state in the moment of deposition - material has to flow. After deposition, it has to solidify as fast as possible to remain in desired shape.\\
+	For the material extrusion, processes utilize a nozzle, through which the material is pushed. The nozzle typically has a shape of a cone. The material is fed from the side of bigger cone diameter and is pushed through the nozzle exit, which has smaller diameter. Ordinary printers utilize nozzle with entrance diameter of 1.75mm and exit diameter of 0.4mm. Immediately after exiting the nozzle, the material is deposited onto the build platform or previous layer of material - the gap between the nozzle tip and previous layer equals the layer thickness, which is usually in range of 0.05mm - 0.3mm.
+
+\section{Deposition process variants}
+In this section, some variants of FDM processes will be discussed.
+\subsection{Method of material curing}
+Deposition processes are strongly interrelated with materials for FDM printers. There is a parameter that distinguishes two different approaches of material processing and deposition.
+\subsubsection{Heating}
+As we know, material has to be at least partially liquid to be able to flow, and solidify after leaving the nozzle. One way to achieve this behavior is having a solid material - some kind of \textbf{polymer}, and \textbf{heating it} to certain temperature. After heating, the polymer partially melts and it's viscosity lowers enough so that it can be pushed through the nozzle. After extrusion, it cools and solidifies.\\
+\subsubsection{Chemical curing}
+With this approach, other materials than polymer can be used, that are liquid in default state. This kind of material is held in a chamber within the printer. When depositing, this liquid material is pushed through the nozzle, and solidifies afterwards. However, in this case, material solidifies due to \textbf{chemical reaction} instead of cooling. If we take an example of gel-like material, after deposition it can solidify due to drying of the material in atmospheric conditions. Other reason for solidification of liquid material can be chemical reaction of material with some gas, that is present in the build space.\\
+
+\subsection{Ways of material feeding}
+Until now, the way of applying the force to extrude the material was omitted. Here we have to introduce different concepts of how the material is fed and forced through the nozzle to overcome pressure losses.
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{filamentBucklingReview}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{PinchRollerMachineDesign}
+  \end{minipage}
+  \\[5pt]
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Illustration of filament buckling \cite{FDMReview}}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+    \caption{Common machine setup with pinch roller, taken from \cite{MachineDesign}}
+  \end{minipage}
+\end{figure}
+
+\subsubsection{Pinch-roller}
+With pinch roller, material is in form a plastic \textbf{wire}. The wire is \textbf{pinched between two wheels}, with one wheel being smooth and other wheel having grooved of just very rough surface. As the wire is gripped between these wheels, when they rotate, the small gear grips into the wire and pushes it downwards. Principle of operation can be seen in fig. 6.2.\\
+	Since the polymer is not very strong material, there is a force limit. When this force of extrusion is exceeded, the wheels can't push the material - they will loose the grip and tear the surface of the wire instead of pushing it downwards. Also, filament buckling between nozzle entrance and rollers can occur if pressure drop is too high (fig. 6.2).  This setup is used with all low-cost printers, since it is more appropriate for small scales and also is cheaper.
+\subsubsection{Screw-feeder}
+For larger-scale machines, screw-feeder system would be suitable. This system is also utilized within injection molding machines, where plastic pellets are fed and transported likewise. Screw-feeder has a few advantages over the pinch-roller. First, not only does it transport the material, it also heats the material, lowering required heat source power to reach desired temperature. Second, for larger-scale machines it makes more sense to feed plastic pellets into the machine, instead of a thick wire. Many plastic materials today can be purchased in form of such pellets. Having said the theory, in 2014 there were probably no commercially available FDM printers utilizing screw-feed. \cite[p. 193]{FDMReview}
+
+\section{Available materials}
+The range of available materials for FDM use is limited to certain types. As was mentioned in previous section, with the two distinct methods of deposition processes, we have to use either polymer materials in case of heat melting (amorphous polymers are preferred over crystalline polymers), or very specific liquid material designed for this purpose to solidify quickly.\\
+	It should also be mentioned, that the second type of material will require more careful handling. FOr example, in the presence of air it might prematurely solidify, therefore sealed chamber and other additional equipment will be required. That is one of the reasons, why most FDM printers utilize the first type of material, i.e. polymer materials - they are generally speaking easier to process.\\
+	To mention some commonly used materials, widely used material is ABS (acrylonitrile butadiene styrene). Also, PLA (Polylactid acid) is material, that is bio-degradable and often used. From other materials, there is Nylon, PET (Polyethylene terephthalate) and others. Also there are materials, that consists of polymer, but are filled with particles of different material such as kevlar, bronze or wood, that might used  for their visual or other preferable properties.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{datasheetFDM}
+	\caption{Datasheet of some comercially available materials from Stratasys, taken from \cite[p. 163]{AMT}}
+\end{figure}
+	In last decade, also because of mentioned boom of FDM devices, we experienced growth of supply and demand of suitable materials. Such materials, some of which were developed primarily for purpose of FDM printing, are available with their price ranging from 20EUR (common materials like ABS, PLA) up to several hundreds EUR for 1kg. They can have very wide range of properties, from flexibility, strength, brittleness, resistance to degradation or visual properties.\\
+	Regarding flexibility and brittleness, materials can be very stiff having high Youngs modulus and virtually will undergo no elongation, or very flexible as some known polymers that can elongate up to several time of it's original part length. Regarding strength, the range of common polymers is approx 1 order of magnitude smaller compared to metals, that is in range of tens of MPa (Rarely more than 100MPa).
+\\
+\textbf{We have to be careful when we are generalizing material properties to the final printed part}. When the material is heated and deposited, compared to raw unprocessed material, it can change it's properties significantly - not only can it loose flexibility and become less strong, but for other reasons, we can't also avoid imperfections in the printed part, like small cavities, overlapping difficulties (fig. 6.6) and unisotrophy. For example, when printing part with FDM, in the direction perpendicular to the build platform (direction of following layers), part can withstand less that 1/2 of the original strength before layers separate from each other.
+
+\section{FDM process variations}
+Some type variations were already mentioned, such as pinch-roller or screw feed mechanism to push and extrude material through the nozzle.\\
+	When extruding the material, \textbf{not absolute but relative motion} of nozzle and the build platform is controlled. That means that when building a part, there are two options - either the build platform is steady and the nozzle moves around, or nozzle is steady and the build platform moves around. Hence, from construction point of view, we can group FDM machines based on if the nozzle moves, or if the nozzle is a stationary part of the frame and only the build platform moves.\\
+	When talking about construction of low-end FDM printers, there is also number of different configurations and various concepts, like deltapod configuration, polar type (having circular rotating build platform) and others. These types with different kinematics can be seen in fig. 6.4, 6.5 and 6.6.
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{cartesianPrinter}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{deltaPrinter}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{polarPrinter}
+  \end{minipage}
+  \\[5pt]
+  
+  \begin{minipage}[t]{0.3\textwidth}
+    \caption{Typical 3-axis cartesian printer}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.3\textwidth}
+    \caption{Delta FDM printer configuration}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.3\textwidth}
+    \caption{Rarely used polar configuration, preferable for its high rigidity}
+  \end{minipage}
+  
+\end{figure}
+	For high-end and more expensive machines, there are number of additional options and features, usually not utilized by cheap low-end machines. Such features include \textbf{heated chamber} to minimize heat stresses and undesired effects like warping, shrinkage or separation from build platform. Other features might be equipment of various sensors, for example sensor for automatic calibration of the machine (although today already some low-end FDM printers are equipped with such). Also, with low-cost printers utilizing resistor and joule heat to melt the material, other-forms of heating for large-scale machines are possible.
+
+\section{Problematics}
+Here, only some of all possible issues are listed, that either follow from the technological principle (hence are unavoidable) or are caused by machine imperfections and can be avoided somehow.
+\subsubsection{Accuracy issues}
+The main reason of accuracy problem is given diameter of the nozzle, which is finite and can't be changed. For example, let's say we have nozzle exit diameter of 0.4mm. The user is than simply prevented from creating and printing features smaller that 0.4 like sharp chamfers or corners - there is no way of extruding features 0.3mm or smaller.\\
+	Other problem for pinch-roller mechanism and wire feeding is following - there is a limit speed or material extrusion, given by heating material limitation. Taking example of ordinary low-end FDM printer setup, when the wire with room temperature is fed to the machine, it has to be heated to melting temperature. However, it  also can't exceed some temperature, at which degradation of the material would occur. With given temperature by which wire is heated, we have to remember that the \textbf{wire is heated from the outside}. Still, the whole wire has to melt before being extruded. If the wire was fed too fast to the printer, the outside of the wire would reach sufficient temperature, while the inside of the wire would still be solid, because not enough heat have been conducted to the inside of the wire. When the wire is not sufficiently molten, the nozzle can get clogged, but mainly the flow of material exiting the nozzle will be uneven and unsteady, easily interrupting and ruining the whole printing process.\\
+\begin{wrapfigure}{r}{0.6\textwidth}
+ 	\includegraphics[width=0.6\textwidth]{depositionIllustration}
+	\caption{Illustration of trajectory of material deposition trajectory and overlapping, \cite[p. 159]{AMT}}
+\end{wrapfigure}
+	Next issue is generally problem of support structures for FDM. When printing overhanging features of bridging long distances, need for support structures is present to support the extruded material that doesn't cool enough immediately right after extrusion, and \textbf{can't support it's own weight}. The support structures to hold the printed part in shape, can be printed of the same or different material. If they are printed of the same material, i.e. support structures and the printed part are printed as a single piece, they have to be removed manually after the print. If different material is chosen for support structures, it can be removed usually chemically (i.e. dissolving in water) or manually, which is easier and it leaves us with our final printed part. However, printer with 2 nozzles, one for the basic material and one for support structures material, is needed.\\
+	Definitely not all possible problematic of FDM priters were listed. Apart from those mentioned, problems with used software and all related digital part processing - handling of model data, slicing the model and generating the nozzle trajectory can occur. Also, nozzle clogging used to be very common phenomena, which caused troubles to many users.
+
+\section{Conclusion}
+\begin{itemize}
+\pro \textbf{Price}\\
+FDM technology is the cheapest one, making it number one either for home users or small companies or start-ups to help them with product development. Available materials are also very cheap, compared to SLA resins or PBF powders.
+
+\pro \textbf{Ease of use}\\
+It might not be found important, but all machines eventually break sometimes. FDM machines are usually relatively easy to clean, maintain and operate.
+\\[10pt]
+
+
+
+\con \textbf{Speed}\\
+FDM is generally slower than many other machines, since it deposits material from single point (nozzle tip), while many other technologies can cure or deposit material simultaneously in multiple places.
+
+\con \textbf{Support structures}\\
+With FDM, support structures has to be built to print overhangs or bridging long distances. However, using water-soluble material can make removing support structures very easy.
+
+\con \textbf{Materials}\\
+Even though scale of materials is still getting bigger, with FDM one is limited to polymer materials, which can be found of too little strength for functional prototypes or stressed parts.
+
+\con \textbf{Accuracy, surface finish}\\
+Compared to other technologies, parts can be relatively less accurate. Sharp edges are impossible to produce due to finite nozzle diameter. Surface quality is low, and especially in the direction of vertical Z axis the surface roughness is poor. For visualization purposes, parts usually require some post-processing.
+\end{itemize}
+
+\chapter{Material Jetting}
+
+
+
+
+\chapter{Binder jetting}
+
+
+
+
+\chapter{Sheet Lamination}
+
+
+
+
+\chapter{Directed energy deposition processes}
+
+
 
 
 \chapter{Tensile strength of parts printed with FDM}
@@ -454,18 +694,18 @@ After testing two sets of 5 specimen, each with different deformation rate, ther
 %
 \newpage
 \section{Tensile strength testing results}
-\textbf{Varying layer thicknesses}\\
+\textbf{Changing layer thicknesses}\\
 \begin{tabular}{|c|c|c|}
 \hline 
-Layer thickness [mm] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+Layer thickness [mm] & Tensile strength [MPa] & Elongation [\%]\\ 
 \hline 
-0.10mm & 46.23 & 1.59\\ 
+0.10mm & 46.23 $\pm$ 1.59 & 5.48$\pm$0.25\\ 
 \hline 
-0.15mm & 40.20 & 4.60\\ 
+0.15mm & 40.20 $\pm$ 4.60 & 5.38$\pm$0.44\\ 
 \hline 
-0.20mm & 47.14 & 1.57\\ 
+0.20mm & 47.14 $\pm$ 1.57 & 5.80$\pm$0.14\\ 
 \hline 
-0.25mm & 41.36 & 0.77\\ 
+0.25mm & 41.36 $\pm$ 0.77 & 5.55$\pm$0.16\\ 
 \hline 
 \end{tabular}
 \\[20pt]
@@ -475,15 +715,15 @@ Layer thickness [mm] & • Tensile strength [MPa] & Standard deviation [MPa]\\
 90 = perpendicular to force direction\\
 \begin{tabular}{|c|c|c|}
 \hline 
-Angle orientation [deg] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+Angle orientation [deg] & Tensile strength [MPa] & Elongation [\%]\\ 
 \hline 
-45/135 & 46.23 & 1.59\\ 
+45/135 & 46.23 $\pm$ 1.59 & 5.48 $\pm$ 0.25\\ 
 \hline 
-60/150 & 40.46 & 1.46\\ 
+60/150 & 40.46  $\pm$ 1.46 & 4.86 $\pm$ 0.31\\ 
 \hline 
-75/165 & IDK & IDK\\ 
+75/165 & 42.33 $\pm$ 1.23 & 4.90 $\pm$ 0.29\\ 
 \hline 
-90/180 & IDK & IDK\\ 
+90/180 & 43.48 $\pm$ 1.78 & 4.91 $\pm$ 0.38\\ 
 \hline 
 \end{tabular}
 \\[20pt]
@@ -491,34 +731,34 @@ Angle orientation [deg] & • Tensile strength [MPa] & Standard deviation [MPa]\
 \textbf{Changing nozzle temperature for printing}\\
 \begin{tabular}{|c|c|c|}
 \hline 
-Nozzle temperature [C] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+Nozzle temperature [C] & • Tensile strength [MPa] & Elongation [\%]\\ 
 \hline 
-220 & IDK & IDK\\ 
+220 & 38.77 $\pm$ 3.16 & 5.13 $\pm$ 0.52\\ 
 \hline 
-230 & IDK & IDK\\ 
+230 & 43.73 $\pm$ 0.93 & 5.37 $\pm$ 0.21 \\ 
 \hline 
-240 & 46.23 & 1.59\\ 
+240 & 46.23 $\pm$ 1.59 & 5.48 $\pm$ 0.25 \\ 
 \hline 
-250 & IDK & IDK\\ 
+250 & 43.46 $\pm$ 0.46 & 5.10 $\pm$ 0.21\\ 
 \hline 
 \end{tabular}
 \\[20pt]
 %
 \textbf{Changing infill percentage}\\
-\\pozn. - infill is related to the inside of the print, the outside boundary is always kept solid. As was mentioned in the print parameters section, there were always 10 solid bottom layers, 12 solid top layers, and also circumference is always built solid. Therefore, the amount of material in the cross-section is much more, than only solid model multiplied by infill percentage. I.E. cca only inner $8mm^2$ are filled with infill, remaining $16mm^2$ of the cross-section are always built solid.\\
+\\pozn. - infill is related to the inside of the print, the outside boundary is always kept solid. As was mentioned in the print parameters section, there were always 10 solid bottom layers, 12 solid top layers, and also circumference is always built solid. Therefore, the amount of material in the cross-section is much more, than only solid model multiplied by infill percentage. In other words, approximately only inner $8mm^2$ are filled with infill, remaining $16mm^2$ of the cross-section are always built solid.\\
 \begin{tabular}{|c|c|c|}
 \hline 
-Infill [\%] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+Infill [\%] & Tensile strength [MPa] & Elongation [\%]\\ 
 \hline 
-100 & 46.23 & 1.59\\ 
+100 & 46.23 $\pm$ 1.59 & 5.48 $\pm$ 0.25\\ 
 \hline 
-80 & IDK & IDK\\ 
+80 & 46.30 $\pm$ 0.82 & 5.46 $\pm$ 0.14\\ 
 \hline 
-60 & IDK & IDK\\ 
+60 & 45.14 $\pm$ 0.92 & 5.62 $\pm$ 0.92\\ 
 \hline 
-40 & IDK & IDK\\ 
+40 & 37.03 $\pm$ 4.39 & 4.46 $\pm$ 0.57\\ 
 \hline
-20 & IDK & IDK\\ 
+20 & 39.38 $\pm$ 6.31 & 4.58 $\pm$ 0.86\\ 
 \hline 
 \end{tabular}
 \\[20pt]
@@ -528,7 +768,7 @@ XY - standard, layers in plane parallel to force direction\\
 XZ - non-standard, layers perpendicular to force direction, no elongation and lower strength expected
 \begin{tabular}{|c|c|c|}
 \hline 
-layers orientation parallel to plane [\%] & • Tensile strength [MPa] & Standard deviation [MPa]\\ 
+layers orientation parallel to plane [\%] & • Tensile strength [MPa] & Elongation [\%]\\ 
 \hline 
 XY (standard) & 46.23 & 1.59\\ 
 \hline 
@@ -611,15 +851,15 @@ Delamination\\
 Break outside of grips\\
 otazka jake vzorky vyradit jake nechat, nejake se pretrhly jine se prodluzovaly 3x, nahodny smer praskani - nekonzistentni, striska, vliv tloustky steny
 \\Co ma nejvetsi vliv nejsou parametry, ale design, praskani nastava na rozmezi infillu a obvodu, vysledky taky nejsou jednoznacne, nicka opakovatelnost a vysoky rozptyl hodnot pevnosti - odchylka je vetsi nez rozptyl, vliv rychlost deformace
-\\Vliv doby stani tiskarny, popsat trhani, ceh jsme si vsimli, jake vzorky vyhodit jake ne, vliv rychlosti deformace, rychlost dle normy, testovani struny a porovnani hodnoty nezpracovaneho materialu
-\\ziskat data elongation, a cely prubeh zkousky
+\\Vliv doby stani tiskarny, popsat trhani, ceho jsme si vsimli, jake vzorky vyhodit jake ne, vliv rychlosti deformace, rychlost dle normy, testovani struny a porovnani hodnoty nezpracovaneho materialu
+\todo[inline]{ziskat data elongation, a cely prubeh zkousky}
+\todo[inline]{Datasheet}
 
-\tableofcontents
 \listoftodos
 
 \begin{thebibliography}{99}
 	\bibitem{AMT}
-	GIBSON, I. \& ROSEN, D. \& STUCKER, B.,
+	Gibson, I. \& Rosen, D. \& Stucker, B.,
 	2015.
 	Additive manufacturing technologies
 	2nd ed.
@@ -660,12 +900,37 @@ otazka jake vzorky vyradit jake nechat, nejake se pretrhly jine se prodluzovaly 
 	last revision 13.3.2017,
 	<https://www.matterhackers.com/store/3d-printer-filament/175mm-wood-filament-light-cherry-0.25-kg>
 	
+	\bibitem{MachineDesign}
+	MACHINE DESIGN,
+	[online],
+	2017,
+	last revision 19.07.2017,
+	<http://www.machinedesign.com/manufacturing-equipment/3d-printing-tips-and-tech-get-know-those-acronyms>
+	
 	\bibitem{SLAmaterials}
 	Jacobs PF (1992)
 	Rapid prototyping \& manufacturing,
 	fundamentals of stereolitography,
 	SME,
 	New York
+	
+	\bibitem{FDMReview}
+	Brian N. Turner, Robert Strong, Scott A. Gold,
+	2014,
+	A review of melt extrusion additive manufacturing processes: I. Process design and modeling,
+	Rapid Prototyping Journal, Vol. 20 Issue: 3, pp.192-204,
+	https://doi.org/10.1108/RPJ-01-2013-0012
+	
+	\iffalse
+\bibitem{AMT}
+	GIBSON, I. \& ROSEN, D. \& STUCKER, B.,
+	2015.
+	Additive manufacturing technologies
+	2nd ed.
+	Springer:
+	New York, Heidelberg, Dordrecht
+	ISBN 978-1-4939-2112-6
+		\fi
 	
 \end{thebibliography}
 

@@ -1,0 +1,5 @@
+Source file name:	TensileResultsTEMP220.txt
+Number of tests:	10
+Maximal force:		0.93 +- 0.08kN
+Average strength:	38.77 +- 3.16 MPA
+Average elongation:	5.13 +/ 0.52

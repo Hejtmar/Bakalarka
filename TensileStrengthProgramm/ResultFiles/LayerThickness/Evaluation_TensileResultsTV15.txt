@@ -1,0 +1,5 @@
+Source file name:	TensileResultsTV15.txt
+Number of tests:	10
+Maximal force:		0.96 +- 0.11kN
+Average strength:	40.20 +- 4.60 MPA
+Average elongation:	5.38 +/ 0.44

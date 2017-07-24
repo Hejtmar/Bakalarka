@@ -1,4 +1,4 @@
-\BOOKMARK [0][-]{chapter*.2}{List of shortcuts}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{List of shortcuts}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
 \BOOKMARK [1][-]{section.1.1}{About the thesis}{chapter.1}% 3
 \BOOKMARK [1][-]{section.1.2}{Resources}{chapter.1}% 4
@@ -53,10 +53,35 @@
 \BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 53
 \BOOKMARK [0][-]{chapter.5}{Powder Bed Fusion}{}% 54
 \BOOKMARK [1][-]{section.5.1}{Basic operation principles}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.2}{Classification of Powder Bed Fusion processes}{chapter.5}% 56
-\BOOKMARK [1][-]{section.5.3}{Materials for Powder Bed Fusion}{chapter.5}% 57
-\BOOKMARK [0][-]{chapter.6}{Tensile strength of parts printed with FDM}{}% 58
-\BOOKMARK [1][-]{section.6.1}{General properties of FDM prints}{chapter.6}% 59
-\BOOKMARK [1][-]{section.6.2}{FDM and injection molding}{chapter.6}% 60
-\BOOKMARK [1][-]{section.6.3}{Print parameters}{chapter.6}% 61
-\BOOKMARK [1][-]{section.6.4}{Tensile strength testing results}{chapter.6}% 62
+\BOOKMARK [1][-]{section.5.2}{Powder bed fusion variations}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.2.1}{Powder spreading}{section.5.2}% 57
+\BOOKMARK [2][-]{subsection.5.2.2}{Heating method}{section.5.2}% 58
+\BOOKMARK [1][-]{section.5.3}{Materials for Powder Bed Fusion}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.4}{Fusion mechanisms}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.4.1}{Solid-state sintering}{section.5.4}% 61
+\BOOKMARK [2][-]{subsection.5.4.2}{Chemically-induced sintering}{section.5.4}% 62
+\BOOKMARK [2][-]{subsection.5.4.3}{Liquid phase sintering}{section.5.4}% 63
+\BOOKMARK [2][-]{subsection.5.4.4}{Full melting}{section.5.4}% 64
+\BOOKMARK [1][-]{section.5.5}{Other problematic}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.5.1}{Powder handling issues}{section.5.5}% 66
+\BOOKMARK [2][-]{subsection.5.5.2}{Elevated temperatures of unprocessed powder}{section.5.5}% 67
+\BOOKMARK [2][-]{subsection.5.5.3}{Material recycling}{section.5.5}% 68
+\BOOKMARK [1][-]{section.5.6}{Conclusion}{chapter.5}% 69
+\BOOKMARK [0][-]{chapter.6}{Material extrusion}{}% 70
+\BOOKMARK [1][-]{section.6.1}{FDM in general}{chapter.6}% 71
+\BOOKMARK [1][-]{section.6.2}{Deposition process variants}{chapter.6}% 72
+\BOOKMARK [2][-]{subsection.6.2.1}{Method of material curing}{section.6.2}% 73
+\BOOKMARK [2][-]{subsection.6.2.2}{Ways of material feeding}{section.6.2}% 74
+\BOOKMARK [1][-]{section.6.3}{Available materials}{chapter.6}% 75
+\BOOKMARK [1][-]{section.6.4}{FDM process variations}{chapter.6}% 76
+\BOOKMARK [1][-]{section.6.5}{Problematics}{chapter.6}% 77
+\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 78
+\BOOKMARK [0][-]{chapter.7}{Material Jetting}{}% 79
+\BOOKMARK [0][-]{chapter.8}{Binder jetting}{}% 80
+\BOOKMARK [0][-]{chapter.9}{Sheet Lamination}{}% 81
+\BOOKMARK [0][-]{chapter.10}{Directed energy deposition processes}{}% 82
+\BOOKMARK [0][-]{chapter.11}{Tensile strength of parts printed with FDM}{}% 83
+\BOOKMARK [1][-]{section.11.1}{General properties of FDM prints}{chapter.11}% 84
+\BOOKMARK [1][-]{section.11.2}{FDM and injection molding}{chapter.11}% 85
+\BOOKMARK [1][-]{section.11.3}{Print parameters}{chapter.11}% 86
+\BOOKMARK [1][-]{section.11.4}{Tensile strength testing results}{chapter.11}% 87
