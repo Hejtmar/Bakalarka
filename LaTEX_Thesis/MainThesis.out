@@ -41,7 +41,7 @@
 \BOOKMARK [2][-]{subsection.3.3.3}{Other processing}{section.3.3}% 41
 \BOOKMARK [1][-]{section.3.4}{Common problems of material processing}{chapter.3}% 42
 \BOOKMARK [0][-]{chapter.4}{Photopolymerization}{}% 43
-\BOOKMARK [1][-]{section.4.1}{Stereolitography in general}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.1}{Basic operation principles}{chapter.4}% 44
 \BOOKMARK [1][-]{section.4.2}{Curing process}{chapter.4}% 45
 \BOOKMARK [2][-]{subsection.4.2.1}{Spot scanning}{section.4.2}% 46
 \BOOKMARK [2][-]{subsection.4.2.2}{Mask projection with DMD}{section.4.2}% 47
@@ -68,7 +68,7 @@
 \BOOKMARK [2][-]{subsection.5.5.3}{Material recycling}{section.5.5}% 68
 \BOOKMARK [1][-]{section.5.6}{Conclusion}{chapter.5}% 69
 \BOOKMARK [0][-]{chapter.6}{Material extrusion}{}% 70
-\BOOKMARK [1][-]{section.6.1}{FDM in general}{chapter.6}% 71
+\BOOKMARK [1][-]{section.6.1}{Basic operation principles}{chapter.6}% 71
 \BOOKMARK [1][-]{section.6.2}{Deposition process variants}{chapter.6}% 72
 \BOOKMARK [2][-]{subsection.6.2.1}{Method of material curing}{section.6.2}% 73
 \BOOKMARK [2][-]{subsection.6.2.2}{Ways of material feeding}{section.6.2}% 74
@@ -77,11 +77,42 @@
 \BOOKMARK [1][-]{section.6.5}{Problematics}{chapter.6}% 77
 \BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 78
 \BOOKMARK [0][-]{chapter.7}{Material Jetting}{}% 79
-\BOOKMARK [0][-]{chapter.8}{Binder jetting}{}% 80
-\BOOKMARK [0][-]{chapter.9}{Sheet Lamination}{}% 81
-\BOOKMARK [0][-]{chapter.10}{Directed energy deposition processes}{}% 82
-\BOOKMARK [0][-]{chapter.11}{Tensile strength of parts printed with FDM}{}% 83
-\BOOKMARK [1][-]{section.11.1}{General properties of FDM prints}{chapter.11}% 84
-\BOOKMARK [1][-]{section.11.2}{FDM and injection molding}{chapter.11}% 85
-\BOOKMARK [1][-]{section.11.3}{Print parameters}{chapter.11}% 86
-\BOOKMARK [1][-]{section.11.4}{Tensile strength testing results}{chapter.11}% 87
+\BOOKMARK [1][-]{section.7.1}{Basic operation principles}{chapter.7}% 80
+\BOOKMARK [1][-]{section.7.2}{Materials for Material jetting}{chapter.7}% 81
+\BOOKMARK [2][-]{subsection.7.2.1}{Material viscosity}{section.7.2}% 82
+\BOOKMARK [2][-]{subsection.7.2.2}{Material types}{section.7.2}% 83
+\BOOKMARK [1][-]{section.7.3}{Process parameters and related problematic}{chapter.7}% 84
+\BOOKMARK [2][-]{subsection.7.3.1}{Nozzle-related problems}{section.7.3}% 85
+\BOOKMARK [2][-]{subsection.7.3.2}{Material solidification}{section.7.3}% 86
+\BOOKMARK [2][-]{subsection.7.3.3}{Droplet formation}{section.7.3}% 87
+\BOOKMARK [2][-]{subsection.7.3.4}{Droplet flight}{section.7.3}% 88
+\BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 89
+\BOOKMARK [0][-]{chapter.8}{Binder jetting}{}% 90
+\BOOKMARK [1][-]{section.8.1}{Basic operation principle}{chapter.8}% 91
+\BOOKMARK [1][-]{section.8.2}{Materials}{chapter.8}% 92
+\BOOKMARK [1][-]{section.8.3}{Process specifications and variations}{chapter.8}% 93
+\BOOKMARK [2][-]{subsection.8.3.1}{Post-processing and infiltration}{section.8.3}% 94
+\BOOKMARK [2][-]{subsection.8.3.2}{Continuous printing}{section.8.3}% 95
+\BOOKMARK [1][-]{section.8.4}{Conclusion}{chapter.8}% 96
+\BOOKMARK [0][-]{chapter.9}{Sheet Lamination}{}% 97
+\BOOKMARK [1][-]{section.9.1}{Build process and variations}{chapter.9}% 98
+\BOOKMARK [1][-]{section.9.2}{Materials}{chapter.9}% 99
+\BOOKMARK [1][-]{section.9.3}{Binding processes}{chapter.9}% 100
+\BOOKMARK [2][-]{subsection.9.3.1}{Thermal bonding}{section.9.3}% 101
+\BOOKMARK [2][-]{subsection.9.3.2}{Clamping}{section.9.3}% 102
+\BOOKMARK [2][-]{subsection.9.3.3}{Adhesive bonding}{section.9.3}% 103
+\BOOKMARK [2][-]{subsection.9.3.4}{Ultrasonic welding}{section.9.3}% 104
+\BOOKMARK [1][-]{section.9.4}{Conclusion}{chapter.9}% 105
+\BOOKMARK [0][-]{chapter.10}{Directed energy deposition processes}{}% 106
+\BOOKMARK [1][-]{section.10.1}{Materials}{chapter.10}% 107
+\BOOKMARK [2][-]{subsection.10.1.1}{Metal processing}{section.10.1}% 108
+\BOOKMARK [2][-]{subsection.10.1.2}{Material form}{section.10.1}% 109
+\BOOKMARK [1][-]{section.10.2}{Process variations}{chapter.10}% 110
+\BOOKMARK [2][-]{subsection.10.2.1}{Heat source}{section.10.2}% 111
+\BOOKMARK [2][-]{subsection.10.2.2}{Nozzle distribution}{section.10.2}% 112
+\BOOKMARK [1][-]{section.10.3}{Conclusion}{chapter.10}% 113
+\BOOKMARK [0][-]{chapter.11}{Tensile strength of parts printed with FDM}{}% 114
+\BOOKMARK [1][-]{section.11.1}{General properties of FDM prints}{chapter.11}% 115
+\BOOKMARK [1][-]{section.11.2}{FDM and injection molding}{chapter.11}% 116
+\BOOKMARK [1][-]{section.11.3}{Print parameters}{chapter.11}% 117
+\BOOKMARK [1][-]{section.11.4}{Tensile strength testing results}{chapter.11}% 118

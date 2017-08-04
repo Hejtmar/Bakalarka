@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  24 JUL 2017 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  5 AUG 2017 00:39
 entering extended mode
 **./MainThesis.tex
 (MainThesis.tex
@@ -627,18 +627,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
  [3
 
-])
+] [4])
 \tf@toc=\write5
 \openout5 = `MainThesis.toc'.
 
- [4] [5
+ [5] [6
 
 ]
 Chapter 1.
-[6
+[7
 
 ]
-Overfull \hbox (3.74884pt too wide) in paragraph at lines 62--83
+Overfull \hbox (3.74884pt too wide) in paragraph at lines 68--89
 [] 
  []
 
@@ -648,12 +648,12 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 96--102
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 102--108
 
  []
 
-[8]
+[9]
 Chapter 2.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -661,14 +661,14 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-<images/firstPrintedObject.jpg, id=488, 803.0pt x 534.99875pt>
+<images/firstPrintedObject.jpg, id=647, 803.0pt x 534.99875pt>
 File: images/firstPrintedObject.jpg Graphic file (type jpg)
 
 <use images/firstPrintedObject.jpg>
-Package pdftex.def Info: images/firstPrintedObject.jpg used on input line 109.
+Package pdftex.def Info: images/firstPrintedObject.jpg used on input line 115.
 (pdftex.def)             Requested size: 241.84843pt x 161.12944pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--111
+Underfull \hbox (badness 10000) in paragraph at lines 111--117
 
  []
 
@@ -696,72 +696,72 @@ Missing character: There is no ù in font cmbx10!
 
 Underfull \vbox (badness 1052) has occurred while \output is active []
 
- [9
+ [10
 
  <./images/firstPrintedObject.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<images/additiveSubtractiveManufacturing.jpg, id=497, 590.80725pt x 294.50024pt
+<images/additiveSubtractiveManufacturing.jpg, id=656, 590.80725pt x 294.50024pt
 >
 File: images/additiveSubtractiveManufacturing.jpg Graphic file (type jpg)
  <use images/additiveSubtractiveManufacturing.jpg>
 Package pdftex.def Info: images/additiveSubtractiveManufacturing.jpg used on in
-put line 131.
+put line 137.
 (pdftex.def)             Requested size: 354.48708pt x 176.70149pt.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<images/scanningMachine1.jpg, id=502, 1606.0pt x 1204.5pt>
+<images/scanningMachine1.jpg, id=661, 1606.0pt x 1204.5pt>
 File: images/scanningMachine1.jpg Graphic file (type jpg)
 
 <use images/scanningMachine1.jpg>
-Package pdftex.def Info: images/scanningMachine1.jpg used on input line 147.
+Package pdftex.def Info: images/scanningMachine1.jpg used on input line 153.
 (pdftex.def)             Requested size: 193.47578pt x 145.10352pt.
 
-<images/scanningMachine2.jpg, id=503, 501.875pt x 463.7325pt>
+<images/scanningMachine2.jpg, id=662, 501.875pt x 463.7325pt>
 File: images/scanningMachine2.jpg Graphic file (type jpg)
 
 <use images/scanningMachine2.jpg>
-Package pdftex.def Info: images/scanningMachine2.jpg used on input line 151.
+Package pdftex.def Info: images/scanningMachine2.jpg used on input line 157.
 (pdftex.def)             Requested size: 193.47578pt x 178.7746pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./images/additiveSubtractiveManufacturing.jpg>] [12 <./images/scanningMach
+[12 <./images/additiveSubtractiveManufacturing.jpg>] [13 <./images/scanningMach
 ine1.jpg> <./images/scanningMachine2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
-<images/armPlaster.jpg, id=520, 613.69275pt x 307.74976pt>
+<images/armPlaster.jpg, id=680, 613.69275pt x 307.74976pt>
 File: images/armPlaster.jpg Graphic file (type jpg)
 
 <use images/armPlaster.jpg>
-Package pdftex.def Info: images/armPlaster.jpg used on input line 190.
+Package pdftex.def Info: images/armPlaster.jpg used on input line 196.
 (pdftex.def)             Requested size: 217.66211pt x 109.15096pt.
 
-<images/surgicalTool.jpg, id=521, 681.29532pt x 260.47313pt>
+<images/surgicalTool.jpg, id=681, 681.29532pt x 260.47313pt>
 File: images/surgicalTool.jpg Graphic file (type jpg)
 
 <use images/surgicalTool.jpg>
-Package pdftex.def Info: images/surgicalTool.jpg used on input line 194.
+Package pdftex.def Info: images/surgicalTool.jpg used on input line 200.
 (pdftex.def)             Requested size: 217.66211pt x 83.21796pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] [14 <./images/armPlaster.jpg> <./images/surgicalTool.jpg>]
+[14] [15 <./images/armPlaster.jpg> <./images/surgicalTool.jpg>]
 Chapter 3.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 
@@ -769,11 +769,11 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--233
+Underfull \hbox (badness 10000) in paragraph at lines 236--239
 
  []
 
-[15
+[16
 
 ]
 Missing character: There is no ‚ in font cmr10!
@@ -782,239 +782,334 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [16]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
  [17]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [18]
 Chapter 4.
-<images/SLAillustration.jpg, id=549, 341.47575pt x 313.17pt>
+<images/SLAillustration.jpg, id=708, 341.47575pt x 313.17pt>
 File: images/SLAillustration.jpg Graphic file (type jpg)
 
 <use images/SLAillustration.jpg>
-Package pdftex.def Info: images/SLAillustration.jpg used on input line 269.
+Package pdftex.def Info: images/SLAillustration.jpg used on input line 275.
 (pdftex.def)             Requested size: 386.95897pt x 354.88625pt.
 
 Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [18
+ [19
 
 ]
-<images/DMD.jpg, id=555, 340.8735pt x 367.97475pt>
+<images/DMD.jpg, id=715, 340.8735pt x 367.97475pt>
 File: images/DMD.jpg Graphic file (type jpg)
  <use images/DMD.jpg>
-Package pdftex.def Info: images/DMD.jpg used on input line 283.
+Package pdftex.def Info: images/DMD.jpg used on input line 289.
 (pdftex.def)             Requested size: 169.29684pt x 182.76288pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--285
+Underfull \hbox (badness 10000) in paragraph at lines 284--291
 
  []
 
-[19 <./images/SLAillustration.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 285--290
+[20 <./images/SLAillustration.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 291--296
 
  []
 
-<images/yoda.jpg, id=562, 592.614pt x 434.22224pt>
+<images/yoda.jpg, id=721, 592.614pt x 434.22224pt>
 File: images/yoda.jpg Graphic file (type jpg)
  <use images/yoda.jpg>
-Package pdftex.def Info: images/yoda.jpg used on input line 296.
+Package pdftex.def Info: images/yoda.jpg used on input line 302.
 (pdftex.def)             Requested size: 296.30627pt x 217.11058pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--311
+Underfull \hbox (badness 10000) in paragraph at lines 307--317
 
  []
 
-[20 <./images/DMD.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 314--320
+[21 <./images/DMD.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 320--326
 
  []
 
-[21 <./images/yoda.jpg>] <images/weave1.jpg, id=579, 187.29974pt x 174.6525pt>
+[22 <./images/yoda.jpg>] <images/weave1.jpg, id=738, 187.29974pt x 174.6525pt>
 File: images/weave1.jpg Graphic file (type jpg)
 
 <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 325.
+Package pdftex.def Info: images/weave1.jpg used on input line 331.
 (pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
- <images/weave2.jpg, id=580, 345.08925pt x 137.313pt>
+ <images/weave2.jpg, id=739, 345.08925pt x 137.313pt>
 File: images/weave2.jpg Graphic file (type jpg)
 
 <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 329.
+Package pdftex.def Info: images/weave2.jpg used on input line 335.
 (pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
 
-<images/retractedWeave.jpg, id=585, 221.02576pt x 154.176pt>
+<images/retractedWeave.jpg, id=744, 221.02576pt x 154.176pt>
 File: images/retractedWeave.jpg Graphic file (type jpg)
 
 <use images/retractedWeave.jpg>
-Package pdftex.def Info: images/retractedWeave.jpg used on input line 342.
+Package pdftex.def Info: images/retractedWeave.jpg used on input line 348.
 (pdftex.def)             Requested size: 176.82083pt x 123.34094pt.
- [22 <./images/weave1.jpg> <./images/weave2.jpg> <./images/retractedWeave.jpg>]
+ [23 <./images/weave1.jpg> <./images/weave2.jpg> <./images/retractedWeave.jpg>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--366
+Underfull \hbox (badness 10000) in paragraph at lines 369--372
 
  []
 
-[23]
+[24]
 Chapter 5.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 385.
-[24
+<images/PBFMachine.jpg, id=759, 1064.17575pt x 537.80925pt>
+File: images/PBFMachine.jpg Graphic file (type jpg)
 
-] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+<use images/PBFMachine.jpg>
+Package pdftex.def Info: images/PBFMachine.jpg used on input line 393.
+(pdftex.def)             Requested size: 386.95897pt x 195.55606pt.
+ [25
+
+ <./images/PBFMachine.jpg>]
+<images/roller.jpg, id=769, 529.37775pt x 281.853pt>
+File: images/roller.jpg Graphic file (type jpg)
+ <use images/roller.jpg>
+Package pdftex.def Info: images/roller.jpg used on input line 414.
+(pdftex.def)             Requested size: 290.22107pt x 154.52074pt.
+
+[26 <./images/roller.jpg>]
+<images/EbmMlsDifferences.jpg, id=780, 508.90125pt x 225.2415pt>
+File: images/EbmMlsDifferences.jpg Graphic file (type jpg)
+
+<use images/EbmMlsDifferences.jpg>
+Package pdftex.def Info: images/EbmMlsDifferences.jpg used on input line 431.
+(pdftex.def)             Requested size: 435.32422pt x 192.68314pt.
+ [27 <./images/EbmMlsDifferences.jpg>]
+<images/necking.jpg, id=791, 312.56775pt x 130.086pt>
+File: images/necking.jpg Graphic file (type jpg)
+ <use images/necking.jpg>
+Package pdftex.def Info: images/necking.jpg used on input line 457.
+(pdftex.def)             Requested size: 386.95897pt x 161.0469pt.
+
+[28] <images/liquidPhaseSintering.jpg, id=797, 293.898pt x 314.3745pt>
+File: images/liquidPhaseSintering.jpg Graphic file (type jpg)
+
+<use images/liquidPhaseSintering.jpg>
+Package pdftex.def Info: images/liquidPhaseSintering.jpg used on input line 468
+.
+(pdftex.def)             Requested size: 290.22107pt x 310.46419pt.
+ [29 <./images/necking.jpg> <./images/liquidPhaseSintering.jpg>] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 507--510
 
  []
 
-[26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 461--464
-
- []
-
-[28]
+[31]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
-[29
+[32
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
 
  []
 
-<images/filamentBucklingReview.jpg, id=643, 249.3315pt x 152.36925pt>
+<images/filamentBucklingReview.jpg, id=822, 249.3315pt x 152.36925pt>
 File: images/filamentBucklingReview.jpg Graphic file (type jpg)
 
 <use images/filamentBucklingReview.jpg>
 Package pdftex.def Info: images/filamentBucklingReview.jpg used on input line 5
-06.
+56.
 (pdftex.def)             Requested size: 217.66211pt x 133.01585pt.
 
-<images/PinchRollerMachineDesign.jpg, id=644, 235.47975pt x 238.491pt>
+<images/PinchRollerMachineDesign.jpg, id=823, 235.47975pt x 238.491pt>
 File: images/PinchRollerMachineDesign.jpg Graphic file (type jpg)
 
 <use images/PinchRollerMachineDesign.jpg>
 Package pdftex.def Info: images/PinchRollerMachineDesign.jpg used on input line
- 510.
+ 560.
 (pdftex.def)             Requested size: 217.66211pt x 220.45514pt.
- [30 <./images/filamentBucklingReview.jpg> <./images/PinchRollerMachineDesign.j
+ [33 <./images/filamentBucklingReview.jpg> <./images/PinchRollerMachineDesign.j
 pg>]
-<images/datasheetFDM.jpg, id=661, 682.34924pt x 269.808pt>
+<images/datasheetFDM.jpg, id=840, 682.34924pt x 269.808pt>
 File: images/datasheetFDM.jpg Graphic file (type jpg)
 
 <use images/datasheetFDM.jpg>
-Package pdftex.def Info: images/datasheetFDM.jpg used on input line 534.
+Package pdftex.def Info: images/datasheetFDM.jpg used on input line 587.
 (pdftex.def)             Requested size: 477.64122pt x 188.8643pt.
- [31 <./images/datasheetFDM.jpg>]
-<images/cartesianPrinter.jpg, id=670, 314.97675pt x 335.45325pt>
+ [34 <./images/datasheetFDM.jpg>]
+<images/cartesianPrinter.jpg, id=848, 314.97675pt x 335.45325pt>
 File: images/cartesianPrinter.jpg Graphic file (type jpg)
 
 <use images/cartesianPrinter.jpg>
-Package pdftex.def Info: images/cartesianPrinter.jpg used on input line 550.
+Package pdftex.def Info: images/cartesianPrinter.jpg used on input line 606.
 (pdftex.def)             Requested size: 145.11053pt x 154.5458pt.
 
-<images/deltaPrinter.jpg, id=671, 279.444pt x 352.31625pt>
+<images/deltaPrinter.jpg, id=849, 279.444pt x 352.31625pt>
 File: images/deltaPrinter.jpg Graphic file (type jpg)
 
 <use images/deltaPrinter.jpg>
-Package pdftex.def Info: images/deltaPrinter.jpg used on input line 554.
+Package pdftex.def Info: images/deltaPrinter.jpg used on input line 610.
 (pdftex.def)             Requested size: 145.11053pt x 182.95284pt.
 
-<images/polarPrinter.jpg, id=672, 419.166pt x 367.3725pt>
+<images/polarPrinter.jpg, id=850, 419.166pt x 367.3725pt>
 File: images/polarPrinter.jpg Graphic file (type jpg)
 
 <use images/polarPrinter.jpg>
-Package pdftex.def Info: images/polarPrinter.jpg used on input line 558.
+Package pdftex.def Info: images/polarPrinter.jpg used on input line 614.
 (pdftex.def)             Requested size: 145.11053pt x 127.18088pt.
 
-Underfull \hbox (badness 2503) in paragraph at lines 563--563
+Underfull \hbox (badness 2503) in paragraph at lines 619--619
 []\OT1/cmr/m/n/10.95 Figure 6.4: []Typical 3-axis
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 571--571
+Underfull \hbox (badness 2343) in paragraph at lines 627--627
 \OT1/cmr/m/n/10.95 con-fig-u-ra-tion, prefer-able for
  []
 
-<images/depositionIllustration.jpg, id=673, 334.851pt x 136.1085pt>
+[35 <./images/cartesianPrinter.jpg> <./images/deltaPrinter.jpg> <./images/polar
+Printer.jpg>]
+<images/depositionIllustration.jpg, id=859, 334.851pt x 136.1085pt>
 File: images/depositionIllustration.jpg Graphic file (type jpg)
 
 <use images/depositionIllustration.jpg>
-Package pdftex.def Info: images/depositionIllustration.jpg used on input line 5
-83.
+Package pdftex.def Info: images/depositionIllustration.jpg used on input line 6
+41.
 (pdftex.def)             Requested size: 290.22107pt x 117.96898pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--585
+Underfull \hbox (badness 10000) in paragraph at lines 653--656
 
  []
 
-[32 <./images/cartesianPrinter.jpg> <./images/deltaPrinter.jpg> <./images/polar
-Printer.jpg>]
-Underfull \hbox (badness 1292) in paragraph at lines 585--588
-[]\OT1/cmr/m/n/10.95 Next is-sue is gen-er-ally prob-lem of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--597
-
- []
-
-[33 <./images/depositionIllustration.jpg>] [34]
+[36 <./images/depositionIllustration.jpg>] [37]
 Chapter 7.
-[35
+<images/MJmachine.jpg, id=872, 461.92575pt x 348.70274pt>
+File: images/MJmachine.jpg Graphic file (type jpg)
 
-]
+<use images/MJmachine.jpg>
+Package pdftex.def Info: images/MJmachine.jpg used on input line 680.
+(pdftex.def)             Requested size: 369.54109pt x 278.96255pt.
+
+Underfull \vbox (badness 1953) has occurred while \output is active []
+
+ [38
+
+ <./images/MJmachine.jpg>] [39]
+<images/ContinuousDOD.jpg, id=891, 405.31425pt x 173.448pt>
+File: images/ContinuousDOD.jpg Graphic file (type jpg)
+
+<use images/ContinuousDOD.jpg>
+Package pdftex.def Info: images/ContinuousDOD.jpg used on input line 723.
+(pdftex.def)             Requested size: 405.31326pt x 173.44757pt.
+ [40 <./images/ContinuousDOD.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 748--751
+
+ []
+
+[41]
 Chapter 8.
-[36
+<images/BJthreeding.jpg, id=905, 687.16725pt x 343.88475pt>
+File: images/BJthreeding.jpg Graphic file (type jpg)
 
-]
+<use images/BJthreeding.jpg>
+Package pdftex.def Info: images/BJthreeding.jpg used on input line 761.
+(pdftex.def)             Requested size: 481.0138pt x 240.71768pt.
+ [42
+
+ <./images/BJthreeding.jpg>]
+<images/3ders.jpg, id=916, 411.939pt x 307.1475pt>
+File: images/3ders.jpg Graphic file (type jpg)
+ <use images/3ders.jpg>
+Package pdftex.def Info: images/3ders.jpg used on input line 784.
+(pdftex.def)             Requested size: 329.55162pt x 245.71832pt.
+
+[43 <./images/3ders.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 811--814
+
+ []
+
+[44]
 Chapter 9.
-[37
+<images/SL1.jpg, id=936, 283.0575pt x 177.0615pt>
+File: images/SL1.jpg Graphic file (type jpg)
+ <use images/SL1.jpg>
+Package pdftex.def Info: images/SL1.jpg used on input line 834.
+(pdftex.def)             Requested size: 217.66211pt x 136.15672pt.
 
-]
+<images/SL2.jpg, id=937, 343.2825pt x 215.6055pt>
+File: images/SL2.jpg Graphic file (type jpg)
+ <use images/SL2.jpg>
+Package pdftex.def Info: images/SL2.jpg used on input line 838.
+(pdftex.def)             Requested size: 217.66211pt x 136.704pt.
+ [45
+
+ <./images/SL1.jpg> <./images/SL2.jpg>]
+<images/sonotrode.jpg, id=950, 426.99525pt x 262.581pt>
+File: images/sonotrode.jpg Graphic file (type jpg)
+
+<use images/sonotrode.jpg>
+Package pdftex.def Info: images/sonotrode.jpg used on input line 878.
+(pdftex.def)             Requested size: 341.59666pt x 210.06506pt.
+ [46 <./images/sonotrode.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 896--899
+
+ []
+
+[47]
 Chapter 10.
-[38
+<images/DED3dprinting.jpg, id=964, 414.348pt x 331.2375pt>
+File: images/DED3dprinting.jpg Graphic file (type jpg)
 
-]
+<use images/DED3dprinting.jpg>
+Package pdftex.def Info: images/DED3dprinting.jpg used on input line 916.
+(pdftex.def)             Requested size: 290.04161pt x 231.86465pt.
+ [48
+
+ <./images/DED3dprinting.jpg>]
+<images/DEDnozzles.jpg, id=972, 416.15475pt x 441.44925pt>
+File: images/DEDnozzles.jpg Graphic file (type jpg)
+
+<use images/DEDnozzles.jpg>
+Package pdftex.def Info: images/DEDnozzles.jpg used on input line 933.
+(pdftex.def)             Requested size: 332.92426pt x 353.15987pt.
+ [49 <./images/DEDnozzles.jpg>] [50]
 Chapter 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
+Underfull \hbox (badness 10000) in paragraph at lines 975--976
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--637
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
 
  []
 
-<images/testSpecimenDimensions.jpg, id=710, 361.95226pt x 280.6485pt>
+<images/testSpecimenDimensions.jpg, id=991, 361.95226pt x 280.6485pt>
 File: images/testSpecimenDimensions.jpg Graphic file (type jpg)
 
 <use images/testSpecimenDimensions.jpg>
-Package pdftex.def Info: images/testSpecimenDimensions.jpg used on input line 6
-42.
+Package pdftex.def Info: images/testSpecimenDimensions.jpg used on input line 9
+83.
 (pdftex.def)             Requested size: 217.17302pt x 168.3904pt.
- [39
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 987.
+ [51
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 651.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 992.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 651.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 992.
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ∞ in font cmr10!
 Missing character: There is no ¬ in font cmr10!
@@ -1023,10 +1118,10 @@ Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ∞ in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ∞ in font cmr10!
- [40 <./images/testSpecimenDimensions.jpg>]
+ [52 <./images/testSpecimenDimensions.jpg>]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ∞ in font cmr10!
- [41]
+ [53]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¢ in font cmr10!
@@ -1035,99 +1130,162 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¢ in font cmr10!
 File: images/weave1.jpg Graphic file (type jpg)
  <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 784.
+Package pdftex.def Info: images/weave1.jpg used on input line 1125.
 (pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
 File: images/weave2.jpg Graphic file (type jpg)
  <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 788.
+Package pdftex.def Info: images/weave2.jpg used on input line 1129.
 (pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
 File: images/weave1.jpg Graphic file (type jpg)
 
 <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 802.
+Package pdftex.def Info: images/weave1.jpg used on input line 1143.
 (pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
 File: images/weave2.jpg Graphic file (type jpg)
  <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 806.
+Package pdftex.def Info: images/weave2.jpg used on input line 1147.
 (pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
 File: images/weave1.jpg Graphic file (type jpg)
  <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 820.
+Package pdftex.def Info: images/weave1.jpg used on input line 1161.
 (pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
 File: images/weave2.jpg Graphic file (type jpg)
 
 <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 824.
+Package pdftex.def Info: images/weave2.jpg used on input line 1165.
 (pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
 
 
-LaTeX Warning: Float too large for page by 10.61414pt on input line 835.
+LaTeX Warning: Float too large for page by 10.61414pt on input line 1176.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--838
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1179
 
  []
 
-[42] [43] [44] (MainThesis.tdo)
+[54] [55] [56] (MainThesis.tdo)
 \tf@tdo=\write6
 \openout6 = `MainThesis.tdo'.
 
- [45
+ [57
 
 ]
 Missing character: There is no ≈ in font cmr10!
 Missing character: There is no ° in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--895
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1237
 []\OT1/cmr/m/n/10.95 3D PRINT-ING IN-DUS-TRY, [on-line], 2017, last re-vi-sion 
 13.3.2017,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 897--902
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1244
 []\OT1/cmr/m/n/10.95 MATTER HACK-ERS, [on-line], 2017, last re-vi-sion 13.3.201
 7,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 897--902
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1244
 \OT1/cmr/m/n/10.95 <https://www.matterhackers.com/store/3d-printer-filament/175
 mm-wood-filament-light-cherry-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 904--909
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1251
 []\OT1/cmr/m/n/10.95 MACHINE DE-SIGN, [on-line], 2017, last re-vi-sion 19.07.20
 17,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 904--909
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1251
 \OT1/cmr/m/n/10.95 <http://www.machinedesign.com/manufacturing-equipment/3d-pri
 nting-tips-and-tech-get-
  []
 
-[46
+
+Underfull \hbox (badness 1178) in paragraph at lines 1260--1265
+[]\OT1/cmr/m/n/10.95 Xometry [on-line], 2017, last re-vi-sion 24.07.2017, <http
+s://www.xometry.com/metal-binder-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1272
+[]\OT1/cmr/m/n/10.95 3D PRINT-ING LAB [on-line], 2017, last re-vi-sion 24.07.20
+17,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1329--1334
+[]\OT1/cmr/m/n/10.95 3D molec-u-lar de-sign, [on-line], 2017, last rev. 30.07.2
+017,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1329--1334
+\OT1/cmr/m/n/10.95 <http://www.3dmoleculardesigns.com/Custom-3D-Print-Molecular
+-Models/ZCorp-3D-
+ []
+
+[58
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 937.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 937.
+Overfull \hbox (10.02711pt too wide) in paragraph at lines 1336--1341
+[]\OT1/cmr/m/n/10.95 threeding, [on-line], 2017, last rev. 29.7.2017 <https://w
+ww.threeding.com/blog/%E2%80%8Bbinder-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1348
+[]\OT1/cmr/m/n/10.95 Voxeljet, [on-line], 2017, last rev. 30.7.2017, <https://w
+ww.voxeljet.com/3d-printing-
+ []
+
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ± in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1370--1375
+[]\OT1/cmr/m/n/10.95 3d print-ing in-dus-try, [on-line], 2017, last rev. 30.7.2
+017,
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 1377--1382
+[]\OT1/cmr/m/n/10.95 mcor tech-nolo-gies, [on-line], 2017, last rev. 4.8.2017, 
+<http://mcortechnologies.com/3d-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1391--1396
+[]\OT1/cmr/m/n/10.95 inside metal ad-di-tive man-u-fac-tur-ing, [on-line], 2017
+, last rev. 4.8.2017,
+ []
+
+
+Overfull \hbox (157.73056pt too wide) in paragraph at lines 1406--1411
+[]\OT1/cmr/m/n/10.95 engineering, [on-line], 2017, last rev. 2.8.2017, <http://
+www.engineering.com/3DPrinting/3DPrintingArticles/ArticleID/14946/The-
+ []
+
+[59]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1414.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1414.
  (MainThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 937.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 937.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1414.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1414.
+
 Package rerunfilecheck Info: File `MainThesis.out' has not changed.
-(rerunfilecheck)             Checksum: B48AAFB0FDDFFC81644DD9E16CE71441;6107.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 937.
+(rerunfilecheck)             Checksum: C1A96623F151D45AB93A142733B71867;8317.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1414.
  ) 
 Here is how much of TeX's memory you used:
- 16455 strings out of 493333
- 311879 string characters out of 3139185
- 382302 words of memory out of 3000000
- 19489 multiletter control sequences out of 15000+200000
+ 16637 strings out of 493333
+ 314765 string characters out of 3139185
+ 382538 words of memory out of 3000000
+ 19581 multiletter control sequences out of 15000+200000
  10728 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,9n,80p,1441b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1140,10 +1298,11 @@ pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on MainThesis.pdf (46 pages, 2477378 bytes).
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on MainThesis.pdf (59 pages, 3280695 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 198 named destinations out of 1000 (max. 500000)
- 809 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1145 PDF objects out of 1200 (max. 8388607)
+ 274 named destinations out of 1000 (max. 500000)
+ 1127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
