@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  5 AUG 2017 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  7 AUG 2017 15:21
 entering extended mode
 **./MainThesis.tex
 (MainThesis.tex
@@ -400,6 +400,320 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \WF@box=\box37
 \WF@everypar=\toks29
 Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks30
+\inpenc@posthook=\toks31
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
@@ -459,6 +773,8 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count119
 
@@ -510,37 +826,44 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip46
-)
-(MainThesis.aux)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/01/24 v2.0c Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (MainThesis.aux)
 \openout1 = `MainThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count127
 \scratchdimen=\dimen167
 \scratchbox=\box38
 \nofMPsegments=\count128
 \nofMParguments=\count129
-\everyMPshowfont=\toks30
+\everyMPshowfont=\toks32
 \MPscratchCnt=\count130
 \MPscratchDim=\dimen168
 \MPnumerator=\count131
 \makeMPintoPDFobject=\count132
-\everyMPtoPDFconversion=\toks31
+\everyMPtoPDFconversion=\toks33
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -590,7 +913,7 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box39
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 13.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -599,710 +922,632 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (MainThesis.out) (MainThesis.out)
 \@outlinefile=\write4
 \openout4 = `MainThesis.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
+(Font)              <12> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
+(Font)              <6> on input line 20.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Missing character: There is no ≈ in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ≈ in font cmr10!
-Missing character: There is no ° in font cmr10!
- [2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
-] (MainThesis.toc
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 76--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--98
+
+ []
+
+[5] (MainThesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
- [3
+ [6
 
-] [4])
+] [7])
 \tf@toc=\write5
 \openout5 = `MainThesis.toc'.
 
- [5] [6
+ [8] [9
 
 ]
 Chapter 1.
-[7
+[10
 
 ]
-Overfull \hbox (3.74884pt too wide) in paragraph at lines 68--89
-[] 
+Overfull \hbox (0.94641pt too wide) in paragraph at lines 160--177
+[][] 
  []
 
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 102--108
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-[9]
+[12]
 Chapter 2.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-<images/firstPrintedObject.jpg, id=647, 803.0pt x 534.99875pt>
+<images/firstPrintedObject.jpg, id=668, 803.0pt x 534.99875pt>
 File: images/firstPrintedObject.jpg Graphic file (type jpg)
 
 <use images/firstPrintedObject.jpg>
-Package pdftex.def Info: images/firstPrintedObject.jpg used on input line 115.
+Package pdftex.def Info: images/firstPrintedObject.jpg used on input line 208.
 (pdftex.def)             Requested size: 241.84843pt x 161.12944pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--117
+Underfull \hbox (badness 10000) in paragraph at lines 205--210
 
  []
 
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmbx10!
-Missing character: There is no Ä in font cmbx10!
-Missing character: There is no ú in font cmbx10!
-Missing character: There is no ‚ in font cmbx10!
-Missing character: There is no Ä in font cmbx10!
-Missing character: There is no ù in font cmbx10!
-
-Underfull \vbox (badness 1052) has occurred while \output is active []
-
- [10
+[13
 
  <./images/firstPrintedObject.jpg>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-
-<images/additiveSubtractiveManufacturing.jpg, id=656, 590.80725pt x 294.50024pt
+<images/additiveSubtractiveManufacturing.jpg, id=680, 590.80725pt x 294.50024pt
 >
 File: images/additiveSubtractiveManufacturing.jpg Graphic file (type jpg)
  <use images/additiveSubtractiveManufacturing.jpg>
 Package pdftex.def Info: images/additiveSubtractiveManufacturing.jpg used on in
-put line 137.
+put line 227.
 (pdftex.def)             Requested size: 354.48708pt x 176.70149pt.
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+ [14 <./images/additiveSubtractiveManufacturing.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-<images/scanningMachine1.jpg, id=661, 1606.0pt x 1204.5pt>
+<images/scanningMachine1.jpg, id=688, 1606.0pt x 1204.5pt>
 File: images/scanningMachine1.jpg Graphic file (type jpg)
 
 <use images/scanningMachine1.jpg>
-Package pdftex.def Info: images/scanningMachine1.jpg used on input line 153.
+Package pdftex.def Info: images/scanningMachine1.jpg used on input line 254.
 (pdftex.def)             Requested size: 193.47578pt x 145.10352pt.
 
-<images/scanningMachine2.jpg, id=662, 501.875pt x 463.7325pt>
+<images/scanningMachine2.jpg, id=689, 501.875pt x 463.7325pt>
 File: images/scanningMachine2.jpg Graphic file (type jpg)
 
 <use images/scanningMachine2.jpg>
-Package pdftex.def Info: images/scanningMachine2.jpg used on input line 157.
+Package pdftex.def Info: images/scanningMachine2.jpg used on input line 258.
 (pdftex.def)             Requested size: 193.47578pt x 178.7746pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./images/additiveSubtractiveManufacturing.jpg>] [13 <./images/scanningMach
-ine1.jpg> <./images/scanningMachine2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+[15] [16 <./images/scanningMachine1.jpg> <./images/scanningMachine2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
-<images/armPlaster.jpg, id=680, 613.69275pt x 307.74976pt>
+<images/armPlaster.jpg, id=705, 613.69275pt x 307.74976pt>
 File: images/armPlaster.jpg Graphic file (type jpg)
 
 <use images/armPlaster.jpg>
-Package pdftex.def Info: images/armPlaster.jpg used on input line 196.
+Package pdftex.def Info: images/armPlaster.jpg used on input line 303.
 (pdftex.def)             Requested size: 217.66211pt x 109.15096pt.
 
-<images/surgicalTool.jpg, id=681, 681.29532pt x 260.47313pt>
+<images/surgicalTool.jpg, id=706, 681.29532pt x 260.47313pt>
 File: images/surgicalTool.jpg Graphic file (type jpg)
 
 <use images/surgicalTool.jpg>
-Package pdftex.def Info: images/surgicalTool.jpg used on input line 200.
+Package pdftex.def Info: images/surgicalTool.jpg used on input line 307.
 (pdftex.def)             Requested size: 217.66211pt x 83.21796pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15 <./images/armPlaster.jpg> <./images/surgicalTool.jpg>]
+[17] [18 <./images/armPlaster.jpg> <./images/surgicalTool.jpg>]
 Chapter 3.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--239
+Underfull \hbox (badness 10000) in paragraph at lines 345--348
 
  []
 
-[16
+[19
 
-]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [17]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
- [18]
+] [20] [21]
 Chapter 4.
-<images/SLAillustration.jpg, id=708, 341.47575pt x 313.17pt>
+<images/SLAillustration.jpg, id=734, 341.47575pt x 313.17pt>
 File: images/SLAillustration.jpg Graphic file (type jpg)
 
 <use images/SLAillustration.jpg>
-Package pdftex.def Info: images/SLAillustration.jpg used on input line 275.
+Package pdftex.def Info: images/SLAillustration.jpg used on input line 387.
 (pdftex.def)             Requested size: 386.95897pt x 354.88625pt.
 
-Underfull \vbox (badness 3138) has occurred while \output is active []
+Underfull \vbox (badness 2302) has occurred while \output is active []
 
- [19
+ [22
 
 ]
-<images/DMD.jpg, id=715, 340.8735pt x 367.97475pt>
+<images/DMD.jpg, id=740, 340.8735pt x 367.97475pt>
 File: images/DMD.jpg Graphic file (type jpg)
  <use images/DMD.jpg>
-Package pdftex.def Info: images/DMD.jpg used on input line 289.
+Package pdftex.def Info: images/DMD.jpg used on input line 403.
 (pdftex.def)             Requested size: 169.29684pt x 182.76288pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--291
+Underfull \hbox (badness 10000) in paragraph at lines 400--405
 
  []
 
-[20 <./images/SLAillustration.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 291--296
-
- []
-
-<images/yoda.jpg, id=721, 592.614pt x 434.22224pt>
+[23 <./images/SLAillustration.jpg>]
+<images/yoda.jpg, id=746, 592.614pt x 434.22224pt>
 File: images/yoda.jpg Graphic file (type jpg)
  <use images/yoda.jpg>
-Package pdftex.def Info: images/yoda.jpg used on input line 302.
+Package pdftex.def Info: images/yoda.jpg used on input line 418.
 (pdftex.def)             Requested size: 296.30627pt x 217.11058pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--317
+Underfull \hbox (badness 10000) in paragraph at lines 423--426
 
  []
 
-[21 <./images/DMD.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--326
+[24 <./images/DMD.jpg> <./images/yoda.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
 
  []
 
-[22 <./images/yoda.jpg>] <images/weave1.jpg, id=738, 187.29974pt x 174.6525pt>
+[25] <images/weave1.jpg, id=764, 187.29974pt x 174.6525pt>
 File: images/weave1.jpg Graphic file (type jpg)
 
 <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 331.
+Package pdftex.def Info: images/weave1.jpg used on input line 456.
 (pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
- <images/weave2.jpg, id=739, 345.08925pt x 137.313pt>
+ <images/weave2.jpg, id=765, 345.08925pt x 137.313pt>
 File: images/weave2.jpg Graphic file (type jpg)
 
 <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 335.
+Package pdftex.def Info: images/weave2.jpg used on input line 460.
 (pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
 
-<images/retractedWeave.jpg, id=744, 221.02576pt x 154.176pt>
+<images/retractedWeave.jpg, id=770, 221.02576pt x 154.176pt>
 File: images/retractedWeave.jpg Graphic file (type jpg)
 
 <use images/retractedWeave.jpg>
-Package pdftex.def Info: images/retractedWeave.jpg used on input line 348.
+Package pdftex.def Info: images/retractedWeave.jpg used on input line 473.
 (pdftex.def)             Requested size: 176.82083pt x 123.34094pt.
- [23 <./images/weave1.jpg> <./images/weave2.jpg> <./images/retractedWeave.jpg>]
+ [26 <./images/weave1.jpg> <./images/weave2.jpg> <./images/retractedWeave.jpg>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--372
+Underfull \hbox (badness 10000) in paragraph at lines 497--500
 
  []
 
-[24]
+[27]
 Chapter 5.
-<images/PBFMachine.jpg, id=759, 1064.17575pt x 537.80925pt>
+<images/PBFMachine.jpg, id=785, 1064.17575pt x 537.80925pt>
 File: images/PBFMachine.jpg Graphic file (type jpg)
 
 <use images/PBFMachine.jpg>
-Package pdftex.def Info: images/PBFMachine.jpg used on input line 393.
+Package pdftex.def Info: images/PBFMachine.jpg used on input line 521.
 (pdftex.def)             Requested size: 386.95897pt x 195.55606pt.
- [25
+ [28
 
  <./images/PBFMachine.jpg>]
-<images/roller.jpg, id=769, 529.37775pt x 281.853pt>
+<images/roller.jpg, id=794, 529.37775pt x 281.853pt>
 File: images/roller.jpg Graphic file (type jpg)
  <use images/roller.jpg>
-Package pdftex.def Info: images/roller.jpg used on input line 414.
+Package pdftex.def Info: images/roller.jpg used on input line 542.
 (pdftex.def)             Requested size: 290.22107pt x 154.52074pt.
 
-[26 <./images/roller.jpg>]
-<images/EbmMlsDifferences.jpg, id=780, 508.90125pt x 225.2415pt>
+[29 <./images/roller.jpg>]
+<images/EbmMlsDifferences.jpg, id=805, 508.90125pt x 225.2415pt>
 File: images/EbmMlsDifferences.jpg Graphic file (type jpg)
 
 <use images/EbmMlsDifferences.jpg>
-Package pdftex.def Info: images/EbmMlsDifferences.jpg used on input line 431.
+Package pdftex.def Info: images/EbmMlsDifferences.jpg used on input line 559.
 (pdftex.def)             Requested size: 435.32422pt x 192.68314pt.
- [27 <./images/EbmMlsDifferences.jpg>]
-<images/necking.jpg, id=791, 312.56775pt x 130.086pt>
+ [30 <./images/EbmMlsDifferences.jpg>]
+<images/necking.jpg, id=816, 312.56775pt x 130.086pt>
 File: images/necking.jpg Graphic file (type jpg)
  <use images/necking.jpg>
-Package pdftex.def Info: images/necking.jpg used on input line 457.
+Package pdftex.def Info: images/necking.jpg used on input line 585.
 (pdftex.def)             Requested size: 386.95897pt x 161.0469pt.
 
-[28] <images/liquidPhaseSintering.jpg, id=797, 293.898pt x 314.3745pt>
+[31] <images/liquidPhaseSintering.jpg, id=823, 293.898pt x 314.3745pt>
 File: images/liquidPhaseSintering.jpg Graphic file (type jpg)
 
 <use images/liquidPhaseSintering.jpg>
-Package pdftex.def Info: images/liquidPhaseSintering.jpg used on input line 468
+Package pdftex.def Info: images/liquidPhaseSintering.jpg used on input line 596
 .
 (pdftex.def)             Requested size: 290.22107pt x 310.46419pt.
- [29 <./images/necking.jpg> <./images/liquidPhaseSintering.jpg>] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 507--510
+ [32 <./images/necking.jpg> <./images/liquidPhaseSintering.jpg>] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 635--638
 
  []
 
-[31]
+[34]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--548
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
 
  []
 
-[32
+[35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
 
  []
 
-<images/filamentBucklingReview.jpg, id=822, 249.3315pt x 152.36925pt>
+<images/filamentBucklingReview.jpg, id=847, 249.3315pt x 152.36925pt>
 File: images/filamentBucklingReview.jpg Graphic file (type jpg)
 
 <use images/filamentBucklingReview.jpg>
-Package pdftex.def Info: images/filamentBucklingReview.jpg used on input line 5
-56.
+Package pdftex.def Info: images/filamentBucklingReview.jpg used on input line 6
+84.
 (pdftex.def)             Requested size: 217.66211pt x 133.01585pt.
 
-<images/PinchRollerMachineDesign.jpg, id=823, 235.47975pt x 238.491pt>
+<images/PinchRollerMachineDesign.jpg, id=848, 235.47975pt x 238.491pt>
 File: images/PinchRollerMachineDesign.jpg Graphic file (type jpg)
 
 <use images/PinchRollerMachineDesign.jpg>
 Package pdftex.def Info: images/PinchRollerMachineDesign.jpg used on input line
- 560.
+ 688.
 (pdftex.def)             Requested size: 217.66211pt x 220.45514pt.
- [33 <./images/filamentBucklingReview.jpg> <./images/PinchRollerMachineDesign.j
+ [36 <./images/filamentBucklingReview.jpg> <./images/PinchRollerMachineDesign.j
 pg>]
-<images/datasheetFDM.jpg, id=840, 682.34924pt x 269.808pt>
+<images/datasheetFDM.jpg, id=865, 682.34924pt x 269.808pt>
 File: images/datasheetFDM.jpg Graphic file (type jpg)
 
 <use images/datasheetFDM.jpg>
-Package pdftex.def Info: images/datasheetFDM.jpg used on input line 587.
+Package pdftex.def Info: images/datasheetFDM.jpg used on input line 715.
 (pdftex.def)             Requested size: 477.64122pt x 188.8643pt.
- [34 <./images/datasheetFDM.jpg>]
-<images/cartesianPrinter.jpg, id=848, 314.97675pt x 335.45325pt>
+ [37 <./images/datasheetFDM.jpg>]
+<images/cartesianPrinter.jpg, id=874, 314.97675pt x 335.45325pt>
 File: images/cartesianPrinter.jpg Graphic file (type jpg)
 
 <use images/cartesianPrinter.jpg>
-Package pdftex.def Info: images/cartesianPrinter.jpg used on input line 606.
+Package pdftex.def Info: images/cartesianPrinter.jpg used on input line 734.
 (pdftex.def)             Requested size: 145.11053pt x 154.5458pt.
 
-<images/deltaPrinter.jpg, id=849, 279.444pt x 352.31625pt>
+<images/deltaPrinter.jpg, id=875, 279.444pt x 352.31625pt>
 File: images/deltaPrinter.jpg Graphic file (type jpg)
 
 <use images/deltaPrinter.jpg>
-Package pdftex.def Info: images/deltaPrinter.jpg used on input line 610.
+Package pdftex.def Info: images/deltaPrinter.jpg used on input line 738.
 (pdftex.def)             Requested size: 145.11053pt x 182.95284pt.
 
-<images/polarPrinter.jpg, id=850, 419.166pt x 367.3725pt>
+<images/polarPrinter.jpg, id=876, 419.166pt x 367.3725pt>
 File: images/polarPrinter.jpg Graphic file (type jpg)
 
 <use images/polarPrinter.jpg>
-Package pdftex.def Info: images/polarPrinter.jpg used on input line 614.
+Package pdftex.def Info: images/polarPrinter.jpg used on input line 742.
 (pdftex.def)             Requested size: 145.11053pt x 127.18088pt.
 
-Underfull \hbox (badness 2503) in paragraph at lines 619--619
-[]\OT1/cmr/m/n/10.95 Figure 6.4: []Typical 3-axis
+Underfull \hbox (badness 2818) in paragraph at lines 747--747
+[]\T1/cmr/m/n/10.95 Figure 6.4: []Typical 3-axis
  []
 
-
-Underfull \hbox (badness 2343) in paragraph at lines 627--627
-\OT1/cmr/m/n/10.95 con-fig-u-ra-tion, prefer-able for
- []
-
-[35 <./images/cartesianPrinter.jpg> <./images/deltaPrinter.jpg> <./images/polar
+[38 <./images/cartesianPrinter.jpg> <./images/deltaPrinter.jpg> <./images/polar
 Printer.jpg>]
-<images/depositionIllustration.jpg, id=859, 334.851pt x 136.1085pt>
+<images/depositionIllustration.jpg, id=885, 334.851pt x 136.1085pt>
 File: images/depositionIllustration.jpg Graphic file (type jpg)
 
 <use images/depositionIllustration.jpg>
-Package pdftex.def Info: images/depositionIllustration.jpg used on input line 6
-41.
+Package pdftex.def Info: images/depositionIllustration.jpg used on input line 7
+69.
 (pdftex.def)             Requested size: 290.22107pt x 117.96898pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--656
+Underfull \hbox (badness 10000) in paragraph at lines 781--784
 
  []
 
-[36 <./images/depositionIllustration.jpg>] [37]
+[39 <./images/depositionIllustration.jpg>] [40]
 Chapter 7.
-<images/MJmachine.jpg, id=872, 461.92575pt x 348.70274pt>
+<images/MJmachine.jpg, id=897, 461.92575pt x 348.70274pt>
 File: images/MJmachine.jpg Graphic file (type jpg)
 
 <use images/MJmachine.jpg>
-Package pdftex.def Info: images/MJmachine.jpg used on input line 680.
+Package pdftex.def Info: images/MJmachine.jpg used on input line 808.
 (pdftex.def)             Requested size: 369.54109pt x 278.96255pt.
 
 Underfull \vbox (badness 1953) has occurred while \output is active []
 
- [38
+ [41
 
- <./images/MJmachine.jpg>] [39]
-<images/ContinuousDOD.jpg, id=891, 405.31425pt x 173.448pt>
+ <./images/MJmachine.jpg>] [42]
+<images/ContinuousDOD.jpg, id=916, 405.31425pt x 173.448pt>
 File: images/ContinuousDOD.jpg Graphic file (type jpg)
 
 <use images/ContinuousDOD.jpg>
-Package pdftex.def Info: images/ContinuousDOD.jpg used on input line 723.
+Package pdftex.def Info: images/ContinuousDOD.jpg used on input line 851.
 (pdftex.def)             Requested size: 405.31326pt x 173.44757pt.
- [40 <./images/ContinuousDOD.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 748--751
-
- []
-
-[41]
-Chapter 8.
-<images/BJthreeding.jpg, id=905, 687.16725pt x 343.88475pt>
-File: images/BJthreeding.jpg Graphic file (type jpg)
-
-<use images/BJthreeding.jpg>
-Package pdftex.def Info: images/BJthreeding.jpg used on input line 761.
-(pdftex.def)             Requested size: 481.0138pt x 240.71768pt.
- [42
-
- <./images/BJthreeding.jpg>]
-<images/3ders.jpg, id=916, 411.939pt x 307.1475pt>
-File: images/3ders.jpg Graphic file (type jpg)
- <use images/3ders.jpg>
-Package pdftex.def Info: images/3ders.jpg used on input line 784.
-(pdftex.def)             Requested size: 329.55162pt x 245.71832pt.
-
-[43 <./images/3ders.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 811--814
+ [43 <./images/ContinuousDOD.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 876--879
 
  []
 
 [44]
-Chapter 9.
-<images/SL1.jpg, id=936, 283.0575pt x 177.0615pt>
-File: images/SL1.jpg Graphic file (type jpg)
- <use images/SL1.jpg>
-Package pdftex.def Info: images/SL1.jpg used on input line 834.
-(pdftex.def)             Requested size: 217.66211pt x 136.15672pt.
+Chapter 8.
+<images/BJthreeding.jpg, id=931, 687.16725pt x 343.88475pt>
+File: images/BJthreeding.jpg Graphic file (type jpg)
 
-<images/SL2.jpg, id=937, 343.2825pt x 215.6055pt>
-File: images/SL2.jpg Graphic file (type jpg)
- <use images/SL2.jpg>
-Package pdftex.def Info: images/SL2.jpg used on input line 838.
-(pdftex.def)             Requested size: 217.66211pt x 136.704pt.
+<use images/BJthreeding.jpg>
+Package pdftex.def Info: images/BJthreeding.jpg used on input line 889.
+(pdftex.def)             Requested size: 481.0138pt x 240.71768pt.
  [45
 
- <./images/SL1.jpg> <./images/SL2.jpg>]
-<images/sonotrode.jpg, id=950, 426.99525pt x 262.581pt>
-File: images/sonotrode.jpg Graphic file (type jpg)
+ <./images/BJthreeding.jpg>]
+<images/3ders.jpg, id=942, 411.939pt x 307.1475pt>
+File: images/3ders.jpg Graphic file (type jpg)
+ <use images/3ders.jpg>
+Package pdftex.def Info: images/3ders.jpg used on input line 912.
+(pdftex.def)             Requested size: 329.55162pt x 245.71832pt.
 
-<use images/sonotrode.jpg>
-Package pdftex.def Info: images/sonotrode.jpg used on input line 878.
-(pdftex.def)             Requested size: 341.59666pt x 210.06506pt.
- [46 <./images/sonotrode.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 896--899
+[46 <./images/3ders.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 939--942
 
  []
 
 [47]
+Chapter 9.
+<images/SL1.jpg, id=961, 283.0575pt x 177.0615pt>
+File: images/SL1.jpg Graphic file (type jpg)
+ <use images/SL1.jpg>
+Package pdftex.def Info: images/SL1.jpg used on input line 962.
+(pdftex.def)             Requested size: 217.66211pt x 136.15672pt.
+
+<images/SL2.jpg, id=962, 343.2825pt x 215.6055pt>
+File: images/SL2.jpg Graphic file (type jpg)
+ <use images/SL2.jpg>
+Package pdftex.def Info: images/SL2.jpg used on input line 966.
+(pdftex.def)             Requested size: 217.66211pt x 136.704pt.
+ [48
+
+ <./images/SL1.jpg> <./images/SL2.jpg>]
+<images/sonotrode.jpg, id=975, 426.99525pt x 262.581pt>
+File: images/sonotrode.jpg Graphic file (type jpg)
+
+<use images/sonotrode.jpg>
+Package pdftex.def Info: images/sonotrode.jpg used on input line 1006.
+(pdftex.def)             Requested size: 341.59666pt x 210.06506pt.
+ [49 <./images/sonotrode.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1024--1027
+
+ []
+
+[50]
 Chapter 10.
-<images/DED3dprinting.jpg, id=964, 414.348pt x 331.2375pt>
+<images/DED3dprinting.jpg, id=990, 414.348pt x 331.2375pt>
 File: images/DED3dprinting.jpg Graphic file (type jpg)
 
 <use images/DED3dprinting.jpg>
-Package pdftex.def Info: images/DED3dprinting.jpg used on input line 916.
+Package pdftex.def Info: images/DED3dprinting.jpg used on input line 1044.
 (pdftex.def)             Requested size: 290.04161pt x 231.86465pt.
- [48
+ [51
 
  <./images/DED3dprinting.jpg>]
-<images/DEDnozzles.jpg, id=972, 416.15475pt x 441.44925pt>
+<images/DEDnozzles.jpg, id=998, 416.15475pt x 441.44925pt>
 File: images/DEDnozzles.jpg Graphic file (type jpg)
 
 <use images/DEDnozzles.jpg>
-Package pdftex.def Info: images/DEDnozzles.jpg used on input line 933.
+Package pdftex.def Info: images/DEDnozzles.jpg used on input line 1061.
 (pdftex.def)             Requested size: 332.92426pt x 353.15987pt.
- [49 <./images/DEDnozzles.jpg>] [50]
+ [52 <./images/DEDnozzles.jpg>] [53]
 Chapter 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 975--976
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 977--978
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
 
  []
 
-<images/testSpecimenDimensions.jpg, id=991, 361.95226pt x 280.6485pt>
+<images/testSpecimenDimensions.jpg, id=1016, 361.95226pt x 280.6485pt>
 File: images/testSpecimenDimensions.jpg Graphic file (type jpg)
 
 <use images/testSpecimenDimensions.jpg>
-Package pdftex.def Info: images/testSpecimenDimensions.jpg used on input line 9
-83.
+Package pdftex.def Info: images/testSpecimenDimensions.jpg used on input line 1
+111.
 (pdftex.def)             Requested size: 217.17302pt x 168.3904pt.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 987.
- [51
+ine 1115.
+ [54
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 992.
-
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1120
+.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 992.
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
- [52 <./images/testSpecimenDimensions.jpg>]
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
- [53]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ¢ in font cmr10!
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1120.
+
+ [55 <./images/testSpecimenDimensions.jpg>] [56]
 File: images/weave1.jpg Graphic file (type jpg)
  <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 1125.
+Package pdftex.def Info: images/weave1.jpg used on input line 1253.
 (pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
 File: images/weave2.jpg Graphic file (type jpg)
  <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 1129.
+Package pdftex.def Info: images/weave2.jpg used on input line 1257.
 (pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
 File: images/weave1.jpg Graphic file (type jpg)
 
 <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 1143.
+Package pdftex.def Info: images/weave1.jpg used on input line 1271.
 (pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
 File: images/weave2.jpg Graphic file (type jpg)
  <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 1147.
+Package pdftex.def Info: images/weave2.jpg used on input line 1275.
 (pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
 File: images/weave1.jpg Graphic file (type jpg)
  <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 1161.
+Package pdftex.def Info: images/weave1.jpg used on input line 1289.
 (pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
 File: images/weave2.jpg Graphic file (type jpg)
 
 <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 1165.
+Package pdftex.def Info: images/weave2.jpg used on input line 1293.
 (pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
 
 
-LaTeX Warning: Float too large for page by 10.61414pt on input line 1176.
+LaTeX Warning: Float too large for page by 10.48529pt on input line 1304.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1179
+Underfull \hbox (badness 10000) in paragraph at lines 1166--1307
 
  []
 
-[54] [55] [56] (MainThesis.tdo)
+[57] [58] [59] (MainThesis.tdo)
 \tf@tdo=\write6
 \openout6 = `MainThesis.tdo'.
 
- [57
+ [60
 
 ]
-Missing character: There is no ≈ in font cmr10!
-Missing character: There is no ° in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1232--1237
-[]\OT1/cmr/m/n/10.95 3D PRINT-ING IN-DUS-TRY, [on-line], 2017, last re-vi-sion 
-13.3.2017,
+Underfull \hbox (badness 10000) in paragraph at lines 1367--1372
+[]\T1/cmr/m/n/10.95 3D PRINT-ING IN-DUS-TRY, [on-line], 2017, last re-vi-sion 1
+3.3.2017,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1239--1244
-[]\OT1/cmr/m/n/10.95 MATTER HACK-ERS, [on-line], 2017, last re-vi-sion 13.3.201
+Underfull \hbox (badness 10000) in paragraph at lines 1374--1379
+[]\T1/cmr/m/n/10.95 MATTER HACK-ERS, [on-line], 2017, last re-vi-sion 13.3.2017
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1374--1379
+\T1/cmr/m/n/10.95 <https://www.matterhackers.com/store/3d-printer-filament/175m
+m-wood-filament-light-cherry-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1381--1386
+[]\T1/cmr/m/n/10.95 MACHINE DE-SIGN, [on-line], 2017, last re-vi-sion 19.07.201
 7,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1239--1244
-\OT1/cmr/m/n/10.95 <https://www.matterhackers.com/store/3d-printer-filament/175
-mm-wood-filament-light-cherry-
+Underfull \hbox (badness 10000) in paragraph at lines 1381--1386
+\T1/cmr/m/n/10.95 <http://www.machinedesign.com/manufacturing-equipment/3d-prin
+ting-tips-and-tech-get-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1246--1251
-[]\OT1/cmr/m/n/10.95 MACHINE DE-SIGN, [on-line], 2017, last re-vi-sion 19.07.20
+Overfull \hbox (3.191pt too wide) in paragraph at lines 1388--1393
+[]\T1/cmr/m/n/10.95 UNCONN SLS, [on-line], 2017, last re-vi-sion 24.07.2017, <h
+ttp://www.engr.uconn.edu/ xchen/sls/> 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1402--1407
+[]\T1/cmr/m/n/10.95 3D PRINT-ING LAB [on-line], 2017, last re-vi-sion 24.07.201
+7,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1464--1469
+[]\T1/cmr/m/n/10.95 3D molec-u-lar de-sign, [on-line], 2017, last rev. 30.07.20
 17,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1246--1251
-\OT1/cmr/m/n/10.95 <http://www.machinedesign.com/manufacturing-equipment/3d-pri
-nting-tips-and-tech-get-
+Underfull \hbox (badness 10000) in paragraph at lines 1464--1469
+\T1/cmr/m/n/10.95 <http://www.3dmoleculardesigns.com/Custom-3D-Print-Molecular-
+Models/ZCorp-3D-
  []
 
-
-Underfull \hbox (badness 1178) in paragraph at lines 1260--1265
-[]\OT1/cmr/m/n/10.95 Xometry [on-line], 2017, last re-vi-sion 24.07.2017, <http
-s://www.xometry.com/metal-binder-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1272
-[]\OT1/cmr/m/n/10.95 3D PRINT-ING LAB [on-line], 2017, last re-vi-sion 24.07.20
-17,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1334
-[]\OT1/cmr/m/n/10.95 3D molec-u-lar de-sign, [on-line], 2017, last rev. 30.07.2
-017,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1334
-\OT1/cmr/m/n/10.95 <http://www.3dmoleculardesigns.com/Custom-3D-Print-Molecular
--Models/ZCorp-3D-
- []
-
-[58
+[61
 
 ]
-Overfull \hbox (10.02711pt too wide) in paragraph at lines 1336--1341
-[]\OT1/cmr/m/n/10.95 threeding, [on-line], 2017, last rev. 29.7.2017 <https://w
-ww.threeding.com/blog/%E2%80%8Bbinder-
+Overfull \hbox (12.60971pt too wide) in paragraph at lines 1480--1485
+[]\T1/cmr/m/n/10.95 threeding, [on-line], 2017, last rev. 29.7.2017 <https://ww
+w.threeding.com/blog/%E2%80%8Bbinder-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1343--1348
-[]\OT1/cmr/m/n/10.95 Voxeljet, [on-line], 2017, last rev. 30.7.2017, <https://w
-ww.voxeljet.com/3d-printing-
- []
-
-Missing character: There is no √ in font cmr10!
-Missing character: There is no ° in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no ° in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1375
-[]\OT1/cmr/m/n/10.95 3d print-ing in-dus-try, [on-line], 2017, last rev. 30.7.2
-017,
+Underfull \hbox (badness 10000) in paragraph at lines 1487--1492
+[]\T1/cmr/m/n/10.95 Voxeljet, [on-line], 2017, last rev. 30.7.2017, <https://ww
+w.voxeljet.com/3d-printing-
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 1377--1382
-[]\OT1/cmr/m/n/10.95 mcor tech-nolo-gies, [on-line], 2017, last rev. 4.8.2017, 
-<http://mcortechnologies.com/3d-
+Underfull \hbox (badness 10000) in paragraph at lines 1514--1519
+[]\T1/cmr/m/n/10.95 3d print-ing in-dus-try, [on-line], 2017, last rev. 30.7.20
+17,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1391--1396
-[]\OT1/cmr/m/n/10.95 inside metal ad-di-tive man-u-fac-tur-ing, [on-line], 2017
-, last rev. 4.8.2017,
+Underfull \hbox (badness 3333) in paragraph at lines 1521--1526
+[]\T1/cmr/m/n/10.95 mcor tech-nolo-gies, [on-line], 2017, last rev. 4.8.2017, <
+http://mcortechnologies.com/3d-
  []
 
 
-Overfull \hbox (157.73056pt too wide) in paragraph at lines 1406--1411
-[]\OT1/cmr/m/n/10.95 engineering, [on-line], 2017, last rev. 2.8.2017, <http://
-www.engineering.com/3DPrinting/3DPrintingArticles/ArticleID/14946/The-
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1540
+[]\T1/cmr/m/n/10.95 inside metal ad-di-tive man-u-fac-tur-ing, [on-line], 2017,
+ last rev. 4.8.2017,
  []
 
-[59]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1414.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1414.
+
+Overfull \hbox (159.39003pt too wide) in paragraph at lines 1550--1555
+[]\T1/cmr/m/n/10.95 engineering, [on-line], 2017, last rev. 2.8.2017, <http://w
+ww.engineering.com/3DPrinting/3DPrintingArticles/ArticleID/14946/The-
+ []
+
+[62]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1558.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1558.
  (MainThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1414.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1414.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1558.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1558.
 
 Package rerunfilecheck Info: File `MainThesis.out' has not changed.
-(rerunfilecheck)             Checksum: C1A96623F151D45AB93A142733B71867;8317.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1414.
+(rerunfilecheck)             Checksum: 74F6E73B084804AA93A0559D550CE1E5;8401.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1558.
  ) 
 Here is how much of TeX's memory you used:
- 16637 strings out of 493333
- 314765 string characters out of 3139185
- 382538 words of memory out of 3000000
- 19581 multiletter control sequences out of 15000+200000
- 10728 words of font info for 37 fonts, out of 3000000 for 9000
+ 17146 strings out of 493333
+ 318825 string characters out of 3139185
+ 386433 words of memory out of 3000000
+ 20054 multiletter control sequences out of 15000+200000
+ 18724 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,9n,80p,1441b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on MainThesis.pdf (59 pages, 3280695 bytes).
+ 64i,9n,80p,1440b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ecbi1095.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecrm0600.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Smoothie\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Smoothie\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\S
+moothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
+> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ecbx2488.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecbx1440.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Smoothie\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Smoothie\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Sm
+oothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on MainThesis.pdf (62 pages, 3332047 bytes).
 PDF statistics:
- 1145 PDF objects out of 1200 (max. 8388607)
- 274 named destinations out of 1000 (max. 500000)
- 1127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1622 PDF objects out of 1728 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 1135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
