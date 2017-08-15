@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  7 AUG 2017 13:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  14 AUG 2017 23:21
 entering extended mode
 **./packages_list.tex
 (packages_list.tex
@@ -35,7 +35,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...p=1.5cm,bottom=1.5cm, left=2cm, right=2cm]{
+l.3 ...e[top=2cm,bottom=2cm, left=3cm, right=2cm]{
                                                   geometry}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -83,8 +83,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 \usepackage{
-                hyperref}
+l.7 \usepackage[linktoc=all]{
+                             hyperref}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -107,8 +107,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 \usepackage[T1]{
-                     fontenc}
+l.13 \usepackage{
+                 calc}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -126,5 +126,5 @@ Here is how much of TeX's memory you used:
  3636 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 5i,0n,5p,89b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,5p,85b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

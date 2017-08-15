@@ -1,45 +1,45 @@
-\contentsline {chapter}{List of shortcuts}{9}{chapter*.2}
-\contentsline {chapter}{\numberline {1}Introduction}{10}{chapter.1}
-\contentsline {section}{\numberline {1.1}What additive manufacturing}{10}{section.1.1}
-\contentsline {section}{\numberline {1.2}Goals of bachelor thesis}{10}{section.1.2}
-\contentsline {section}{\numberline {1.3}Resources}{11}{section.1.3}
-\contentsline {section}{\numberline {1.4}Additive manufacturing and process engineering}{11}{section.1.4}
+\contentsline {chapter}{List of shortcuts}{8}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}
+\contentsline {section}{\numberline {1.1}What is additive manufacturing}{9}{section.1.1}
+\contentsline {section}{\numberline {1.2}Goals of bachelor thesis}{9}{section.1.2}
+\contentsline {section}{\numberline {1.3}Resources}{10}{section.1.3}
+\contentsline {section}{\numberline {1.4}Additive manufacturing and process engineering}{10}{section.1.4}
 \contentsline {section}{\numberline {1.5}Terminology}{11}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Automated fabrication}{12}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Freedom fabrication}{12}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Additive Manufacturing}{12}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}3D printing}{12}{subsection.1.5.4}
-\contentsline {subsection}{\numberline {1.5.5}Rapid prototyping}{12}{subsection.1.5.5}
-\contentsline {chapter}{\numberline {2}About AM in general}{13}{chapter.2}
-\contentsline {section}{\numberline {2.1}History of AM}{13}{section.2.1}
-\contentsline {section}{\numberline {2.2}Comparison of AM and CNC machining}{14}{section.2.2}
-\contentsline {section}{\numberline {2.3}What precedes part production - AM process chain}{15}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Information about produced part}{15}{subsection.2.3.1}
-\contentsline {subsubsection}{CAD modeling}{15}{section*.3}
+\contentsline {subsection}{\numberline {1.5.1}Automated fabrication}{11}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Freedom fabrication}{11}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Additive Manufacturing}{11}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}3D printing}{11}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.5}Rapid prototyping}{11}{subsection.1.5.5}
+\contentsline {chapter}{\numberline {2}Additive manufacturing in general}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}History of AM}{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}Comparison of AM and CNC machining}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}What precedes part production - AM process chain}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Information about produced part}{14}{subsection.2.3.1}
+\contentsline {subsubsection}{CAD modeling}{14}{section*.3}
 \contentsline {subsubsection}{AM and reverse engineering}{15}{section*.4}
-\contentsline {subsubsection}{File formats for AM software}{16}{section*.5}
+\contentsline {subsubsection}{File formats for AM software}{15}{section*.5}
 \contentsline {subsection}{\numberline {2.3.2}Further data manipulation}{16}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Machine preparation}{16}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Post-processing}{17}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Fields of applications}{17}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Medicine}{17}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.3.4}Post-processing}{16}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Examples of applications}{16}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Medicine}{16}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Aviation industry}{17}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Automotive industry}{18}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Automotive industry}{17}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Architecture or design}{18}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Educational purposes}{18}{subsection.2.4.5}
-\contentsline {chapter}{\numberline {3}Materials for use in AM}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}Material state}{19}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Solid powder materials}{19}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Solid wire form materials}{19}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Solid sheet form materials}{19}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Liquid materials}{19}{subsection.3.1.4}
+\contentsline {chapter}{\numberline {3}Materials used in AM}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Material form}{19}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Solid powder}{19}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Solid wire form}{19}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Solid sheet form}{19}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Liquid}{20}{subsection.3.1.4}
 \contentsline {section}{\numberline {3.2}Chemical composition}{20}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Metals}{20}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Plastic}{20}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Plastics}{20}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Ceramics}{20}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Photopolymers}{20}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Others}{20}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Material processing}{20}{section.3.3}
+\contentsline {section}{\numberline {3.3}Material processing}{21}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Heat processing}{21}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Light processing}{21}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Other processing}{21}{subsection.3.3.3}
@@ -52,89 +52,102 @@
 \contentsline {subsection}{\numberline {4.2.3}Two photon approach}{24}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}Photopolymer materials}{25}{section.4.3}
 \contentsline {section}{\numberline {4.4}Curing of materials}{25}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Theory and math of curing}{25}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Simplified mathematical approach}{25}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Scan patterns and other issues}{26}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5}Conclusion}{27}{section.4.5}
-\contentsline {chapter}{\numberline {5}Powder Bed Fusion}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}Basic operation principles}{28}{section.5.1}
-\contentsline {section}{\numberline {5.2}Powder bed fusion variations}{29}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Powder spreading}{29}{subsection.5.2.1}
-\contentsline {subsubsection}{Counter rotating roller}{29}{section*.6}
-\contentsline {subsubsection}{Blade leveling}{30}{section*.7}
-\contentsline {subsection}{\numberline {5.2.2}Heating method}{30}{subsection.5.2.2}
-\contentsline {subsubsection}{Laser}{30}{section*.8}
-\contentsline {subsubsection}{Electron beam melting}{30}{section*.9}
-\contentsline {section}{\numberline {5.3}Materials for Powder Bed Fusion}{31}{section.5.3}
-\contentsline {section}{\numberline {5.4}Fusion mechanisms}{31}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Solid-state sintering}{31}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Chemically-induced sintering}{31}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Liquid phase sintering}{32}{subsection.5.4.3}
-\contentsline {subsubsection}{Separate particles}{32}{section*.10}
-\contentsline {subsubsection}{Composite particles}{32}{section*.11}
-\contentsline {subsubsection}{Coated particles}{33}{section*.12}
-\contentsline {subsection}{\numberline {5.4.4}Full melting}{33}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Other problematic}{33}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Powder handling issues}{33}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Elevated temperatures of unprocessed powder}{33}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Material recycling}{33}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Conclusion}{34}{section.5.6}
-\contentsline {chapter}{\numberline {6}Material extrusion}{35}{chapter.6}
-\contentsline {section}{\numberline {6.1}Basic operation principles}{35}{section.6.1}
-\contentsline {section}{\numberline {6.2}Deposition process variants}{35}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Method of material curing}{35}{subsection.6.2.1}
-\contentsline {subsubsection}{Heating}{36}{section*.13}
-\contentsline {subsubsection}{Chemical curing}{36}{section*.14}
-\contentsline {subsection}{\numberline {6.2.2}Ways of material feeding}{36}{subsection.6.2.2}
-\contentsline {subsubsection}{Pinch-roller}{36}{section*.15}
-\contentsline {subsubsection}{Screw-feeder}{37}{section*.16}
-\contentsline {section}{\numberline {6.3}Available materials}{37}{section.6.3}
-\contentsline {section}{\numberline {6.4}FDM process variations}{38}{section.6.4}
-\contentsline {section}{\numberline {6.5}Problematics}{38}{section.6.5}
-\contentsline {subsubsection}{Accuracy issues}{38}{section*.17}
-\contentsline {section}{\numberline {6.6}Conclusion}{39}{section.6.6}
-\contentsline {chapter}{\numberline {7}Material Jetting}{41}{chapter.7}
-\contentsline {section}{\numberline {7.1}Basic operation principles}{41}{section.7.1}
-\contentsline {section}{\numberline {7.2}Materials for Material jetting}{42}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Material viscosity}{42}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Material types}{42}{subsection.7.2.2}
-\contentsline {subsubsection}{Metals and ceramics}{42}{section*.18}
-\contentsline {subsubsection}{Polymers / waxes}{42}{section*.19}
-\contentsline {section}{\numberline {7.3}Process parameters and related problematic}{42}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Nozzle-related problems}{42}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Material solidification}{43}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Droplet formation}{43}{subsection.7.3.3}
-\contentsline {subsubsection}{Continuous deposition}{43}{section*.20}
-\contentsline {subsubsection}{Droplet on demand}{43}{section*.21}
-\contentsline {subsection}{\numberline {7.3.4}Droplet flight}{44}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Conclusion}{44}{section.7.4}
-\contentsline {chapter}{\numberline {8}Binder jetting}{45}{chapter.8}
-\contentsline {section}{\numberline {8.1}Basic operation principle}{45}{section.8.1}
-\contentsline {section}{\numberline {8.2}Materials}{46}{section.8.2}
-\contentsline {section}{\numberline {8.3}Process specifications and variations}{46}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Post-processing and infiltration}{46}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Continuous printing}{47}{subsection.8.3.2}
-\contentsline {section}{\numberline {8.4}Conclusion}{47}{section.8.4}
-\contentsline {chapter}{\numberline {9}Sheet Lamination}{48}{chapter.9}
-\contentsline {section}{\numberline {9.1}Build process and variations}{48}{section.9.1}
-\contentsline {section}{\numberline {9.2}Materials}{49}{section.9.2}
-\contentsline {section}{\numberline {9.3}Binding processes}{49}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Thermal bonding}{49}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {9.3.2}Clamping}{49}{subsection.9.3.2}
-\contentsline {subsection}{\numberline {9.3.3}Adhesive bonding}{50}{subsection.9.3.3}
-\contentsline {subsection}{\numberline {9.3.4}Ultrasonic welding}{50}{subsection.9.3.4}
-\contentsline {section}{\numberline {9.4}Conclusion}{50}{section.9.4}
-\contentsline {chapter}{\numberline {10}Directed energy deposition processes}{51}{chapter.10}
-\contentsline {section}{\numberline {10.1}Materials}{51}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Metal processing}{51}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Material form}{52}{subsection.10.1.2}
-\contentsline {subsubsection}{Powder feeding}{52}{section*.22}
-\contentsline {subsubsection}{Wire feeding}{52}{section*.23}
-\contentsline {section}{\numberline {10.2}Process variations}{53}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Heat source}{53}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Nozzle distribution}{53}{subsection.10.2.2}
-\contentsline {section}{\numberline {10.3}Conclusion}{53}{section.10.3}
-\contentsline {chapter}{\numberline {11}Tensile strength of parts printed with FDM}{54}{chapter.11}
-\contentsline {section}{\numberline {11.1}General properties of FDM prints}{54}{section.11.1}
-\contentsline {section}{\numberline {11.2}FDM and injection molding}{54}{section.11.2}
-\contentsline {section}{\numberline {11.3}Print parameters}{55}{section.11.3}
-\contentsline {section}{\numberline {11.4}Tensile strength testing results}{57}{section.11.4}
+\contentsline {chapter}{\numberline {5}Powder Bed Fusion}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Basic operation principles}{29}{section.5.1}
+\contentsline {section}{\numberline {5.2}Powder bed fusion variations}{30}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Powder spreading}{30}{subsection.5.2.1}
+\contentsline {subsubsection}{Counter rotating roller}{30}{section*.6}
+\contentsline {subsubsection}{Blade leveling}{31}{section*.7}
+\contentsline {subsection}{\numberline {5.2.2}Heating method}{31}{subsection.5.2.2}
+\contentsline {subsubsection}{Laser}{31}{section*.8}
+\contentsline {subsubsection}{Electron beam melting}{31}{section*.9}
+\contentsline {section}{\numberline {5.3}Materials for Powder Bed Fusion}{32}{section.5.3}
+\contentsline {section}{\numberline {5.4}Fusion mechanisms}{32}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Solid-state sintering}{32}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Chemically-induced sintering}{33}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Liquid phase sintering}{33}{subsection.5.4.3}
+\contentsline {subsubsection}{Separate particles}{34}{section*.10}
+\contentsline {subsubsection}{Composite particles}{34}{section*.11}
+\contentsline {subsubsection}{Coated particles}{34}{section*.12}
+\contentsline {subsection}{\numberline {5.4.4}Full melting}{34}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Other important problems}{34}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Powder handling issues}{35}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Elevated temperatures of unprocessed powder}{35}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Material recycling}{35}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Conclusion}{36}{section.5.6}
+\contentsline {chapter}{\numberline {6}Material extrusion}{37}{chapter.6}
+\contentsline {section}{\numberline {6.1}Basic operation principles}{37}{section.6.1}
+\contentsline {section}{\numberline {6.2}Deposition process variants}{37}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Method of material curing}{38}{subsection.6.2.1}
+\contentsline {subsubsection}{Heating}{38}{section*.13}
+\contentsline {subsubsection}{Chemical curing}{38}{section*.14}
+\contentsline {subsection}{\numberline {6.2.2}Ways of material feeding}{38}{subsection.6.2.2}
+\contentsline {subsubsection}{Pinch-roller}{38}{section*.15}
+\contentsline {subsubsection}{Screw-feeder}{39}{section*.16}
+\contentsline {section}{\numberline {6.3}Available materials}{39}{section.6.3}
+\contentsline {section}{\numberline {6.4}FDM process variations}{40}{section.6.4}
+\contentsline {section}{\numberline {6.5}Problematic and issues}{41}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Accuracy issues}{41}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Filament feeding speed}{41}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Support structures}{41}{subsection.6.5.3}
+\contentsline {section}{\numberline {6.6}Conclusion}{43}{section.6.6}
+\contentsline {chapter}{\numberline {7}Material Jetting}{44}{chapter.7}
+\contentsline {section}{\numberline {7.1}Basic operation principles}{44}{section.7.1}
+\contentsline {section}{\numberline {7.2}Materials for Material jetting}{45}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Material viscosity}{45}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Material types}{45}{subsection.7.2.2}
+\contentsline {subsubsection}{Metals and ceramics}{45}{section*.17}
+\contentsline {subsubsection}{Polymers / waxes}{45}{section*.18}
+\contentsline {section}{\numberline {7.3}Process parameters and related problematic}{45}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Nozzle-related problems}{46}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Material solidification}{46}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Droplet formation}{46}{subsection.7.3.3}
+\contentsline {subsubsection}{Continuous deposition}{46}{section*.19}
+\contentsline {subsubsection}{Droplet on demand}{46}{section*.20}
+\contentsline {subsection}{\numberline {7.3.4}Droplet flight}{47}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Conclusion}{48}{section.7.4}
+\contentsline {chapter}{\numberline {8}Binder jetting}{49}{chapter.8}
+\contentsline {section}{\numberline {8.1}Basic operation principle}{49}{section.8.1}
+\contentsline {section}{\numberline {8.2}Materials}{50}{section.8.2}
+\contentsline {section}{\numberline {8.3}Process specifications and variations}{50}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Post-processing and infiltration}{50}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Continuous printing}{51}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}Conclusion}{51}{section.8.4}
+\contentsline {chapter}{\numberline {9}Sheet Lamination}{53}{chapter.9}
+\contentsline {section}{\numberline {9.1}Build process and variations}{53}{section.9.1}
+\contentsline {section}{\numberline {9.2}Materials}{54}{section.9.2}
+\contentsline {section}{\numberline {9.3}Binding processes}{54}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Thermal bonding}{54}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Clamping}{54}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}Adhesive bonding}{54}{subsection.9.3.3}
+\contentsline {subsection}{\numberline {9.3.4}Ultrasonic welding}{55}{subsection.9.3.4}
+\contentsline {section}{\numberline {9.4}Conclusion}{55}{section.9.4}
+\contentsline {chapter}{\numberline {10}Directed energy deposition processes}{57}{chapter.10}
+\contentsline {section}{\numberline {10.1}Materials}{57}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Metal processing}{57}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Material form}{58}{subsection.10.1.2}
+\contentsline {subsubsection}{Powder feeding}{58}{section*.21}
+\contentsline {subsubsection}{Wire feeding}{58}{section*.22}
+\contentsline {section}{\numberline {10.2}Process variations}{59}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Heat source}{59}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Nozzle distribution}{59}{subsection.10.2.2}
+\contentsline {section}{\numberline {10.3}Conclusion}{59}{section.10.3}
+\contentsline {chapter}{\numberline {11}Tensile strength of parts printed with FDM}{61}{chapter.11}
+\contentsline {section}{\numberline {11.1}Goals and experiment description}{61}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}General properties of FDM prints}{61}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}FDM and injection molding}{61}{subsection.11.1.2}
+\contentsline {section}{\numberline {11.2}Experiment methodology}{62}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Used equipment and software}{62}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Examined material}{62}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Testing machine and procedure}{62}{subsection.11.2.3}
+\contentsline {section}{\numberline {11.3}Examined parameters}{64}{section.11.3}
+\contentsline {section}{\numberline {11.4}Tensile strength testing results}{65}{section.11.4}
+\contentsline {subsection}{\numberline {11.4.1}Changing layer thicknesses}{65}{subsection.11.4.1}
+\contentsline {subsection}{\numberline {11.4.2}Rectilinear infill raster orientation}{65}{subsection.11.4.2}
+\contentsline {subsection}{\numberline {11.4.3}Changing nozzle temperature for printing}{65}{subsection.11.4.3}
+\contentsline {subsection}{\numberline {11.4.4}Changing infill percentage}{66}{subsection.11.4.4}
+\contentsline {section}{\numberline {11.5}Discussion}{69}{section.11.5}
+\contentsline {chapter}{\numberline {12}Conclusion}{72}{chapter.12}

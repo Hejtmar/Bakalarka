@@ -1,0 +1,5 @@
+Source file name:	TensileResultsR90_180.txt
+Number of tests:	8
+Maximal force:		1.04 +- 0.04kN
+Average strength:	43.48 +- 1.78 MPA
+Average elongation:	4.91 +/ 0.38

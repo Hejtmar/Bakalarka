@@ -1,0 +1,7 @@
+Source file name:	TensileResultsFILL80.txt
+Number of tests:	7
+Maximal force:		1.04 +- 0.02kN
+Average strength:	43.23 +- 0.73 MPA
+Average elongation:	5.46 +/ 0.14
+
+Real values: strength = 46.30 +- 0.82

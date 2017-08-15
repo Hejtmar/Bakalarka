@@ -1,0 +1,5 @@
+Source file name:	TensileResultsR75_165.txt
+Number of tests:	10
+Maximal force:		1.02 +- 0.03kN
+Average strength:	42.33 +- 1.23 MPA
+Average elongation:	4.90 +/ 0.29

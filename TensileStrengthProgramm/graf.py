@@ -1,12 +1,13 @@
 from matplotlib import pyplot as plt
-xValues = [100, 80, 60, 40, 20]
-yValues = [46.23, 46.30, 45.14, 37.03, 39.38]
+xValues = [220, 230, 240, 250]
+yValues = [38.77, 43.73, 46.23, 43.46]
 
 plt.figure(0)
+plt.ylim(30,50)
 plt.plot(xValues, yValues, "*r")
-plt.xlabel("Infill percentage [%]")
+plt.xlabel("Print temperature [deg]")
 plt.ylabel("Tensile strength [MPa]")
 plt.grid()
-plt.title("Infill percentage vs. strentgh")
+plt.title("Print temperature vs. strentgh")
 plt.show()
 plt.subplot

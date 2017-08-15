@@ -1,6 +1,6 @@
 \BOOKMARK [0][-]{chapter*.2}{List of shortcuts}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
-\BOOKMARK [1][-]{section.1.1}{What additive manufacturing}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.1}{What is additive manufacturing}{chapter.1}% 3
 \BOOKMARK [1][-]{section.1.2}{Goals of bachelor thesis}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.3}{Resources}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.4}{Additive manufacturing and process engineering}{chapter.1}% 6
@@ -10,7 +10,7 @@
 \BOOKMARK [2][-]{subsection.1.5.3}{Additive Manufacturing}{section.1.5}% 10
 \BOOKMARK [2][-]{subsection.1.5.4}{3D printing}{section.1.5}% 11
 \BOOKMARK [2][-]{subsection.1.5.5}{Rapid prototyping}{section.1.5}% 12
-\BOOKMARK [0][-]{chapter.2}{About AM in general}{}% 13
+\BOOKMARK [0][-]{chapter.2}{Additive manufacturing in general}{}% 13
 \BOOKMARK [1][-]{section.2.1}{History of AM}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.2}{Comparison of AM and CNC machining}{chapter.2}% 15
 \BOOKMARK [1][-]{section.2.3}{What precedes part production - AM process chain}{chapter.2}% 16
@@ -18,21 +18,21 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{Further data manipulation}{section.2.3}% 18
 \BOOKMARK [2][-]{subsection.2.3.3}{Machine preparation}{section.2.3}% 19
 \BOOKMARK [2][-]{subsection.2.3.4}{Post-processing}{section.2.3}% 20
-\BOOKMARK [1][-]{section.2.4}{Fields of applications}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.4}{Examples of applications}{chapter.2}% 21
 \BOOKMARK [2][-]{subsection.2.4.1}{Medicine}{section.2.4}% 22
 \BOOKMARK [2][-]{subsection.2.4.2}{Aviation industry}{section.2.4}% 23
 \BOOKMARK [2][-]{subsection.2.4.3}{Automotive industry}{section.2.4}% 24
 \BOOKMARK [2][-]{subsection.2.4.4}{Architecture or design}{section.2.4}% 25
 \BOOKMARK [2][-]{subsection.2.4.5}{Educational purposes}{section.2.4}% 26
-\BOOKMARK [0][-]{chapter.3}{Materials for use in AM}{}% 27
-\BOOKMARK [1][-]{section.3.1}{Material state}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.1.1}{Solid powder materials}{section.3.1}% 29
-\BOOKMARK [2][-]{subsection.3.1.2}{Solid wire form materials}{section.3.1}% 30
-\BOOKMARK [2][-]{subsection.3.1.3}{Solid sheet form materials}{section.3.1}% 31
-\BOOKMARK [2][-]{subsection.3.1.4}{Liquid materials}{section.3.1}% 32
+\BOOKMARK [0][-]{chapter.3}{Materials used in AM}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Material form}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.1.1}{Solid powder}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.2}{Solid wire form}{section.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.1.3}{Solid sheet form}{section.3.1}% 31
+\BOOKMARK [2][-]{subsection.3.1.4}{Liquid}{section.3.1}% 32
 \BOOKMARK [1][-]{section.3.2}{Chemical composition}{chapter.3}% 33
 \BOOKMARK [2][-]{subsection.3.2.1}{Metals}{section.3.2}% 34
-\BOOKMARK [2][-]{subsection.3.2.2}{Plastic}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.2}{Plastics}{section.3.2}% 35
 \BOOKMARK [2][-]{subsection.3.2.3}{Ceramics}{section.3.2}% 36
 \BOOKMARK [2][-]{subsection.3.2.4}{Photopolymers}{section.3.2}% 37
 \BOOKMARK [2][-]{subsection.3.2.5}{Others}{section.3.2}% 38
@@ -49,7 +49,7 @@
 \BOOKMARK [2][-]{subsection.4.2.3}{Two photon approach}{section.4.2}% 49
 \BOOKMARK [1][-]{section.4.3}{Photopolymer materials}{chapter.4}% 50
 \BOOKMARK [1][-]{section.4.4}{Curing of materials}{chapter.4}% 51
-\BOOKMARK [2][-]{subsection.4.4.1}{Theory and math of curing}{section.4.4}% 52
+\BOOKMARK [2][-]{subsection.4.4.1}{Simplified mathematical approach}{section.4.4}% 52
 \BOOKMARK [2][-]{subsection.4.4.2}{Scan patterns and other issues}{section.4.4}% 53
 \BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 54
 \BOOKMARK [0][-]{chapter.5}{Powder Bed Fusion}{}% 55
@@ -63,7 +63,7 @@
 \BOOKMARK [2][-]{subsection.5.4.2}{Chemically-induced sintering}{section.5.4}% 63
 \BOOKMARK [2][-]{subsection.5.4.3}{Liquid phase sintering}{section.5.4}% 64
 \BOOKMARK [2][-]{subsection.5.4.4}{Full melting}{section.5.4}% 65
-\BOOKMARK [1][-]{section.5.5}{Other problematic}{chapter.5}% 66
+\BOOKMARK [1][-]{section.5.5}{Other important problems}{chapter.5}% 66
 \BOOKMARK [2][-]{subsection.5.5.1}{Powder handling issues}{section.5.5}% 67
 \BOOKMARK [2][-]{subsection.5.5.2}{Elevated temperatures of unprocessed powder}{section.5.5}% 68
 \BOOKMARK [2][-]{subsection.5.5.3}{Material recycling}{section.5.5}% 69
@@ -75,45 +75,59 @@
 \BOOKMARK [2][-]{subsection.6.2.2}{Ways of material feeding}{section.6.2}% 75
 \BOOKMARK [1][-]{section.6.3}{Available materials}{chapter.6}% 76
 \BOOKMARK [1][-]{section.6.4}{FDM process variations}{chapter.6}% 77
-\BOOKMARK [1][-]{section.6.5}{Problematics}{chapter.6}% 78
-\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 79
-\BOOKMARK [0][-]{chapter.7}{Material Jetting}{}% 80
-\BOOKMARK [1][-]{section.7.1}{Basic operation principles}{chapter.7}% 81
-\BOOKMARK [1][-]{section.7.2}{Materials for Material jetting}{chapter.7}% 82
-\BOOKMARK [2][-]{subsection.7.2.1}{Material viscosity}{section.7.2}% 83
-\BOOKMARK [2][-]{subsection.7.2.2}{Material types}{section.7.2}% 84
-\BOOKMARK [1][-]{section.7.3}{Process parameters and related problematic}{chapter.7}% 85
-\BOOKMARK [2][-]{subsection.7.3.1}{Nozzle-related problems}{section.7.3}% 86
-\BOOKMARK [2][-]{subsection.7.3.2}{Material solidification}{section.7.3}% 87
-\BOOKMARK [2][-]{subsection.7.3.3}{Droplet formation}{section.7.3}% 88
-\BOOKMARK [2][-]{subsection.7.3.4}{Droplet flight}{section.7.3}% 89
-\BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 90
-\BOOKMARK [0][-]{chapter.8}{Binder jetting}{}% 91
-\BOOKMARK [1][-]{section.8.1}{Basic operation principle}{chapter.8}% 92
-\BOOKMARK [1][-]{section.8.2}{Materials}{chapter.8}% 93
-\BOOKMARK [1][-]{section.8.3}{Process specifications and variations}{chapter.8}% 94
-\BOOKMARK [2][-]{subsection.8.3.1}{Post-processing and infiltration}{section.8.3}% 95
-\BOOKMARK [2][-]{subsection.8.3.2}{Continuous printing}{section.8.3}% 96
-\BOOKMARK [1][-]{section.8.4}{Conclusion}{chapter.8}% 97
-\BOOKMARK [0][-]{chapter.9}{Sheet Lamination}{}% 98
-\BOOKMARK [1][-]{section.9.1}{Build process and variations}{chapter.9}% 99
-\BOOKMARK [1][-]{section.9.2}{Materials}{chapter.9}% 100
-\BOOKMARK [1][-]{section.9.3}{Binding processes}{chapter.9}% 101
-\BOOKMARK [2][-]{subsection.9.3.1}{Thermal bonding}{section.9.3}% 102
-\BOOKMARK [2][-]{subsection.9.3.2}{Clamping}{section.9.3}% 103
-\BOOKMARK [2][-]{subsection.9.3.3}{Adhesive bonding}{section.9.3}% 104
-\BOOKMARK [2][-]{subsection.9.3.4}{Ultrasonic welding}{section.9.3}% 105
-\BOOKMARK [1][-]{section.9.4}{Conclusion}{chapter.9}% 106
-\BOOKMARK [0][-]{chapter.10}{Directed energy deposition processes}{}% 107
-\BOOKMARK [1][-]{section.10.1}{Materials}{chapter.10}% 108
-\BOOKMARK [2][-]{subsection.10.1.1}{Metal processing}{section.10.1}% 109
-\BOOKMARK [2][-]{subsection.10.1.2}{Material form}{section.10.1}% 110
-\BOOKMARK [1][-]{section.10.2}{Process variations}{chapter.10}% 111
-\BOOKMARK [2][-]{subsection.10.2.1}{Heat source}{section.10.2}% 112
-\BOOKMARK [2][-]{subsection.10.2.2}{Nozzle distribution}{section.10.2}% 113
-\BOOKMARK [1][-]{section.10.3}{Conclusion}{chapter.10}% 114
-\BOOKMARK [0][-]{chapter.11}{Tensile strength of parts printed with FDM}{}% 115
-\BOOKMARK [1][-]{section.11.1}{General properties of FDM prints}{chapter.11}% 116
-\BOOKMARK [1][-]{section.11.2}{FDM and injection molding}{chapter.11}% 117
-\BOOKMARK [1][-]{section.11.3}{Print parameters}{chapter.11}% 118
-\BOOKMARK [1][-]{section.11.4}{Tensile strength testing results}{chapter.11}% 119
+\BOOKMARK [1][-]{section.6.5}{Problematic and issues}{chapter.6}% 78
+\BOOKMARK [2][-]{subsection.6.5.1}{Accuracy issues}{section.6.5}% 79
+\BOOKMARK [2][-]{subsection.6.5.2}{Filament feeding speed}{section.6.5}% 80
+\BOOKMARK [2][-]{subsection.6.5.3}{Support structures}{section.6.5}% 81
+\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 82
+\BOOKMARK [0][-]{chapter.7}{Material Jetting}{}% 83
+\BOOKMARK [1][-]{section.7.1}{Basic operation principles}{chapter.7}% 84
+\BOOKMARK [1][-]{section.7.2}{Materials for Material jetting}{chapter.7}% 85
+\BOOKMARK [2][-]{subsection.7.2.1}{Material viscosity}{section.7.2}% 86
+\BOOKMARK [2][-]{subsection.7.2.2}{Material types}{section.7.2}% 87
+\BOOKMARK [1][-]{section.7.3}{Process parameters and related problematic}{chapter.7}% 88
+\BOOKMARK [2][-]{subsection.7.3.1}{Nozzle-related problems}{section.7.3}% 89
+\BOOKMARK [2][-]{subsection.7.3.2}{Material solidification}{section.7.3}% 90
+\BOOKMARK [2][-]{subsection.7.3.3}{Droplet formation}{section.7.3}% 91
+\BOOKMARK [2][-]{subsection.7.3.4}{Droplet flight}{section.7.3}% 92
+\BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 93
+\BOOKMARK [0][-]{chapter.8}{Binder jetting}{}% 94
+\BOOKMARK [1][-]{section.8.1}{Basic operation principle}{chapter.8}% 95
+\BOOKMARK [1][-]{section.8.2}{Materials}{chapter.8}% 96
+\BOOKMARK [1][-]{section.8.3}{Process specifications and variations}{chapter.8}% 97
+\BOOKMARK [2][-]{subsection.8.3.1}{Post-processing and infiltration}{section.8.3}% 98
+\BOOKMARK [2][-]{subsection.8.3.2}{Continuous printing}{section.8.3}% 99
+\BOOKMARK [1][-]{section.8.4}{Conclusion}{chapter.8}% 100
+\BOOKMARK [0][-]{chapter.9}{Sheet Lamination}{}% 101
+\BOOKMARK [1][-]{section.9.1}{Build process and variations}{chapter.9}% 102
+\BOOKMARK [1][-]{section.9.2}{Materials}{chapter.9}% 103
+\BOOKMARK [1][-]{section.9.3}{Binding processes}{chapter.9}% 104
+\BOOKMARK [2][-]{subsection.9.3.1}{Thermal bonding}{section.9.3}% 105
+\BOOKMARK [2][-]{subsection.9.3.2}{Clamping}{section.9.3}% 106
+\BOOKMARK [2][-]{subsection.9.3.3}{Adhesive bonding}{section.9.3}% 107
+\BOOKMARK [2][-]{subsection.9.3.4}{Ultrasonic welding}{section.9.3}% 108
+\BOOKMARK [1][-]{section.9.4}{Conclusion}{chapter.9}% 109
+\BOOKMARK [0][-]{chapter.10}{Directed energy deposition processes}{}% 110
+\BOOKMARK [1][-]{section.10.1}{Materials}{chapter.10}% 111
+\BOOKMARK [2][-]{subsection.10.1.1}{Metal processing}{section.10.1}% 112
+\BOOKMARK [2][-]{subsection.10.1.2}{Material form}{section.10.1}% 113
+\BOOKMARK [1][-]{section.10.2}{Process variations}{chapter.10}% 114
+\BOOKMARK [2][-]{subsection.10.2.1}{Heat source}{section.10.2}% 115
+\BOOKMARK [2][-]{subsection.10.2.2}{Nozzle distribution}{section.10.2}% 116
+\BOOKMARK [1][-]{section.10.3}{Conclusion}{chapter.10}% 117
+\BOOKMARK [0][-]{chapter.11}{Tensile strength of parts printed with FDM}{}% 118
+\BOOKMARK [1][-]{section.11.1}{Goals and experiment description}{chapter.11}% 119
+\BOOKMARK [2][-]{subsection.11.1.1}{General properties of FDM prints}{section.11.1}% 120
+\BOOKMARK [2][-]{subsection.11.1.2}{FDM and injection molding}{section.11.1}% 121
+\BOOKMARK [1][-]{section.11.2}{Experiment methodology}{chapter.11}% 122
+\BOOKMARK [2][-]{subsection.11.2.1}{Used equipment and software}{section.11.2}% 123
+\BOOKMARK [2][-]{subsection.11.2.2}{Examined material}{section.11.2}% 124
+\BOOKMARK [2][-]{subsection.11.2.3}{Testing machine and procedure}{section.11.2}% 125
+\BOOKMARK [1][-]{section.11.3}{Examined parameters}{chapter.11}% 126
+\BOOKMARK [1][-]{section.11.4}{Tensile strength testing results}{chapter.11}% 127
+\BOOKMARK [2][-]{subsection.11.4.1}{Changing layer thicknesses}{section.11.4}% 128
+\BOOKMARK [2][-]{subsection.11.4.2}{Rectilinear infill raster orientation}{section.11.4}% 129
+\BOOKMARK [2][-]{subsection.11.4.3}{Changing nozzle temperature for printing}{section.11.4}% 130
+\BOOKMARK [2][-]{subsection.11.4.4}{Changing infill percentage}{section.11.4}% 131
+\BOOKMARK [1][-]{section.11.5}{Discussion}{chapter.11}% 132
+\BOOKMARK [0][-]{chapter.12}{Conclusion}{}% 133

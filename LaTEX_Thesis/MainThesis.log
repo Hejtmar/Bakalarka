@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  7 AUG 2017 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.22)  15 AUG 2017 02:42
 entering extended mode
 **./MainThesis.tex
 (MainThesis.tex
@@ -826,32 +826,39 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip46
-))
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/01/24 v2.0c Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (MainThesis.aux)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\needspace\needspace.sty"
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+))
+
+LaTeX Warning: Unused global option(s):
+    [reqno].
+
+(MainThesis.aux)
 \openout1 = `MainThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count127
 \scratchdimen=\dimen167
@@ -885,21 +892,21 @@ ABD: EveryShipout initializing macros
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=759.6886pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-66.59087pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=103.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -907,13 +914,13 @@ ABD: EveryShipout initializing macros
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box39
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 10.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -922,143 +929,143 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
 
 (MainThesis.out) (MainThesis.out)
 \@outlinefile=\write4
 \openout4 = `MainThesis.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 20.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 19.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 31--36
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]pdfTeX warning (ext4): des
+tination with the same identifier (name{page.1}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.27 \newpage
+              [1]
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 76--82
+Underfull \hbox (badness 10000) in paragraph at lines 75--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--98
+Underfull \hbox (badness 10000) in paragraph at lines 91--97
 
  []
 
-[5] (MainThesis.toc
+[4] (MainThesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
- [6
+ [5
 
-] [7])
+] [6])
 \tf@toc=\write5
 \openout5 = `MainThesis.toc'.
 
- [8] [9
+ [7] [8
 
 ]
 Chapter 1.
-[10
+[9
 
 ]
-Overfull \hbox (0.94641pt too wide) in paragraph at lines 160--177
+Overfull \hbox (29.39917pt too wide) in paragraph at lines 161--178
 [][] 
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
-[12]
+[11]
 Chapter 2.
-<images/firstPrintedObject.jpg, id=668, 803.0pt x 534.99875pt>
+<images/firstPrintedObject.jpg, id=870, 803.0pt x 534.99875pt>
 File: images/firstPrintedObject.jpg Graphic file (type jpg)
 
 <use images/firstPrintedObject.jpg>
-Package pdftex.def Info: images/firstPrintedObject.jpg used on input line 208.
-(pdftex.def)             Requested size: 241.84843pt x 161.12944pt.
+Package pdftex.def Info: images/firstPrintedObject.jpg used on input line 209.
+(pdftex.def)             Requested size: 227.62206pt x 151.65172pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--210
+Underfull \hbox (badness 10000) in paragraph at lines 206--211
 
  []
 
-[13
+[12
 
  <./images/firstPrintedObject.jpg>]
-<images/additiveSubtractiveManufacturing.jpg, id=680, 590.80725pt x 294.50024pt
+<images/additiveSubtractiveManufacturing.jpg, id=884, 590.80725pt x 294.50024pt
 >
 File: images/additiveSubtractiveManufacturing.jpg Graphic file (type jpg)
  <use images/additiveSubtractiveManufacturing.jpg>
 Package pdftex.def Info: images/additiveSubtractiveManufacturing.jpg used on in
-put line 227.
+put line 228.
 (pdftex.def)             Requested size: 354.48708pt x 176.70149pt.
- [14 <./images/additiveSubtractiveManufacturing.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+ [13 <./images/additiveSubtractiveManufacturing.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
-<images/scanningMachine1.jpg, id=688, 1606.0pt x 1204.5pt>
+<images/scanningMachine1.jpg, id=892, 1606.0pt x 1204.5pt>
 File: images/scanningMachine1.jpg Graphic file (type jpg)
 
 <use images/scanningMachine1.jpg>
-Package pdftex.def Info: images/scanningMachine1.jpg used on input line 254.
-(pdftex.def)             Requested size: 193.47578pt x 145.10352pt.
+Package pdftex.def Info: images/scanningMachine1.jpg used on input line 255.
+(pdftex.def)             Requested size: 182.09486pt x 136.5572pt.
 
-<images/scanningMachine2.jpg, id=689, 501.875pt x 463.7325pt>
+<images/scanningMachine2.jpg, id=893, 501.875pt x 463.7325pt>
 File: images/scanningMachine2.jpg Graphic file (type jpg)
 
 <use images/scanningMachine2.jpg>
-Package pdftex.def Info: images/scanningMachine2.jpg used on input line 258.
-(pdftex.def)             Requested size: 193.47578pt x 178.7746pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15] [16 <./images/scanningMachine1.jpg> <./images/scanningMachine2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Package pdftex.def Info: images/scanningMachine2.jpg used on input line 259.
+(pdftex.def)             Requested size: 182.09486pt x 168.25969pt.
+ [14] [15 <./images/scanningMachine1.jpg> <./images/scanningMachine2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
-<images/armPlaster.jpg, id=705, 613.69275pt x 307.74976pt>
+[16] <images/armPlaster.jpg, id=914, 613.69275pt x 307.74976pt>
 File: images/armPlaster.jpg Graphic file (type jpg)
 
 <use images/armPlaster.jpg>
-Package pdftex.def Info: images/armPlaster.jpg used on input line 303.
-(pdftex.def)             Requested size: 217.66211pt x 109.15096pt.
+Package pdftex.def Info: images/armPlaster.jpg used on input line 304.
+(pdftex.def)             Requested size: 204.85846pt x 102.72699pt.
 
-<images/surgicalTool.jpg, id=706, 681.29532pt x 260.47313pt>
+<images/surgicalTool.jpg, id=915, 681.29532pt x 260.47313pt>
 File: images/surgicalTool.jpg Graphic file (type jpg)
 
 <use images/surgicalTool.jpg>
-Package pdftex.def Info: images/surgicalTool.jpg used on input line 307.
-(pdftex.def)             Requested size: 217.66211pt x 83.21796pt.
+Package pdftex.def Info: images/surgicalTool.jpg used on input line 308.
+(pdftex.def)             Requested size: 204.85846pt x 78.32138pt.
+ [17 <./images/armPlaster.jpg> <./images/surgicalTool.jpg>] [18
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17] [18 <./images/armPlaster.jpg> <./images/surgicalTool.jpg>]
+]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--348
+Underfull \hbox (badness 10000) in paragraph at lines 347--350
 
  []
 
@@ -1066,488 +1073,667 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--348
 
 ] [20] [21]
 Chapter 4.
-<images/SLAillustration.jpg, id=734, 341.47575pt x 313.17pt>
+<images/SLAillustration.jpg, id=942, 341.47575pt x 313.17pt>
 File: images/SLAillustration.jpg Graphic file (type jpg)
 
 <use images/SLAillustration.jpg>
-Package pdftex.def Info: images/SLAillustration.jpg used on input line 387.
-(pdftex.def)             Requested size: 386.95897pt x 354.88625pt.
-
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
+Package pdftex.def Info: images/SLAillustration.jpg used on input line 389.
+(pdftex.def)             Requested size: 364.19667pt x 334.0134pt.
  [22
 
 ]
-<images/DMD.jpg, id=740, 340.8735pt x 367.97475pt>
+<images/DMD.jpg, id=948, 340.8735pt x 367.97475pt>
 File: images/DMD.jpg Graphic file (type jpg)
  <use images/DMD.jpg>
-Package pdftex.def Info: images/DMD.jpg used on input line 403.
-(pdftex.def)             Requested size: 169.29684pt x 182.76288pt.
+Package pdftex.def Info: images/DMD.jpg used on input line 405.
+(pdftex.def)             Requested size: 159.33821pt x 172.01047pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--405
+Underfull \hbox (badness 10000) in paragraph at lines 402--407
 
  []
 
 [23 <./images/SLAillustration.jpg>]
-<images/yoda.jpg, id=746, 592.614pt x 434.22224pt>
+<images/yoda.jpg, id=956, 592.614pt x 434.22224pt>
 File: images/yoda.jpg Graphic file (type jpg)
  <use images/yoda.jpg>
 Package pdftex.def Info: images/yoda.jpg used on input line 418.
 (pdftex.def)             Requested size: 296.30627pt x 217.11058pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--426
-
- []
-
 [24 <./images/DMD.jpg> <./images/yoda.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 425--428
 
  []
 
-[25] <images/weave1.jpg, id=764, 187.29974pt x 174.6525pt>
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 451--453
+
+ []
+
+<images/weave1.jpg, id=978, 187.29974pt x 174.6525pt>
 File: images/weave1.jpg Graphic file (type jpg)
+ <use images/weave1.jpg>
+Package pdftex.def Info: images/weave1.jpg used on input line 458.
+(pdftex.def)             Requested size: 204.85846pt x 191.0257pt.
 
-<use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 456.
-(pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
- <images/weave2.jpg, id=765, 345.08925pt x 137.313pt>
+<images/weave2.jpg, id=979, 345.08925pt x 137.313pt>
 File: images/weave2.jpg Graphic file (type jpg)
+ <use images/weave2.jpg>
+Package pdftex.def Info: images/weave2.jpg used on input line 462.
+(pdftex.def)             Requested size: 204.85846pt x 81.51471pt.
 
-<use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 460.
-(pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
+Underfull \hbox (badness 1168) in paragraph at lines 470--470
+[]\T1/cmr/m/n/10.95 Figure 4.5: []Comparison or WEAVE /
+ []
 
-<images/retractedWeave.jpg, id=770, 221.02576pt x 154.176pt>
+<images/retractedWeave.jpg, id=984, 221.02576pt x 154.176pt>
 File: images/retractedWeave.jpg Graphic file (type jpg)
 
 <use images/retractedWeave.jpg>
-Package pdftex.def Info: images/retractedWeave.jpg used on input line 473.
+Package pdftex.def Info: images/retractedWeave.jpg used on input line 475.
 (pdftex.def)             Requested size: 176.82083pt x 123.34094pt.
  [26 <./images/weave1.jpg> <./images/weave2.jpg> <./images/retractedWeave.jpg>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--500
+Underfull \hbox (badness 10000) in paragraph at lines 498--501
 
  []
 
-[27]
+[27] [28]
 Chapter 5.
-<images/PBFMachine.jpg, id=785, 1064.17575pt x 537.80925pt>
-File: images/PBFMachine.jpg Graphic file (type jpg)
+<images/sls.jpg, id=1003, 419.76825pt x 295.1025pt>
+File: images/sls.jpg Graphic file (type jpg)
+ <use images/sls.jpg>
+Package pdftex.def Info: images/sls.jpg used on input line 524.
+(pdftex.def)             Requested size: 273.14923pt x 192.03497pt.
 
-<use images/PBFMachine.jpg>
-Package pdftex.def Info: images/PBFMachine.jpg used on input line 521.
-(pdftex.def)             Requested size: 386.95897pt x 195.55606pt.
- [28
+[29
 
- <./images/PBFMachine.jpg>]
-<images/roller.jpg, id=794, 529.37775pt x 281.853pt>
+ <./images/sls.jpg>] <images/roller.jpg, id=1012, 529.37775pt x 281.853pt>
 File: images/roller.jpg Graphic file (type jpg)
- <use images/roller.jpg>
-Package pdftex.def Info: images/roller.jpg used on input line 542.
-(pdftex.def)             Requested size: 290.22107pt x 154.52074pt.
 
-[29 <./images/roller.jpg>]
-<images/EbmMlsDifferences.jpg, id=805, 508.90125pt x 225.2415pt>
+<use images/roller.jpg>
+Package pdftex.def Info: images/roller.jpg used on input line 545.
+(pdftex.def)             Requested size: 273.14923pt x 145.429pt.
+ [30 <./images/roller.jpg>]
+<images/EbmMlsDifferences.jpg, id=1024, 508.90125pt x 225.2415pt>
 File: images/EbmMlsDifferences.jpg Graphic file (type jpg)
 
 <use images/EbmMlsDifferences.jpg>
-Package pdftex.def Info: images/EbmMlsDifferences.jpg used on input line 559.
-(pdftex.def)             Requested size: 435.32422pt x 192.68314pt.
- [30 <./images/EbmMlsDifferences.jpg>]
-<images/necking.jpg, id=816, 312.56775pt x 130.086pt>
+Package pdftex.def Info: images/EbmMlsDifferences.jpg used on input line 563.
+(pdftex.def)             Requested size: 409.71692pt x 181.34824pt.
+ [31 <./images/EbmMlsDifferences.jpg>]
+<images/necking.jpg, id=1035, 312.56775pt x 130.086pt>
 File: images/necking.jpg Graphic file (type jpg)
- <use images/necking.jpg>
-Package pdftex.def Info: images/necking.jpg used on input line 585.
-(pdftex.def)             Requested size: 386.95897pt x 161.0469pt.
 
-[31] <images/liquidPhaseSintering.jpg, id=823, 293.898pt x 314.3745pt>
+<use images/necking.jpg>
+Package pdftex.def Info: images/necking.jpg used on input line 591.
+(pdftex.def)             Requested size: 364.19667pt x 151.57472pt.
+ [32]
+<images/liquidPhaseSintering.jpg, id=1041, 293.898pt x 314.3745pt>
 File: images/liquidPhaseSintering.jpg Graphic file (type jpg)
 
 <use images/liquidPhaseSintering.jpg>
-Package pdftex.def Info: images/liquidPhaseSintering.jpg used on input line 596
+Package pdftex.def Info: images/liquidPhaseSintering.jpg used on input line 603
 .
-(pdftex.def)             Requested size: 290.22107pt x 310.46419pt.
- [32 <./images/necking.jpg> <./images/liquidPhaseSintering.jpg>] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 635--638
+(pdftex.def)             Requested size: 205.72717pt x 220.06064pt.
+ [33 <./images/necking.jpg> <./images/liquidPhaseSintering.jpg>] [34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 643--646
 
  []
 
-[34]
-Chapter 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 675--676
-
- []
-
-[35
+[36
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 677--678
+Chapter 6.
+[37
 
- []
-
-<images/filamentBucklingReview.jpg, id=847, 249.3315pt x 152.36925pt>
-File: images/filamentBucklingReview.jpg Graphic file (type jpg)
-
-<use images/filamentBucklingReview.jpg>
-Package pdftex.def Info: images/filamentBucklingReview.jpg used on input line 6
-84.
-(pdftex.def)             Requested size: 217.66211pt x 133.01585pt.
-
-<images/PinchRollerMachineDesign.jpg, id=848, 235.47975pt x 238.491pt>
+] <images/PinchRollerMachineDesign.jpg, id=1069, 235.47975pt x 238.491pt>
 File: images/PinchRollerMachineDesign.jpg Graphic file (type jpg)
 
 <use images/PinchRollerMachineDesign.jpg>
 Package pdftex.def Info: images/PinchRollerMachineDesign.jpg used on input line
- 688.
-(pdftex.def)             Requested size: 217.66211pt x 220.45514pt.
- [36 <./images/filamentBucklingReview.jpg> <./images/PinchRollerMachineDesign.j
+ 689.
+(pdftex.def)             Requested size: 204.85846pt x 207.48547pt.
+
+<images/filamentBucklingReview.jpg, id=1070, 249.3315pt x 152.36925pt>
+File: images/filamentBucklingReview.jpg Graphic file (type jpg)
+
+<use images/filamentBucklingReview.jpg>
+Package pdftex.def Info: images/filamentBucklingReview.jpg used on input line 6
+93.
+(pdftex.def)             Requested size: 204.85846pt x 125.19235pt.
+ [38 <./images/PinchRollerMachineDesign.jpg> <./images/filamentBucklingReview.j
 pg>]
-<images/datasheetFDM.jpg, id=865, 682.34924pt x 269.808pt>
+<images/datasheetFDM.jpg, id=1087, 682.34924pt x 269.808pt>
 File: images/datasheetFDM.jpg Graphic file (type jpg)
 
 <use images/datasheetFDM.jpg>
-Package pdftex.def Info: images/datasheetFDM.jpg used on input line 715.
+Package pdftex.def Info: images/datasheetFDM.jpg used on input line 721.
 (pdftex.def)             Requested size: 477.64122pt x 188.8643pt.
- [37 <./images/datasheetFDM.jpg>]
-<images/cartesianPrinter.jpg, id=874, 314.97675pt x 335.45325pt>
+
+Overfull \hbox (22.39711pt too wide) in paragraph at lines 721--722
+ [][] 
+ []
+
+[39 <./images/datasheetFDM.jpg>]
+<images/cartesianPrinter.jpg, id=1095, 314.97675pt x 335.45325pt>
 File: images/cartesianPrinter.jpg Graphic file (type jpg)
 
 <use images/cartesianPrinter.jpg>
-Package pdftex.def Info: images/cartesianPrinter.jpg used on input line 734.
-(pdftex.def)             Requested size: 145.11053pt x 154.5458pt.
+Package pdftex.def Info: images/cartesianPrinter.jpg used on input line 740.
+(pdftex.def)             Requested size: 136.57462pt x 145.45518pt.
 
-<images/deltaPrinter.jpg, id=875, 279.444pt x 352.31625pt>
+<images/deltaPrinter.jpg, id=1096, 279.444pt x 352.31625pt>
 File: images/deltaPrinter.jpg Graphic file (type jpg)
 
 <use images/deltaPrinter.jpg>
-Package pdftex.def Info: images/deltaPrinter.jpg used on input line 738.
-(pdftex.def)             Requested size: 145.11053pt x 182.95284pt.
+Package pdftex.def Info: images/deltaPrinter.jpg used on input line 744.
+(pdftex.def)             Requested size: 136.57462pt x 172.19026pt.
 
-<images/polarPrinter.jpg, id=876, 419.166pt x 367.3725pt>
+<images/polarPrinter.jpg, id=1097, 419.166pt x 367.3725pt>
 File: images/polarPrinter.jpg Graphic file (type jpg)
 
 <use images/polarPrinter.jpg>
-Package pdftex.def Info: images/polarPrinter.jpg used on input line 742.
-(pdftex.def)             Requested size: 145.11053pt x 127.18088pt.
+Package pdftex.def Info: images/polarPrinter.jpg used on input line 748.
+(pdftex.def)             Requested size: 136.57462pt x 119.69734pt.
 
-Underfull \hbox (badness 2818) in paragraph at lines 747--747
-[]\T1/cmr/m/n/10.95 Figure 6.4: []Typical 3-axis
+Underfull \hbox (badness 4378) in paragraph at lines 757--757
+[]\T1/cmr/m/n/10.95 Figure 6.5: []Delta FDM
  []
 
-[38 <./images/cartesianPrinter.jpg> <./images/deltaPrinter.jpg> <./images/polar
+[40 <./images/cartesianPrinter.jpg> <./images/deltaPrinter.jpg> <./images/polar
 Printer.jpg>]
-<images/depositionIllustration.jpg, id=885, 334.851pt x 136.1085pt>
+<images/depositionIllustration.jpg, id=1105, 334.851pt x 136.1085pt>
 File: images/depositionIllustration.jpg Graphic file (type jpg)
 
 <use images/depositionIllustration.jpg>
 Package pdftex.def Info: images/depositionIllustration.jpg used on input line 7
-69.
-(pdftex.def)             Requested size: 290.22107pt x 117.96898pt.
+77.
+(pdftex.def)             Requested size: 364.19667pt x 148.03755pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--784
+Underfull \hbox (badness 10000) in paragraph at lines 782--784
 
  []
 
-[39 <./images/depositionIllustration.jpg>] [40]
+[41 <./images/depositionIllustration.jpg>] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 793--796
+
+ []
+
+[43
+
+]
 Chapter 7.
-<images/MJmachine.jpg, id=897, 461.92575pt x 348.70274pt>
+<images/MJmachine.jpg, id=1122, 461.92575pt x 348.70274pt>
 File: images/MJmachine.jpg Graphic file (type jpg)
 
 <use images/MJmachine.jpg>
-Package pdftex.def Info: images/MJmachine.jpg used on input line 808.
+Package pdftex.def Info: images/MJmachine.jpg used on input line 818.
 (pdftex.def)             Requested size: 369.54109pt x 278.96255pt.
+ [44
 
-Underfull \vbox (badness 1953) has occurred while \output is active []
-
- [41
-
- <./images/MJmachine.jpg>] [42]
-<images/ContinuousDOD.jpg, id=916, 405.31425pt x 173.448pt>
+ <./images/MJmachine.jpg>] [45]
+<images/ContinuousDOD.jpg, id=1142, 405.31425pt x 173.448pt>
 File: images/ContinuousDOD.jpg Graphic file (type jpg)
 
 <use images/ContinuousDOD.jpg>
-Package pdftex.def Info: images/ContinuousDOD.jpg used on input line 851.
+Package pdftex.def Info: images/ContinuousDOD.jpg used on input line 861.
 (pdftex.def)             Requested size: 405.31326pt x 173.44757pt.
- [43 <./images/ContinuousDOD.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 876--879
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46] [47 <./images/ContinuousDOD.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 887--890
 
  []
 
-[44]
+[48
+
+]
 Chapter 8.
-<images/BJthreeding.jpg, id=931, 687.16725pt x 343.88475pt>
+<images/BJthreeding.jpg, id=1161, 687.16725pt x 343.88475pt>
 File: images/BJthreeding.jpg Graphic file (type jpg)
 
 <use images/BJthreeding.jpg>
-Package pdftex.def Info: images/BJthreeding.jpg used on input line 889.
-(pdftex.def)             Requested size: 481.0138pt x 240.71768pt.
- [45
+Package pdftex.def Info: images/BJthreeding.jpg used on input line 901.
+(pdftex.def)             Requested size: 446.65343pt x 223.52243pt.
+ [49
 
- <./images/BJthreeding.jpg>]
-<images/3ders.jpg, id=942, 411.939pt x 307.1475pt>
+ <./images/BJthreeding.jpg>] [50]
+<images/3ders.jpg, id=1181, 411.939pt x 307.1475pt>
 File: images/3ders.jpg Graphic file (type jpg)
  <use images/3ders.jpg>
-Package pdftex.def Info: images/3ders.jpg used on input line 912.
+Package pdftex.def Info: images/3ders.jpg used on input line 932.
 (pdftex.def)             Requested size: 329.55162pt x 245.71832pt.
 
-[46 <./images/3ders.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 939--942
+Underfull \hbox (badness 10000) in paragraph at lines 948--951
 
  []
 
-[47]
+[51 <./images/3ders.jpg>] [52]
 Chapter 9.
-<images/SL1.jpg, id=961, 283.0575pt x 177.0615pt>
+<images/SL1.jpg, id=1195, 283.0575pt x 177.0615pt>
 File: images/SL1.jpg Graphic file (type jpg)
  <use images/SL1.jpg>
-Package pdftex.def Info: images/SL1.jpg used on input line 962.
-(pdftex.def)             Requested size: 217.66211pt x 136.15672pt.
+Package pdftex.def Info: images/SL1.jpg used on input line 971.
+(pdftex.def)             Requested size: 204.85846pt x 128.14879pt.
 
-<images/SL2.jpg, id=962, 343.2825pt x 215.6055pt>
+<images/SL2.jpg, id=1196, 343.2825pt x 215.6055pt>
 File: images/SL2.jpg Graphic file (type jpg)
  <use images/SL2.jpg>
-Package pdftex.def Info: images/SL2.jpg used on input line 966.
-(pdftex.def)             Requested size: 217.66211pt x 136.704pt.
- [48
+Package pdftex.def Info: images/SL2.jpg used on input line 975.
+(pdftex.def)             Requested size: 204.85846pt x 128.66354pt.
+
+[53
 
  <./images/SL1.jpg> <./images/SL2.jpg>]
-<images/sonotrode.jpg, id=975, 426.99525pt x 262.581pt>
+<images/sonotrode.jpg, id=1209, 426.99525pt x 262.581pt>
 File: images/sonotrode.jpg Graphic file (type jpg)
 
 <use images/sonotrode.jpg>
-Package pdftex.def Info: images/sonotrode.jpg used on input line 1006.
+Package pdftex.def Info: images/sonotrode.jpg used on input line 1015.
 (pdftex.def)             Requested size: 341.59666pt x 210.06506pt.
- [49 <./images/sonotrode.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1027
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1036
 
  []
 
-[50]
+[55 <./images/sonotrode.jpg>] [56
+
+]
 Chapter 10.
-<images/DED3dprinting.jpg, id=990, 414.348pt x 331.2375pt>
+<images/DED3dprinting.jpg, id=1228, 414.348pt x 331.2375pt>
 File: images/DED3dprinting.jpg Graphic file (type jpg)
 
 <use images/DED3dprinting.jpg>
-Package pdftex.def Info: images/DED3dprinting.jpg used on input line 1044.
+Package pdftex.def Info: images/DED3dprinting.jpg used on input line 1054.
 (pdftex.def)             Requested size: 290.04161pt x 231.86465pt.
- [51
+ [57
 
  <./images/DED3dprinting.jpg>]
-<images/DEDnozzles.jpg, id=998, 416.15475pt x 441.44925pt>
+<images/DEDnozzles.jpg, id=1236, 416.15475pt x 441.44925pt>
 File: images/DEDnozzles.jpg Graphic file (type jpg)
 
 <use images/DEDnozzles.jpg>
-Package pdftex.def Info: images/DEDnozzles.jpg used on input line 1061.
+Package pdftex.def Info: images/DEDnozzles.jpg used on input line 1071.
 (pdftex.def)             Requested size: 332.92426pt x 353.15987pt.
- [52 <./images/DEDnozzles.jpg>] [53]
+ [58 <./images/DEDnozzles.jpg>] [59] [60]
 Chapter 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
-
- []
-
-<images/testSpecimenDimensions.jpg, id=1016, 361.95226pt x 280.6485pt>
-File: images/testSpecimenDimensions.jpg Graphic file (type jpg)
-
-<use images/testSpecimenDimensions.jpg>
-Package pdftex.def Info: images/testSpecimenDimensions.jpg used on input line 1
-111.
-(pdftex.def)             Requested size: 217.17302pt x 168.3904pt.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 1115.
- [54
+[61
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1120
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
+
+ []
+
+<images/testSpecimenDimensions2.jpg, id=1264, 306.54526pt x 98.16675pt>
+File: images/testSpecimenDimensions2.jpg Graphic file (type jpg)
+
+<use images/testSpecimenDimensions2.jpg>
+Package pdftex.def Info: images/testSpecimenDimensions2.jpg used on input line 
+1146.
+(pdftex.def)             Requested size: 306.5445pt x 98.1665pt.
+ [62 <./images/testSpecimenDimensions2.jpg>] <images/datasheet.jpg, id=1270, 48
+9.027pt x 565.51276pt>
+File: images/datasheet.jpg Graphic file (type jpg)
+
+<use images/datasheet.jpg>
+Package pdftex.def Info: images/datasheet.jpg used on input line 1154.
+(pdftex.def)             Requested size: 489.02579pt x 565.51137pt.
+
+Overfull \hbox (33.78168pt too wide) in paragraph at lines 1154--1155
+ [][] 
+ []
+
+[63 <./images/datasheet.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1162
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1120.
-
- [55 <./images/testSpecimenDimensions.jpg>] [56]
-File: images/weave1.jpg Graphic file (type jpg)
- <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 1253.
-(pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
-File: images/weave2.jpg Graphic file (type jpg)
- <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 1257.
-(pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
-File: images/weave1.jpg Graphic file (type jpg)
-
-<use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 1271.
-(pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
-File: images/weave2.jpg Graphic file (type jpg)
- <use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 1275.
-(pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
-File: images/weave1.jpg Graphic file (type jpg)
- <use images/weave1.jpg>
-Package pdftex.def Info: images/weave1.jpg used on input line 1289.
-(pdftex.def)             Requested size: 217.66211pt x 202.9648pt.
-File: images/weave2.jpg Graphic file (type jpg)
-
-<use images/weave2.jpg>
-Package pdftex.def Info: images/weave2.jpg used on input line 1293.
-(pdftex.def)             Requested size: 217.66211pt x 86.6103pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1162.
 
 
-LaTeX Warning: Float too large for page by 10.48529pt on input line 1304.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1166--1307
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1171
 
  []
 
-[57] [58] [59] (MainThesis.tdo)
-\tf@tdo=\write6
-\openout6 = `MainThesis.tdo'.
-
- [60
+[64
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1367--1372
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1226--1226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1252--1252
+
+ []
+
+[65] <images/tensileData.jpg, id=1288, 252.34274pt x 140.9265pt>
+File: images/tensileData.jpg Graphic file (type jpg)
+
+<use images/tensileData.jpg>
+Package pdftex.def Info: images/tensileData.jpg used on input line 1322.
+(pdftex.def)             Requested size: 252.34212pt x 140.92615pt.
+
+<images/tensileDataResults.jpg, id=1289, 319.79475pt x 72.27pt>
+File: images/tensileDataResults.jpg Graphic file (type jpg)
+
+<use images/tensileDataResults.jpg>
+Package pdftex.def Info: images/tensileDataResults.jpg used on input line 1330.
+
+(pdftex.def)             Requested size: 319.79396pt x 72.2698pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[66 <./images/tensileData.jpg>]
+<images/python1.jpg, id=1297, 535.40025pt x 531.78674pt>
+File: images/python1.jpg Graphic file (type jpg)
+
+<use images/python1.jpg>
+Package pdftex.def Info: images/python1.jpg used on input line 1355.
+(pdftex.def)             Requested size: 374.77762pt x 372.24818pt.
+
+<images/python2.jpg, id=1298, 420.97275pt x 428.19975pt>
+File: images/python2.jpg Graphic file (type jpg)
+
+<use images/python2.jpg>
+Package pdftex.def Info: images/python2.jpg used on input line 1356.
+(pdftex.def)             Requested size: 294.67891pt x 299.73778pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1357
+[][]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[67 <./images/tensileDataResults.jpg>] [68 <./images/python1.jpg> <./images/pyt
+hon2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1367--1369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1370--1372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1379
+
+ []
+
+[69
+
+] <images/Graf1-2.jpg, id=1317, 346.29375pt x 269.20575pt>
+File: images/Graf1-2.jpg Graphic file (type jpg)
+
+<use images/Graf1-2.jpg>
+Package pdftex.def Info: images/Graf1-2.jpg used on input line 1409.
+(pdftex.def)             Requested size: 218.51521pt x 169.87573pt.
+ <images/Graf3-2.jpg, id=1318, 344.487pt x 263.7855pt>
+File: images/Graf3-2.jpg Graphic file (type jpg)
+
+<use images/Graf3-2.jpg>
+Package pdftex.def Info: images/Graf3-2.jpg used on input line 1413.
+(pdftex.def)             Requested size: 218.51521pt x 167.32483pt.
+
+<images/Graf2-2.jpg, id=1319, 355.3275pt x 278.2395pt>
+File: images/Graf2-2.jpg Graphic file (type jpg)
+
+<use images/Graf2-2.jpg>
+Package pdftex.def Info: images/Graf2-2.jpg used on input line 1427.
+(pdftex.def)             Requested size: 218.51521pt x 171.11415pt.
+
+<images/Graf4-2.jpg, id=1320, 345.6915pt x 264.38776pt>
+File: images/Graf4-2.jpg Graphic file (type jpg)
+
+<use images/Graf4-2.jpg>
+Package pdftex.def Info: images/Graf4-2.jpg used on input line 1431.
+(pdftex.def)             Requested size: 218.51521pt x 167.12189pt.
+ [70
+
+ <./images/Graf1-2.jpg> <./images/Graf3-2.jpg> <./images/Graf2-2.jpg> <./images
+/Graf4-2.jpg>]
+<images/3.jpg, id=1329, 3661.68pt x 2746.26pt>
+File: images/3.jpg Graphic file (type jpg)
+ <use images/3.jpg>
+Package pdftex.def Info: images/3.jpg used on input line 1447.
+(pdftex.def)             Requested size: 218.51521pt x 163.84659pt.
+
+<images/8.jpg, id=1330, 3661.68pt x 2746.26pt>
+File: images/8.jpg Graphic file (type jpg)
+ <use images/8.jpg>
+Package pdftex.def Info: images/8.jpg used on input line 1451.
+(pdftex.def)             Requested size: 218.51521pt x 163.84659pt.
+
+<images/1.jpg, id=1331, 3661.68pt x 2746.26pt>
+File: images/1.jpg Graphic file (type jpg)
+ <use images/1.jpg>
+Package pdftex.def Info: images/1.jpg used on input line 1465.
+(pdftex.def)             Requested size: 218.51521pt x 163.84659pt.
+
+<images/7.jpg, id=1332, 3661.68pt x 2746.26pt>
+File: images/7.jpg Graphic file (type jpg)
+ <use images/7.jpg>
+Package pdftex.def Info: images/7.jpg used on input line 1469.
+(pdftex.def)             Requested size: 218.51521pt x 163.84659pt.
+
+<images/6.jpg, id=1333, 3661.68pt x 2746.26pt>
+File: images/6.jpg Graphic file (type jpg)
+ <use images/6.jpg>
+Package pdftex.def Info: images/6.jpg used on input line 1484.
+(pdftex.def)             Requested size: 218.51521pt x 163.84659pt.
+
+<images/4.jpg, id=1334, 3661.68pt x 2746.26pt>
+File: images/4.jpg Graphic file (type jpg)
+ <use images/4.jpg>
+Package pdftex.def Info: images/4.jpg used on input line 1488.
+(pdftex.def)             Requested size: 218.51521pt x 163.84659pt.
+ [71
+
+ <./images/3.jpg> <./images/8.jpg> <./images/1.jpg> <./images/7.jpg> <./images/
+6.jpg> <./images/4.jpg>]
+Chapter 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1504--1506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1507--1509
+
+ []
+
+[72
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1543--1547
+[]\T1/cmr/m/n/10.95 ENVISIONTEC, [on-line], last re-vi-sion 13.3.2017, <https:/
+/envisiontec.com/3d-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1554
 []\T1/cmr/m/n/10.95 3D PRINT-ING IN-DUS-TRY, [on-line], 2017, last re-vi-sion 1
 3.3.2017,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1374--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1556--1561
 []\T1/cmr/m/n/10.95 MATTER HACK-ERS, [on-line], 2017, last re-vi-sion 13.3.2017
 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1374--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1556--1561
 \T1/cmr/m/n/10.95 <https://www.matterhackers.com/store/3d-printer-filament/175m
-m-wood-filament-light-cherry-
+m-wood-filament-light-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1386
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1568
 []\T1/cmr/m/n/10.95 MACHINE DE-SIGN, [on-line], 2017, last re-vi-sion 19.07.201
 7,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1386
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1568
 \T1/cmr/m/n/10.95 <http://www.machinedesign.com/manufacturing-equipment/3d-prin
-ting-tips-and-tech-get-
+ting-tips-and-tech-
  []
 
 
-Overfull \hbox (3.191pt too wide) in paragraph at lines 1388--1393
-[]\T1/cmr/m/n/10.95 UNCONN SLS, [on-line], 2017, last re-vi-sion 24.07.2017, <h
-ttp://www.engr.uconn.edu/ xchen/sls/> 
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1575
+\T1/cmr/m/n/10.95 <http://www.chemeurope.com/en/news/156455/material-solutions-
+inside-and-on-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1407
+Underfull \hbox (badness 10000) in paragraph at lines 1577--1582
+\T1/cmr/m/n/10.95 <http://www.engineering.com/3DPrinting/3DPrintingArticles/Art
+icleID/14946/The-
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 1584--1589
+[]\T1/cmr/m/n/10.95 American so-ci-ety of me-chan-i-cal en-gi-neers, [on-line],
+ 2017, last rev. 14.8.2017,
+ []
+
+
+Overfull \hbox (16.26735pt too wide) in paragraph at lines 1584--1589
+\T1/cmr/m/n/10.95 <http://manufacturingscience.asmedigitalcollection.asme.org/a
+rticle.aspx?articleid=1484473> 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1591--1596
+[]\T1/cmr/m/n/10.95 UNCONN SLS, [on-line], 2017, last re-vi-sion 24.07.2017,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1605--1610
 []\T1/cmr/m/n/10.95 3D PRINT-ING LAB [on-line], 2017, last re-vi-sion 24.07.201
 7,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1464--1469
+Underfull \hbox (badness 10000) in paragraph at lines 1605--1610
+\T1/cmr/m/n/10.95 <http://www.3dprintinglab.com.hk/blog/using-powder-based-prin
+ting-material-sls-3d-
+ []
+
+[73
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1667--1672
 []\T1/cmr/m/n/10.95 3D molec-u-lar de-sign, [on-line], 2017, last rev. 30.07.20
 17,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1464--1469
+Underfull \hbox (badness 10000) in paragraph at lines 1667--1672
 \T1/cmr/m/n/10.95 <http://www.3dmoleculardesigns.com/Custom-3D-Print-Molecular-
 Models/ZCorp-3D-
  []
 
-[61
 
-]
-Overfull \hbox (12.60971pt too wide) in paragraph at lines 1480--1485
-[]\T1/cmr/m/n/10.95 threeding, [on-line], 2017, last rev. 29.7.2017 <https://ww
-w.threeding.com/blog/%E2%80%8Bbinder-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1487--1492
+Underfull \hbox (badness 1412) in paragraph at lines 1690--1695
 []\T1/cmr/m/n/10.95 Voxeljet, [on-line], 2017, last rev. 30.7.2017, <https://ww
 w.voxeljet.com/3d-printing-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1519
+Underfull \hbox (badness 10000) in paragraph at lines 1710--1715
+[]\T1/cmr/m/n/10.95 cubic tech-nolo-gies, [on-line], 2017, last rev. 4.8.2017,
+ []
+
+
+Overfull \hbox (27.35255pt too wide) in paragraph at lines 1717--1722
+[]\T1/cmr/m/n/10.95 New sci-en-tist, [on-line], 2017, last rev. 14.8.2017, <htt
+ps://www.newscientist.com/article/2110280-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1724--1729
 []\T1/cmr/m/n/10.95 3d print-ing in-dus-try, [on-line], 2017, last rev. 30.7.20
 17,
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 1521--1526
-[]\T1/cmr/m/n/10.95 mcor tech-nolo-gies, [on-line], 2017, last rev. 4.8.2017, <
-http://mcortechnologies.com/3d-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1535--1540
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1757
 []\T1/cmr/m/n/10.95 inside metal ad-di-tive man-u-fac-tur-ing, [on-line], 2017,
  last rev. 4.8.2017,
  []
 
 
-Overfull \hbox (159.39003pt too wide) in paragraph at lines 1550--1555
-[]\T1/cmr/m/n/10.95 engineering, [on-line], 2017, last rev. 2.8.2017, <http://w
-ww.engineering.com/3DPrinting/3DPrintingArticles/ArticleID/14946/The-
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1757
+\T1/cmr/m/n/10.95 <http://www.insidemetaladditivemanufacturing.com/blog/ultraso
+nic-additive-
  []
 
-[62]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1558.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1558.
+[74]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1769.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1769.
  (MainThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1558.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1558.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1769.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1769.
 
 Package rerunfilecheck Info: File `MainThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 74F6E73B084804AA93A0559D550CE1E5;8401.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1558.
+(rerunfilecheck)             Checksum: 43D8CF876A772057CB6951D802251867;9515.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1769.
  ) 
 Here is how much of TeX's memory you used:
- 17146 strings out of 493333
- 318825 string characters out of 3139185
- 386433 words of memory out of 3000000
- 20054 multiletter control sequences out of 15000+200000
- 18724 words of font info for 41 fonts, out of 3000000 for 9000
+ 17236 strings out of 493333
+ 319912 string characters out of 3139185
+ 385562 words of memory out of 3000000
+ 20090 multiletter control sequences out of 15000+200000
+ 17958 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,9n,80p,1440b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,10n,56p,1429b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ecbi1095.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
-appen\ec\dpi600\ecrm0600.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Smoothie\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Smoothie\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\S
-moothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
+appen\ec\dpi600\ecbx1200.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Smoothie\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Smoothie\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\S
+moothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
 > <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecbx2488.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecbx1440.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Smoothie\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Smoothie\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Sm
-oothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on MainThesis.pdf (62 pages, 3332047 bytes).
+0\ecbx1440.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecbx1728.pk> <C:\Users\Smoothie\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Smoothie\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Smoothie\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb>
+Output written on MainThesis.pdf (75 pages, 14899235 bytes).
 PDF statistics:
- 1622 PDF objects out of 1728 (max. 8388607)
- 280 named destinations out of 1000 (max. 500000)
- 1135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1913 PDF objects out of 2073 (max. 8388607)
+ 319 named destinations out of 1000 (max. 500000)
+ 1322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
